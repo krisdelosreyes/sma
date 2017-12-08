@@ -1,3 +1,7 @@
+.content .whiteWrap,.content .grayWrap  {
+    padding: 50px 125px 25px 125px;
+}
+
 .cg-video {
     width: 100%;
 }
@@ -5,12 +9,15 @@
     display:table;
     width:auto;
     position:relative;
-    width:50%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .cg-playpause {
-    background-image:url(/content/dam/commercial-au/specialty/sma/caregiver/en_au/images/icons/caregiver_playbutton);
+    background-image:url('/content/dam/commercial-au/specialty/sma/caregiver/en_au/images/icons/caregiver_playbutton.png');
     background-repeat:no-repeat;
-    width:50%;
+    width:10%;
     height:50%;
     position:absolute;
     left:0%;
@@ -20,4 +27,66 @@
     margin:auto;
     background-size:contain;
     background-position: center;
+}
+
+.overview-box{
+    border: 2px solid #e5e6e8 !important;
+}
+
+.box-content, .download-desc{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17px;
+    color: #7b828a;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.box-content{
+  font-weight: 700;
+}
+
+body .content .greenLink a, body .content .greenLink a:hover, body .content .greenLink a:focus, body .content .greenLink a:active {
+  font-size: 17px;
+}
+
+body .content ul li{
+  line-height: 5px;
+}
+
+.content-list {
+  margin-left: 15px;
+}
+
+.smaai-image {
+  width: 150px;
+}
+
+.contact-details {
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 13px;
+    margin-bottom: 10px;
+}
+
+.glossary-box {
+    max-width: 120% !important;
+    width: 103% !important;
+    left: -25px;
+}
+
+.download-button img {
+    width: 200px;
+}
+
+.download-button {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px){
+  .content .whiteWrap, .content .grayWrap {
+      padding: 30px 20px 30px;
+  }
 }

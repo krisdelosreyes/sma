@@ -30,20 +30,20 @@
 .accordioncontainer>.col {
     margin-bottom: 50px;
     margin-top: 15px;
-    padding: 0
+    padding: 0;
 }
 
 .accordioncontainer>.col #accordion,
 .accordioncontainer>.col .accordion {
     margin-top: 0px;
     border: none;
-    padding: 0 100px
+    padding: 0 100px;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader,
 .accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader {
     padding: 13px 2px;
-    border-bottom: 2px solid #f6f6f7
+    border-bottom: 2px solid #f6f6f7;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader h4,
@@ -51,19 +51,19 @@
     font-family: "brandon-grotesque", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    color: #7b828a
+    color: #7b828a;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle,
 .accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle {
     width: 20px;
-    height: 20px
+    height: 20px;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionClose,
 .accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionClose {
     background: url("/content/dam/commercial-au/specialty/sma/hcp/en_au/images/icons/accorOpen.png") no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionOpen,
@@ -77,15 +77,16 @@
     padding: 40px 5px 10px;
     background: none;
     border: none;
-    text-align: left
+    text-align: left;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p,
 .accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p {
     font-family: "brandon-grotesque", sans-serif;
     font-size: 15px;
-    font-weight: 700;
-    color: #7b828a
+    font-weight: 400;
+    color: #7b828a;
+    margin-bottom: -10px;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p a,
@@ -96,14 +97,14 @@
     font-size: 15px;
     font-weight: 400;
     color: #56c8e4;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p .copy,
 .accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p .copy {
     color: #56c8e4;
     text-decoration: none;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .template_home .row .main {
@@ -172,4 +173,56 @@
   header .logo-options img {
     margin-top: 30px;
   }
+  .accordioncontainer>.col #accordion, .accordioncontainer>.col .accordion {
+      padding: 30px 20px 30px;
+  }
+
+  #footer>.wrapper>.row.footer-links-container {
+    position: initial;
+    top: 205px;
+    width: 50%;
+    right: 10px;
+  }
+
+  #footer>.wrapper:last-child {
+    height: auto;
+  }
+
+  .template_home .altWrapper .adaptiveimage {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px){
+  .carousel-content {
+    top: 90px !important;
+  }
+}
+
+@media (max-width: 990px){
+  .carousel-content {
+      width: auto !important;
+      top: 60px !important;
+      left: 50% !important;
+  }
+}
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #footer>.wrapper>.row.footer-links-container .footer-links {
+      width: 50%;
+    }
+
+    footer .footer-links ul.desktop-footer-links {
+      display: inline-grid !important;
+    }
+
+    #footer>.wrapper>.row.footer-links-container ul.desktop-footer-links li:nth-child(2) {
+      margin-left: 0;
+    }
 }
