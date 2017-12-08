@@ -1,0 +1,175 @@
+
+/*country selector display
+.utility-nav .wrapper .navbar-nav>li:nth-of-type(3), .utility-nav .wrapper .navbar-nav>li:nth-of-type(4) {
+    display: inline-block;
+}*/
+
+.desktop-family-slider{
+  display: none;
+}
+
+/*temporary content style under carousel*/
+.carousel-content {
+    width: 115% !important;
+    padding-left: -41px;
+    position: relative !important;
+    left: 60% !important;
+    top: 43% !important;
+}
+
+#marquee-container .slider-next, #marquee-container .desktop-slide-arrow, #marquee-container #marquee-footer .sma-care{
+  visibility: hidden;
+}
+
+
+#footer>.wrapper>.row.siteMapFooter-links .siteMapColumn:last-child ul li:nth-child(2) a {
+  font-weight: 400;
+  color: #fff;
+}
+
+.accordioncontainer>.col {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    padding: 0
+}
+
+.accordioncontainer>.col #accordion,
+.accordioncontainer>.col .accordion {
+    margin-top: 0px;
+    border: none;
+    padding: 0 100px
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader {
+    padding: 13px 2px;
+    border-bottom: 2px solid #f6f6f7
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader h4,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader h4 {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #7b828a
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle {
+    width: 20px;
+    height: 20px
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionClose,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionClose {
+    background: url("/content/dam/commercial-au/specialty/sma/hcp/en_au/images/icons/accorOpen.png") no-repeat;
+    background-size: cover
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionOpen,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementHeader .headerToggle.accordionOpen {
+    background: url("/content/dam/commercial-au/specialty/sma/hcp/en_au/images/icons/accorClose.png") no-repeat;
+    background-size: cover
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody {
+    padding: 40px 5px 10px;
+    background: none;
+    border: none;
+    text-align: left
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #7b828a
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p a,
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p u,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p a,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p u {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #56c8e4;
+    text-decoration: underline
+}
+
+.accordioncontainer>.col #accordion .accordionelement .accordionElement .accordionElementBody p .copy,
+.accordioncontainer>.col .accordion .accordionelement .accordionElement .accordionElementBody p .copy {
+    color: #56c8e4;
+    text-decoration: none;
+    font-weight: 400
+}
+
+.template_home .row .main {
+    padding: 50px 0px 0px;
+}
+
+.template_home .columncontrol div.row div.col:nth-child(1) {
+    padding-right: 0;
+}
+
+.template_home .columncontrol div.row div.col:nth-child(2) {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.template_home .columncontrol div.row div.col:nth-child(3){
+  padding-left: 0;
+}
+
+.template_home .columncontrol .col:first-child h3 {
+    margin-bottom: 10px;
+}
+
+.template_home .content .title h3{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.three-column-desc {
+  font-family: "brandon-grotesque",sans-serif !important;
+}
+
+.template_home .row .main .adaptiveimage img {
+    width: 250px;
+}
+
+.mobile-menu-toggle {
+    height: 71px;
+}
+
+
+@media (min-width: 992px){
+  .logo-options .col1 .first {
+    margin: -30px 0 15px;
+  }
+
+  .main-nav .wrapper > ul{
+    text-align: center;
+  }
+  #footer>.wrapper .row.footer-links-container .desktop-disclaimer {
+    margin-top: 70px;
+  }
+
+  #footer>.wrapper>.row.footer-links-container .desktop-disclaimer .footer-info {
+    line-height: 12px;
+  }
+
+  .page_home .columncontrol .col figure {
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  header .logo-options img {
+    margin-top: 30px;
+  }
+}
