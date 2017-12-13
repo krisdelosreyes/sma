@@ -169,6 +169,7 @@
 footer a.sitemap-title-link, footer a.sitemap-title-link:hover{
   color: #56c8e4;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #footer>.wrapper>.row.footer-links-container .logo-biogen .logo-biogen2 {

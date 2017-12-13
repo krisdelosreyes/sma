@@ -71,21 +71,30 @@ h2.footer-headtitle {
     margin-bottom: 5px;
 }
 
-.clinic-location p {
+.clinic-location p, .contact-us p {
     margin-top: -15px;
 }
 
-.clinic-location h2 {
+.clinic-location h2{
     padding: 0 !important;
 }
 
-.clinic-location p a {
+.clinic-location p a, .contact-us p a {
     font-weight: 400 !important;
 }
 
 .direction-link p a{
   font-weight: 700 !important;
 }
+
+.textAlignLeft {
+    text-align: left;
+}
+
+body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
+    padding: 0px 49px;
+}
+
 
 @media (min-width: 992px){
   .cg-video {
@@ -141,6 +150,10 @@ h2.footer-headtitle {
 
   .columncontrol.section {
     border-bottom: 1px solid #def5fa;
+  }
+
+  body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
+      padding: 0px 15px !important;
   }
 
 }
