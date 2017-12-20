@@ -37,6 +37,15 @@ img.proceed {
     margin-bottom: 30px;
 }
 
+
+  #modals .exit-site .modal-dialog .modal-body .modal-buttons a {
+    height: auto !important;
+  }
+
+  #modals .exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }
+
 @media screen and (max-width: 767px){
 
   #modals .modal-dialog .modal-body .modal-buttons {

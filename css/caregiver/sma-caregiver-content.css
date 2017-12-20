@@ -99,6 +99,34 @@ ul.type-list li {
     margin-bottom: 40px;
 }
 
+.table-roles .content + tr td a {
+    display: inline-block;
+    margin: 12px -3px 0px 0px;
+    background: none;
+    font-family: "brandon-grotesque";
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+    float: right;
+}
+
+.table-roles .content + tr td a img {
+    width: 190px;
+    position: relative;
+    top: -2px;
+    right: -6px;
+}
+
+.external-links .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text {
+    text-align: left;
+    margin-left: 0 !important;
+}
+
+.external-links .col.col-xs-12.col-sm-4.col-md-4 .column-control-column div.parbase.section.text{
+  margin-left: 0 !important;
+}
+
 @media screen and (max-width: 767px){
   .content .whiteWrap, .content .grayWrap {
       padding: 30px 20px 30px;

@@ -45,6 +45,14 @@ header .spinraza-header .container .pull-right .form-inline {
     font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
 }
 
+.no-touchcapable .main-nav .wrapper > ul > li:nth-child(1){
+	display: inline-block !important;
+}
+
+.login-comp .sharedLogin {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
 
@@ -116,7 +124,8 @@ header .spinraza-header .container .pull-right .form-inline {
 	/*Forms*/
 
 	.get-in-touch .form-control, .authentication-form .form-control {
-		padding: 1.75rem .75rem;
+		padding: 0;
+    height: 50px;
 		border-radius: 0;
 	}
 

@@ -43,7 +43,7 @@ body .content .main .textcallout3 div a {
 }
 
 #tab-nav ul > li {
-    width: 25%;
+    width: 25% !important;
 }
 
 body .content .main table tbody tr td .second-list {
@@ -116,7 +116,6 @@ body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
   .direction-link p a{
     text-align: right;
   }
-
 }
 
 @media (max-width: 767px){
