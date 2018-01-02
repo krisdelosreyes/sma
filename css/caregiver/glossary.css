@@ -1,0 +1,164 @@
+#glossary-nav{
+   padding: 35px 0 31px;
+   background: #f6f6f7;
+}
+
+#glossary-nav .ln-letters{
+   display: inline-block;
+}
+#glossary-nav .ln-letters .all{
+}
+#glossary-nav .ln-letters a{
+   border:none;
+   font-weight: 700;
+   font-size: 17.5px;
+   font-family: "brandon-grotesque",sans-serif;
+   color: #4570b7;
+}
+#glossary-nav .ln-letters a.ln-disabled{
+   color:#7b828a;
+}
+#glossary-nav .ln-letters a.ln-last{
+   border: none;
+}
+.glossaryKeyword{
+   color: #a7abb0;
+   font-weight: normal !important;
+}
+body .content .glossaryKeyword p{
+   color: #a7abb0;
+}
+.glossaryKeyword b span{
+   font-weight: 700;
+   font-size: 15px;
+   font-family: "brandon-grotesque",sans-serif;
+   color: #4570b7;
+}
+.glossaryKeyword b span.hide{
+   display: none;
+}
+.glossaryKeywordNum{
+   display: none;
+}
+.glossaryTerm {
+   text-align: left;
+}
+.glossaryList li{
+   border-bottom: none;
+}
+
+body .content a {
+   text-decoration: none !important;
+}
+.ln-letters a {
+   padding: 2px 2px;
+}
+#glossary{
+   width: 100%;
+   padding: 30px 150px 50px;
+   margin-top: 0px;
+}
+#glossary-nav .ln-letters a.ln-disabled{
+   opacity: 0.3;
+}
+.table p{
+   margin-left: 50px;
+   margin-right: 30px;
+}
+.table p b{
+   color: #558f51;
+}
+.table p span{
+   font-family: "brandon-grotesque",sans-serif;
+   color: #558f51;
+   font-weight: bold;
+   font-size: 20px;
+}
+.table p.txt_center{
+   text-align: center;
+   margin-top: 20px;
+}
+body .content .main table {
+   max-width: 120% !important;
+   width: 103% !important;
+   margin-top: -20px;
+   position: relative;
+   left: -25px;
+}
+.glossary .paginate-nav ul{
+   display: none;
+}
+.glossary .glossaryKeyword .textAlignLeft.listGloss p{
+   margin-bottom: 0;
+   margin-top: 0;
+   margin-left: 0px;
+}
+.glossary .glossaryKeyword .textAlignLeft.listGloss p:before{
+   content: "â€¢";
+   padding-right: 5px;
+   margin-left: 0px;
+}
+
+p.add-top {
+    margin-top: 18px;
+}
+#glossary table tr:last-child td p{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+@media screen and (max-width: 767px){
+   #glossary{
+      padding: 30px 20px 30px;
+   }
+   .content{
+      padding-top: 0px;
+   }
+}
+@media screen and (max-width: 435px){
+   body .page-header .wrapper .page-title h1+h2 {
+
+   }
+    #glossary-nav{
+      padding: 35px 45px 31px;
+   }
+   body .content .main table {
+      max-width: 100% !important;
+      width: 100% !important;
+      margin-top: -20px;
+      position: relative;
+      left: 0px;
+   }
+   .table p {
+      margin-left: 10px;
+      margin-right: 20px;
+   }
+   #glossary table tr:last-child td p{
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+   .page-header .wrapper .page-title h1+h2{
+      padding: 0 50px !important;
+   }
+   #glossary {
+       width: 100%;
+       margin: 0;
+       padding: 30px 30px 45px;
+   }
+   body .content .main table {
+       width: 100% !important;
+       margin-top: -20px;
+       position: relative;
+       left: 0px;
+   }
+   .content{
+      padding-top: 0px;
+   }
+   #glossary-nav .ln-letters a{
+      font-size: 17px;
+   }
+}

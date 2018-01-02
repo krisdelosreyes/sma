@@ -1,0 +1,248 @@
+
+.cg-video {
+    width: 100%;
+}
+.cg-wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cg-playpause {
+    background-image:url('/content/dam/commercial-au/specialty/sma/hcp/en_au/images/overview-of-sma/play_button.png');
+    background-repeat:no-repeat;
+    width:10%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+.hcp-title {
+    margin-top: 50px;
+}
+
+.ref-num{
+    font-size: 12px;
+}
+
+body .content .main .textcallout3 div a {
+    padding: 10px 50px;
+}
+
+.content .altWrapper .text ul.lineheight li+li {
+    margin-top: 5px;
+}
+
+#tab-nav ul > li {
+    width: 25% !important;
+}
+
+body .content .main table tbody tr td .second-list {
+    margin-right: 66px;
+}
+
+body .content .main table tbody tr td .first-list{
+  padding-left: 55px;
+}
+
+body .content .main table.third tbody tr:first-child td:last-child {
+    width: 50%;
+}
+
+body .content .main .text .type-list li {
+    margin-top: 0;
+}
+
+h2.footer-headtitle {
+    color: #7b828a;
+}
+
+.contact-icon {
+    width: 13px;
+    margin-bottom: 5px;
+}
+
+.clinic-location p, .contact-us p {
+    margin-top: -15px;
+}
+
+.clinic-location h2{
+    padding: 0 !important;
+}
+
+.clinic-location p a, .contact-us p a {
+    font-weight: 400 !important;
+}
+
+.direction-link p a{
+  font-weight: 700 !important;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
+    padding: 0px 49px;
+}
+
+body .content .blue-button a {
+    background: #4570b7;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+body .content .main table.third.four-columns tbody tr td + td{
+  width: 25%;
+}
+
+.page_genetics-and-diagnostics .content .main table.third tbody tr:first-child td:last-child,
+.page_assessment-of-function-in-sma .content .main table.third tbody tr:first-child td:last-child {
+    width: 25%;
+}
+
+.page_assessment-of-function-in-sma .teasertile .media .media-body p {
+    font-size: 16px;
+}
+
+.table_left_content {
+    width: 315px;
+}
+
+h2.color_darkblue {
+    margin-top: 23px !important;
+}
+
+h2 a.color_lightblue {
+  color: #56c8e4;
+  text-decoration: underline;
+}
+
+.care-options-list {
+  padding: 0px 30px !important;
+}
+
+.sub-care-options-list{
+  padding: 0px 15px !important;
+}
+
+.sub-care-options-list li::before{
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+
+.label-info-table.label-info-table-blue table .lable-info-second {
+    vertical-align: top;
+}
+
+.color-mobile {
+    color: #41d213;
+}
+
+table.second tr:first-child .nutrition-blue h3 {
+    color: #4570b7!important;
+}
+
+table.table.second tr:nth-of-type(1) .nutrition-blue:first-child {
+    background-color: #e5e6e8;
+      vertical-align: middle;
+      border: 1px solid #cdcfd3;
+      border-right: 1px solid #cdcfd3 !important
+}
+
+p.phone-break {
+    color: #ffff !important;
+}
+
+.page_diagnosis .main .three-columns .adaptiveimage figure img {
+    width: 90px;
+}
+
+.page_diagnosis .three-columns h2{
+  padding: 0;
+  font-size: 18px;
+}
+
+body .content .altWrapper> div.parbase.section.text p.clinic-desc {
+    padding: 0;
+}
+
+.clinic-name{
+    color: #4570b7 !important;
+}
+
+
+@media (min-width: 992px){
+  .cg-video {
+      width: 85%;
+  }
+
+  body .content .main .textcallout3 {
+      padding: 40px 245px 52px;
+  }
+
+  body .content .altWrapper>div.parbase.section.text p {
+      padding: 0px 94px;
+  }
+
+  .content .altWrapper .text ul.bullet-aligned {
+      padding-right: 75px;
+  }
+
+  .direction-link p a{
+    text-align: right;
+  }
+}
+
+@media (max-width: 767px){
+  body .content .main .textcallout3 {
+    padding: 40px 56px 52px;
+  }
+
+  body .page-header .wrapper .page-title {
+    padding: 60px 20px;
+  }
+
+  body .content .altWrapper>div.parbase.section.text p{
+    padding: 0px 20px !important;
+  }
+
+  .direction-link{
+    text-align: left;
+  }
+
+  h2.spacer, p.spacer {
+      display: none;
+  }
+
+  .clinic-location h2 {
+      padding: 0 !important;
+  }
+
+  .columncontrol.section:first-child {
+      border-bottom: none;
+  }
+
+  .columncontrol.section {
+    border-bottom: 1px solid #def5fa;
+  }
+
+  body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
+      padding: 0px 15px !important;
+  }
+
+}

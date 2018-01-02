@@ -1,0 +1,78 @@
+#modals .modal-dialog .modal-body .modal-title {
+    text-align: center;
+    margin: 0px 40px 50px 35px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons {
+    border-top: 1px solid #a7abb0;
+}
+
+#modals .exit-site .modal-dialog .modal-body .modal-buttons a, #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
+    display: none;
+}
+
+img.proceed {
+    width: 150px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a.cancel-link{
+  color: #56c8e4;
+  background: none;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a.cancel-link, #modals .modal-dialog .modal-body .modal-buttons a.proceed-link{
+  display: block;
+}
+
+.not-active{
+  pointer-events: none;
+  cursor: default;
+}
+
+.proceed-button {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+  #modals .exit-site .modal-dialog .modal-body .modal-buttons a, #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
+    height: auto !important;
+  }
+
+  #modals .exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }
+
+  #modals .third-exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }
+
+@media screen and (max-width: 767px){
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+      width: 100% !important;
+  }
+
+  .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+      margin-left: -15px;
+  }
+
+  #third-exit-site .modal-body .modal-title.text-center p:last-child {
+    border-bottom : none;
+  }
+
+  #modals .modal-dialog .modal-body .modal-title {
+    margin: 0px 0px 50px 0px;
+  }
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+    overflow: inherit;
+  }
+
+  #third-exit-site .modal-dialog .modal-body .modal-title {
+    height: auto;
+  }
+}

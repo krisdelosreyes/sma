@@ -4,6 +4,10 @@
     display: inline-block;
 }*/
 
+.main-nav .wrapper .main-nav-list>li {
+    width: 180px;
+}
+
 .desktop-family-slider{
   display: none;
 }
@@ -17,12 +21,25 @@
     top: 43% !important;
 }
 
-.countryselector .text {
-    font-size: 12px;
-}
-
 .template_home .columncontrol .col+.col {
     border-left: 1px solid #e5e6e8;
+}
+
+.template_home .columncontrol .col p a {
+    display: table;
+    width: 100%;
+    height: 77px;
+    text-decoration: none;
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 16px;
+}
+
+.template_home .columncontrol .col p a span {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #marquee-container .slider-next, #marquee-container .desktop-slide-arrow, #marquee-container #marquee-footer .sma-care{
@@ -153,6 +170,48 @@
     height: 71px;
 }
 
+footer .sitemap-title-link, footer .sitemap-title-link:hover{
+  font-family: brandon-grotesque,sans-serif!important;
+  font-size: 15px;
+  font-weight: 700;
+  color: #56c8e4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer>.wrapper>.row.footer-links-container .logo-biogen .logo-biogen2 {
+    width: 65%;
+}
+
+footer .footer-links-container .footer-info {
+    max-width: 100% !important;
+}
+
+.utility-nav .wrapper .navbar-nav>li>a:hover, .utility-nav .wrapper .navbar-nav>li>a:visited, .utility-nav .wrapper .navbar-nav>li>a:active, .utility-nav .wrapper .navbar-nav>li>a:focus {
+    color: #333;
+}
+
+.utility-nav .wrapper .navbar-nav>li>a {
+    padding: 0px 10px;
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.utility-nav .wrapper .navbar-nav>li.countryselector .text {
+    color: #4570b6;
+}
+
+.utility-nav .wrapper .navbar-nav>li.countryselector span.open-close-arrow::before{
+    display: none;
+}
+
+#footer>.wrapper>.row.footer-links-container .logo-biogen .logo-biogen2 {
+    width: 100%;
+}
 
 @media (min-width: 992px){
   .logo-options .col1 .first {
@@ -163,7 +222,7 @@
     text-align: center;
   }
   #footer>.wrapper .row.footer-links-container .desktop-disclaimer {
-    margin-top: 70px;
+    margin-top: 16px;
   }
 
   #footer>.wrapper>.row.footer-links-container .desktop-disclaimer .footer-info {
@@ -186,14 +245,22 @@
   }
 
   #footer>.wrapper>.row.footer-links-container {
-    position: absolute;
-    top: 205px;
-    width: 50%;
-    right: 10px;
+      position: absolute;
+      top: 205px;
+      width: 50%;
+      right: 10px;
   }
 
   #footer>.wrapper:last-child {
-    height: 490px;
+    height: auto;
+  }
+
+  #footer>.wrapper>.row.siteMapFooter-links {
+    border-bottom: none;
+  }
+
+  #footer>.wrapper:last-child {
+      height: 590px;
   }
 
   .template_home .altWrapper .adaptiveimage {

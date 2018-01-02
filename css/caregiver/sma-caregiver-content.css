@@ -1,3 +1,7 @@
+.content .whiteWrap,.content .grayWrap  {
+    padding: 50px 125px 25px 125px;
+}
+
 .cg-video {
     width: 100%;
 }
@@ -5,12 +9,15 @@
     display:table;
     width:auto;
     position:relative;
-    width:50%;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .cg-playpause {
-    background-image:url(/content/dam/commercial-au/specialty/sma/caregiver/en_au/images/icons/caregiver_playbutton);
+    background-image:url('/content/dam/commercial-au/specialty/sma/caregiver/en_au/images/icons/caregiver_playbutton.png');
     background-repeat:no-repeat;
-    width:50%;
+    width:10%;
     height:50%;
     position:absolute;
     left:0%;
@@ -20,4 +27,108 @@
     margin:auto;
     background-size:contain;
     background-position: center;
+}
+
+.overview-box{
+    border: 2px solid #e5e6e8 !important;
+}
+
+.box-content, .download-desc{
+    font-family: "brandon-grotesque",sans-serif;
+    font-size: 17px;
+    color: #7b828a;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.box-content{
+  font-weight: 700;
+}
+
+body .content .greenLink a, body .content .greenLink a:hover, body .content .greenLink a:focus, body .content .greenLink a:active {
+  font-size: 17px;
+}
+
+/*body .content ul li{
+  line-height: 5px;
+}*/
+
+body .content .main .textcallout3 div p {
+    font-size: 19px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+ul.type-list li {
+  width: 580px;
+}
+
+.type-list li {
+  margin-top: 0;
+}
+
+.content-list {
+  margin-left: 15px !important;
+}
+
+.smaai-image {
+  width: 150px;
+}
+
+.contact-details {
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 13px;
+    margin-bottom: 10px;
+}
+
+.glossary-box {
+    max-width: 120% !important;
+    width: 103% !important;
+    left: -25px;
+}
+
+.download-button img {
+    width: 200px;
+}
+
+.download-button {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.table-roles .content + tr td a {
+    display: inline-block;
+    margin: 12px -3px 0px 0px;
+    background: none;
+    font-family: "brandon-grotesque";
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+    float: right;
+}
+
+.table-roles .content + tr td a img {
+    width: 190px;
+    position: relative;
+    top: -2px;
+    right: -6px;
+}
+
+.external-links .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text {
+    text-align: left;
+    margin-left: 0 !important;
+}
+
+.external-links .col.col-xs-12.col-sm-4.col-md-4 .column-control-column div.parbase.section.text{
+  margin-left: 0 !important;
+}
+
+@media screen and (max-width: 767px){
+  .content .whiteWrap, .content .grayWrap {
+      padding: 30px 20px 30px;
+  }
 }
