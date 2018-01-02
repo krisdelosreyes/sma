@@ -95,6 +95,96 @@ body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
     padding: 0px 49px;
 }
 
+body .content .blue-button a {
+    background: #4570b7;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+body .content .main table.third.four-columns tbody tr td + td{
+  width: 25%;
+}
+
+.page_genetics-and-diagnostics .content .main table.third tbody tr:first-child td:last-child,
+.page_assessment-of-function-in-sma .content .main table.third tbody tr:first-child td:last-child {
+    width: 25%;
+}
+
+.page_assessment-of-function-in-sma .teasertile .media .media-body p {
+    font-size: 16px;
+}
+
+.table_left_content {
+    width: 315px;
+}
+
+h2.color_darkblue {
+    margin-top: 23px !important;
+}
+
+h2 a.color_lightblue {
+  color: #56c8e4;
+  text-decoration: underline;
+}
+
+.care-options-list {
+  padding: 0px 30px !important;
+}
+
+.sub-care-options-list{
+  padding: 0px 15px !important;
+}
+
+.sub-care-options-list li::before{
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+
+.label-info-table.label-info-table-blue table .lable-info-second {
+    vertical-align: top;
+}
+
+.color-mobile {
+    color: #41d213;
+}
+
+table.second tr:first-child .nutrition-blue h3 {
+    color: #4570b7!important;
+}
+
+table.table.second tr:nth-of-type(1) .nutrition-blue:first-child {
+    background-color: #e5e6e8;
+      vertical-align: middle;
+      border: 1px solid #cdcfd3;
+      border-right: 1px solid #cdcfd3 !important
+}
+
+p.phone-break {
+    color: #ffff !important;
+}
+
+.page_diagnosis .main .three-columns .adaptiveimage figure img {
+    width: 90px;
+}
+
+.page_diagnosis .three-columns h2{
+  padding: 0;
+  font-size: 18px;
+}
+
+body .content .altWrapper> div.parbase.section.text p.clinic-desc {
+    padding: 0;
+}
+
+.clinic-name{
+    color: #4570b7 !important;
+}
+
 
 @media (min-width: 992px){
   .cg-video {

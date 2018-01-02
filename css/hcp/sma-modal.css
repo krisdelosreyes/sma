@@ -7,7 +7,7 @@
     border-top: 1px solid #a7abb0;
 }
 
-#modals .modal-dialog .modal-body .modal-buttons a {
+#modals .exit-site .modal-dialog .modal-body .modal-buttons a, #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
     display: none;
 }
 
@@ -38,11 +38,15 @@ img.proceed {
 }
 
 
-  #modals .exit-site .modal-dialog .modal-body .modal-buttons a {
+  #modals .exit-site .modal-dialog .modal-body .modal-buttons a, #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
     height: auto !important;
   }
 
   #modals .exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }
+
+  #modals .third-exit-site .modal-dialog .modal-body .modal-title .popup-button{
     display: none !important;
   }
 

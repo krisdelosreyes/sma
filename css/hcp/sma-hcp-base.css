@@ -4,6 +4,10 @@
     display: inline-block;
 }*/
 
+.main-nav .wrapper .main-nav-list>li {
+    width: 180px;
+}
+
 .desktop-family-slider{
   display: none;
 }
@@ -166,7 +170,10 @@
     height: 71px;
 }
 
-footer a.sitemap-title-link, footer a.sitemap-title-link:hover{
+footer .sitemap-title-link, footer .sitemap-title-link:hover{
+  font-family: brandon-grotesque,sans-serif!important;
+  font-size: 15px;
+  font-weight: 700;
   color: #56c8e4;
   text-decoration: none;
   cursor: pointer;
