@@ -186,6 +186,12 @@ body .content .altWrapper> div.parbase.section.text p.clinic-desc {
 }
 
 
+body .content .main table tbody tr td ul {
+    margin: 0 !important;
+    text-align: left;
+    padding: 0px 70px !important;
+}
+
 @media (min-width: 992px){
   .cg-video {
       width: 85%;
@@ -196,7 +202,7 @@ body .content .altWrapper> div.parbase.section.text p.clinic-desc {
   }
 
   body .content .altWrapper>div.parbase.section.text p {
-      padding: 0px 94px;
+      padding-right: 10px;
   }
 
   .content .altWrapper .text ul.bullet-aligned {
@@ -205,6 +211,10 @@ body .content .altWrapper> div.parbase.section.text p.clinic-desc {
 
   .direction-link p a{
     text-align: right;
+  }
+
+  .content .footnote {
+    padding: 20px 20px 0px 0;
   }
 }
 

@@ -1,6 +1,6 @@
 #modals .modal-dialog .modal-body .modal-title {
     text-align: center;
-    margin: 0px 40px 50px 35px;
+    margin: 0px 40px 0px 35px;
 }
 
 #modals .modal-dialog .modal-body .modal-buttons {
@@ -18,6 +18,7 @@ img.proceed {
 #modals .modal-dialog .modal-body .modal-buttons a.cancel-link{
   color: #56c8e4;
   background: none;
+  text-decoration: underline;
 }
 
 #modals .modal-dialog .modal-body .modal-buttons a.cancel-link, #modals .modal-dialog .modal-body .modal-buttons a.proceed-link{
@@ -49,6 +50,64 @@ img.proceed {
   #modals .third-exit-site .modal-dialog .modal-body .modal-title .popup-button{
     display: none !important;
   }
+
+.checkbox {
+   display: block;
+   position: relative;
+   padding-left: 35px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 22px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.hcp-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkbox:hover input ~ .hp-checkmark {
+  background-color: #ccc;
+}
+
+.checkbox input:checked ~ .hp-checkmark {
+  background-color: #fff;
+}
+
+.hp-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .hp-checkmark:after {
+  display: block;
+}
+
+.checkbox .hp-checmark:after {
+  left:9px;
+  top:5px;
+  width: 5px;
+  height: 10px;
+  border: solid #ccc;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 
 @media screen and (max-width: 767px){
 

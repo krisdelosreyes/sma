@@ -242,6 +242,15 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 		text-align: left;
 	}
 
+	.col-md-12.col-sm-12.col-xs-12.contact-us.enquiries {
+		margin-top: 0px;
+	}
+
+	.col-md-6.col-sm-12.col-xs-12.contact-us p a, .col-md-12.col-sm-12.col-xs-12.contact-us p a {
+		font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+		font-weight: normal;
+	}
+
 	/*Video*/
 
 	.cg-video { width: 100%; }

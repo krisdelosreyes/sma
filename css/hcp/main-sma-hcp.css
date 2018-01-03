@@ -766,9 +766,9 @@ body .content .main table tbody tr td .table-headline {
 }
 
 body .content .main table tbody tr td ul {
-    margin: 40px 0px;
+    margin: 0 !important;
     text-align: left;
-    padding: 0px 110px
+    padding: 0px 70px !important;
 }
 
 body .content .main table tbody tr td ul li {
@@ -1369,7 +1369,7 @@ body .content .main .text ul li {
     text-align: left;
     font-family: "brandon-grotesque", sans-serif;
     padding-top: 20px;
-    padding: 20px 67px 0px 26px
+    padding: 20px 67px 0px 0px
 }
 
 .content .footnote small {
@@ -1430,8 +1430,8 @@ body .content .main .text ul li {
 }
 
 #modals .modal-dialog .modal-body {
-    padding: 40px 20px 30px;
-    margin-bottom: 11px
+    padding: 40px 20px 0px;
+/*    margin-bottom: 11px*/
 }
 
 #modals .modal-dialog .modal-body .modal-title {
@@ -1471,7 +1471,7 @@ body .content .main .text ul li {
 #modals .modal-dialog .modal-body .modal-buttons {
     border-top: 1px solid #a7abb0;
     overflow: hidden;
-    padding: 50px 0px 20px !important
+    padding: 30px 0px 20px !important
 }
 
 #modals .modal-dialog .modal-body .modal-buttons a.btn {
@@ -1493,7 +1493,7 @@ body .content .main .text ul li {
 #modals .modal-dialog .modal-body .modal-buttons a {
     background: #4570b7;
     font-family: "brandon-grotesque", sans-serif !important;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     color: #fff;
     padding: 10px 24px;
