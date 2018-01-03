@@ -192,6 +192,70 @@ body .content .main table tbody tr td ul {
     padding: 0px 70px !important;
 }
 
+#tab-nav ul > li:last-child > a > span {
+    width: 13%;
+}
+
+.content .main .tab .nav-tabs>li>a {
+  vertical-align: top;
+  padding-top: 10%;
+}
+
+.content .main .tab .tab-content .tab-pane .tab-pane-inner .section.text ul {
+    margin-bottom: -130px;
+}
+
+body .content .main table.second tbody tr td, body .content .main table.third tbody tr td {
+   padding-top: 15px;
+}
+
+.main > div.html.section table.third tr:nth-of-type(2) td:nth-of-type(2) {
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+body .content .main table.third tbody tr td + td {
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.content .whiteWrap {
+  padding: 1px 100px 0px;
+}
+
+.content figure {
+    margin-bottom: 39px;
+    margin-top: 24px;
+ }
+
+ p.muscular-intro {
+    margin-left: 5px;
+}
+
+.first-section .image.adaptiveimage {
+  margin-bottom: 45px;
+}
+
+body .content .content-info-1 {
+  padding-bottom: 40px;
+}
+
+body .content .content-info-2 {
+  margin-top: 40px;
+}
+
+.content .grayWrap {
+  padding: 25px 100px 50px;
+}
+
+body .content h2, body .content .h2 {
+  padding: 0 35px;
+}
+
+body .content .content-info-4 h3 {
+  margin: 30px 0 -20px 0;
+}
+
 @media (min-width: 992px){
   .cg-video {
       width: 85%;

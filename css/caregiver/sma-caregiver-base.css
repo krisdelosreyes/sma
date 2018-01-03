@@ -153,6 +153,10 @@
     height: 71px;
 }
 
+footer a {
+  color: #42c247;
+}
+
 
 @media (min-width: 992px){
   .logo-options .col1 .first {
