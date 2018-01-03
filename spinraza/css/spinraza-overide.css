@@ -15,6 +15,12 @@
 	color: #213963;
 }
 
+.invalidLogin {
+    color: red;
+    display: none;
+    text-align: center;
+}
+
 h3.inner-title {
 	color: #213963;
 	margin-bottom: 3%;
@@ -97,6 +103,41 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
     max-width: 10px !important;
 }
 
+.rightcol {
+    top: 0 !important;
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix>li+li:before{
+      border-left: 0;
+}
+
+.content label.error {
+    color: #ea6767;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.content input.error, .content select.error, .content textarea.error {
+    border: 2px solid #ea6767;
+}
+
+@media only screen and (min-width: 992px) {
+	header .spinraza-header .container div:nth-child(5) {
+	   width: 17.3%;
+	}
+
+	.countryselector {
+    padding: 0 !important;
+	}
+
+	.country_options {
+	    top: 81px !important;
+	}
+
+	.country-dd{
+		font-size: 14px;
+	}
+}
 
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
