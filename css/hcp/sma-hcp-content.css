@@ -131,7 +131,7 @@ h2 a.color_lightblue {
 }
 
 .care-options-list {
-  padding: 0px 30px !important;
+  padding: 0px 35px 20px !important;
 }
 
 .sub-care-options-list{
@@ -186,10 +186,31 @@ body .content .altWrapper> div.parbase.section.text p.clinic-desc {
 }
 
 
-body .content .main table tbody tr td ul {
+body .content .main table tbody tr td ul, body.template--generic-one-column.page_assessment-of-function-in-sma.template_generic .content .main table tbody tr td ul {
     margin: 0 !important;
     text-align: left;
-    padding: 0px 70px !important;
+    padding: 0px 70px;
+}
+
+body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul, 
+body.template--generic-one-column.page_nutrition.template_generic .content .main table tbody tr td ul,
+body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table tbody tr td ul,
+body.template--generic-one-column.page_respiratory-support.template_generic .content .main table tbody tr td ul {
+  padding: 0 25px 0 37px !important;
+}
+
+body.template--generic-one-column.page_genetics-and-diagnostics.template_generic .content .main table tbody tr td ul {
+  padding: 0px 15px !important;
+}
+
+body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table.second tbody tr td ul li ul, 
+body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table.third tbody tr td ul li ul {
+  padding: 0 10px 0 10px !important;
+}
+
+ul.sub-care-options-list {
+  padding: 0px 33px 20px !important;
+  margin-bottom: 20px;
 }
 
 #tab-nav ul > li:last-child > a > span {
@@ -223,6 +244,12 @@ body .content .main table.third tbody tr td + td {
   padding: 1px 100px 0px;
 }
 
+body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap, 
+body.template--generic-one-column.page_respiratory-support.template_generic .content .whiteWrap,
+body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap {
+  padding: 50px 100px 50px;
+}
+
 .content figure {
     margin-bottom: 39px;
     margin-top: 24px;
@@ -254,6 +281,22 @@ body .content h2, body .content .h2 {
 
 body .content .content-info-4 h3 {
   margin: 30px 0 -20px 0;
+}
+
+body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap {
+    padding: 20px 100px 0px;
+}
+
+body.template--generic-one-column.page_overview-of-sma.template_generic .content .altWrapper .text ul.bullet-aligned {
+    padding-left: 60px;
+}
+
+body.template--generic-one-column.page_assessment-of-function-in-sma.template_generic .content .altWrapper>div.parbase.section.text p {
+  padding: 0px 40px;
+}
+
+body.template--generic-one-column.page_assessment-of-function-in-sma.template_generic ul.key-points.activated {
+  margin-left: 40px;
 }
 
 @media (min-width: 992px){
@@ -318,5 +361,40 @@ body .content .content-info-4 h3 {
   body .content .altWrapper>div.parbase.section.text .contact-us p, .contact-us p{
       padding: 0px 15px !important;
   }
+
+  .content .whiteWrap, 
+  body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap,
+  body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap, 
+  body.template--generic-one-column.page_respiratory-support.template_generic .content .whiteWrap,
+  body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap {
+    padding: 0px 20px 30px;
+  }
+
+  .content .grayWrap {
+    padding: 30px 20px 30px;
+  }
+
+  body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul, 
+  body.template--generic-one-column.page_nutrition.template_generic .content .main table tbody tr td ul,
+  body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table tbody tr td ul,
+  body.template--generic-one-column.page_respiratory-support.template_generic .content .main table tbody tr td ul {
+  padding: 0% 6% 3% 8% !important;
+  }
+
+  body.template--generic-one-column.page_paediatric-nmds.template_generic .content .altWrapper .text ul.bullet-aligned {
+    padding-left: 1.2em;
+  }
+
+ body.template--generic-one-column.page_assessment-of-function-in-sma.template_generic .content .main table tbody tr td ul {
+    padding: 0px 10px 0px 40px;
+  }
+
+ body.template--generic-one-column.page_assessment-of-function-in-sma.template_generic  .content .main table.third.four-columns tbody tr td + td, body.template--generic-one-column.page_genetics-and-diagnostics.template_generic .content .main table.third.four-columns tbody tr td + td {
+  width: 100%;
+ }
+
+ body.template--generic-one-column.page_genetics-and-diagnostics.template_generic .content .main table tbody tr td ul {
+    padding: 0px 30px !important;
+ }
 
 }
