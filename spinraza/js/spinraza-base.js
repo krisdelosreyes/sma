@@ -11,9 +11,11 @@ $(document).ready(function() {
     }else if (selected == '2'){
         $(".h-pro").hide();
         $(".h-patient").show();
+        $("#request-form").hide(500);
     }else{
       $(".h-pro").hide();
       $(".h-patient").hide();
+      $("#request-form").hide(500);
     }
   });
 

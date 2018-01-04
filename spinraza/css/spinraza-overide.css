@@ -21,6 +21,14 @@
     text-align: center;
 }
 
+.loginButton {
+    width: auto;
+}
+
+.page_home .desktop-footer-links > li:nth-child(1),.page_home .desktop-footer-links > li:nth-child(4),.page_home .desktop-footer-links > li:nth-child(5){
+  display: none;
+}
+
 h3.inner-title {
 	color: #213963;
 	margin-bottom: 3%;
@@ -90,9 +98,9 @@ body.template--home.page_home.template_home .canvas-container .row-offcanvas.row
 	display: none;
 }
 
-body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li:nth-child(1), body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper>ul>li:nth-child(2), body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper>ul>li:nth-child(3) {
+/* body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li:nth-child(1), body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper>ul>li:nth-child(2), body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper>ul>li:nth-child(3) {
 	display: none !important;
-}
+} */
 
 
 body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li.level-1:last-of-type {
@@ -140,6 +148,11 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 }
 
 @media only screen and (min-width: 768px) {
+	.page_home footer .footer-links ul li {
+    padding-right: 30px !important;
+    padding-left: 0 !important;
+	}
+
     /* tablets and desktop */
 
     .main-nav .wrapper>ul>li {

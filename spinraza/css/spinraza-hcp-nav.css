@@ -47,3 +47,14 @@ Displays the 3rd navigation menu that was disabled on the initial css used
       display: inline !important;
   }
 }
+
+@media (max-width: 768px){
+  .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3), .touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3){
+    width: 100%;
+  }
+
+  .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a{
+    margin-top: 0;
+    width: auto;
+  }
+}

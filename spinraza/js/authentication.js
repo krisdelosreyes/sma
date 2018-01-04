@@ -2,9 +2,19 @@ $(document).ready(function(){
   authenticateLogin();
   validateFieldsforRequestPassword();
   validateFieldsforGetInTouch();
+  setSelectionState();
 
 });
 
+function setSelectionState(){
+  var getUser = localStorage.getItem('initialUser');
+
+  if(getUser){
+    $('#spin_username').val(getUser);
+  }else{
+    $('#spin_username').val("0");
+  }
+}
 
 function authenticateLogin(){
   var form = $('#user-login');
@@ -38,10 +48,11 @@ function authenticateLogin(){
       var url = $('#path_to_resource').val() + ".p.html";
       var userName = $('#spin_username').val();
       var passWord = $('#j_password').val();
-      console.log(userName);
+      localStorage.setItem('initialUser', userName);
+
       $.ajax({
         url: url,
-        data: { username: userName},
+        data: { username: userName, j_username: userName},
         method: "POST",
         dataType: 'json',
         success: function(data) {
@@ -52,11 +63,14 @@ function authenticateLogin(){
             verify = true;
             $this.submit();
           } else {
-                        error.show();
+            error.show();
           }
         },
         error: function(){
-                    error.show();
+            error.show();
+            console.log(localStorage.getItem('initialUser'));
+            // var element = document.getElementById('#spin_username');
+            // element.value = userName;
         }
       });
     }
