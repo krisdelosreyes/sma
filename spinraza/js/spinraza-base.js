@@ -1,39 +1,49 @@
 $(document).ready(function() {
+  $(".h-pro").hide();
+  $(".h-patient").hide();
 
-    $('#auth').on('change', function() {
-          if ( this.value == '1')
-          {
-            $(".h-pro").show();
-            $("#user-login").attr("action", "/content/commercial-au/specialty/spinraza/hcp/en_au/home/hcp.html");
-          }
-
-          else
-          {
-            $(".h-pro").hide();
-          }
-
-          if ( this.value == '2')
-          {
-            $(".h-patient").show();
-            $("#user-login").attr("action", "/content/commercial-au/specialty/spinraza/hcp/en_au/home/patient-resources.html");
-          }
-
-          else
-          {
-            $(".h-patient").hide();
-          }
-    });
-
-    if (!$("body").hasClass(".page_hcp-home")) {
-        $('.hcp-text p').show();
+  $('#spin_username').on('change', function() {
+    var selected = document.getElementById("spin_username").selectedIndex;
+      if ( selected == '1'){
+        $(".h-pro").show();
+        $(".h-patient").hide();
+      //$("#user-login").attr("action", "/content/commercial-au/specialty/spinraza/hcp/en_au/home/hcp.html");
+    }else if (selected == '2'){
+        $(".h-pro").hide();
+        $(".h-patient").show();
+    }else{
+      $(".h-pro").hide();
+      $(".h-patient").hide();
     }
-    else {
-        $('.hcp-text p').hide();
-    }
+  });
+
+  var selected = document.getElementById("spin_username").selectedIndex;
+    if ( selected == '1'){
+      $(".h-pro").show();
+      $(".h-patient").hide();
+    //$("#user-login").attr("action", "/content/commercial-au/specialty/spinraza/hcp/en_au/home/hcp.html");
+  }else if (selected == '2'){
+      $(".h-pro").hide();
+      $(".h-patient").show();
+  }else{
+    $(".h-pro").hide();
+    $(".h-patient").hide();
+  }
+
+  if (!$("body").hasClass(".page_hcp-home")) {
+      $('.hcp-text p').show();
+  }
+  else {
+      $('.hcp-text p').hide();
+  }
 });
 
 $("#request-pword").click(function(){
-    $("#request-pword-form").show(500);
+    $("#request-form").show(500);
+});
+
+$("#request-pword").dblclick(function(){
+    $("#request-form").hide(500);
 });
 
 
