@@ -129,6 +129,10 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
     border: 2px solid #ea6767;
 }
 
+.wrapper>.main>.title, .wrapper>.main>.text{
+	    padding: 50px 128px;
+}
+
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
 	   width: 17.3%;
@@ -368,10 +372,14 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 	    width: 315px;
   }
 
-  li.resourced-list p {
+  li.resourced-list p, li.resourced-list a {
 		text-align: center;
 		width: 285px;
   }
+
+	li.resourced-list a img {
+	  margin-left: 50px;
+	}
 
   .download-container.row {
     width: 1024px;

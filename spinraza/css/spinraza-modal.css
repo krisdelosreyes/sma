@@ -1,0 +1,474 @@
+#modals .third-exit-site .modal-dialog {
+    width: 900px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header .close {
+  color: #74a187;
+  opacity: 1;
+  text-align: center;
+  background: none;
+  margin-top: -2px;
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header .close span {
+  color: #a7abb0;
+  background-color: transparent;
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 700 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #028ca6
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    font-size: 14px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 112px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #a4d9d0 !important;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 {
+    position: absolute !important;
+    width: 166px !important;
+    bottom: 70px;
+    left: 259px;
+    height: 70px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 span {
+    display: block;
+    padding-top: 10px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: none !important
+}
+
+#modals .hcp-exit-site .modal-dialog {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header .close {
+  background: transparent;
+  margin-top: -2px;
+  background-size: 0;
+  color: #74a187;
+  opacity: 1;
+  text-align: center;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  width: 30px;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header .close span {
+  color: #a7abb0;
+  background-color: transparent;
+  display: block;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important;
+    margin: 0 auto
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 300 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #333;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+  font-size: 14px;
+  margin-left: auto;
+  width: 80%;
+  margin-right: auto;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 138px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #028ca6 !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px;
+    display: none;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-bottom: 0 !important;
+    text-decoration: underline !important;
+    color: #10a6b7 !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 {
+  position: absolute !important;
+  width: 150px !important;
+  bottom: 80px;
+  left: 259px;
+  height: 70px !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 span {
+  display: block;
+  padding-top: 10px;
+  text-transform: none;
+  text-align: center;
+  padding-left: 20px;
+}
+
+#modals #hcp-exit-site #continue-button2{
+  min-width: auto;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: block !important;
+}
+
+#modals .exit-site .modal-dialog {
+    width: 900px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    height: 40px;
+    width: 40px;
+    background: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/closeButtonx.png);
+    background-size: contain;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header .close span {
+    display: none;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 700 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #028ca6;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    font-size: 14px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 112px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #a4d9d0 !important;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+    position: absolute !important;
+    width: 166px !important;
+    bottom: 70px;
+    left: 259px;
+    height: 70px !important;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button span {
+    display: block;
+    padding-top: 10px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: none !important;
+}
+
+#modals #exit-site {
+    z-index: 9999;
+}
+
+#modals .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px;
+}
+
+#modals .modal-dialog .modal-content .modal-header .close span {
+    display: block;
+    margin: -9px auto 0px;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    color: #125181;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 3em;
+    -webkit-font-smoothing: antialiased;
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-title p {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-title a {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #e45c58;
+    text-decoration: underline;
+    float: left;
+    position: relative;
+    top: 25px;
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta {
+    border-radius: 0;
+    color: #223868;
+    border: 0;
+    padding: 16px 30px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700;
+    background-color: #fcdc53;
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta span {
+    /*color: #223868 !importantl;*/
+    color: #ffff !important;
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta:after {
+    display: none;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+
+  #modals .modal-dialog .modal-body .modal-title p+p {
+      font-family: "brandon-grotesque",sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #7b828a;
+  }
+
+
+
+.checkbox {
+   display: block;
+   position: relative;
+   padding-left: 35px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 22px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.hcp-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkbox:hover input ~ .hp-checkmark {
+  background-color: #ccc;
+}
+
+.checkbox input:checked ~ .hp-checkmark {
+  background-color: #fff;
+}
+
+.hp-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .hp-checkmark:after {
+  display: block;
+}
+
+.checkbox .hp-checmark:after {
+  left:9px;
+  top:5px;
+  width: 5px;
+  height: 10px;
+  border: solid #ccc;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+@media screen and (max-width: 767px){
+
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    width: auto;
+  }
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+      width: 100% !important;
+  }
+
+  .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+      margin-left: -15px;
+  }
+
+  #third-exit-site .modal-body .modal-title.text-center p:last-child {
+    border-bottom : none;
+  }
+
+  #modals .modal-dialog .modal-body .modal-title {
+    margin: 0px 0px 50px 0px;
+  }
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+    overflow: inherit;
+  }
+
+  #third-exit-site .modal-dialog .modal-body .modal-title {
+    height: auto;
+  }
+}

@@ -1,0 +1,6603 @@
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Bold';
+    src: url("../fonts/AvenirNext-Bold.eot");
+    src: url("../fonts/AvenirNext-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-Bold.woff2") format("woff2"), url("../fonts/AvenirNext-Bold.woff") format("woff"), url("../fonts/AvenirNext-Bold.ttf") format("truetype"), url("../fonts/AvenirNext-Bold.svg#AvenirNext-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir Next Bold Italic';
+    src: url("../fonts/AvenirNext-BoldItalic.eot");
+    src: url("../fonts/AvenirNext-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-BoldItalic.woff2") format("woff2"), url("../fonts/AvenirNext-BoldItalic.woff") format("woff"), url("../fonts/AvenirNext-BoldItalic.ttf") format("truetype"), url("../fonts/AvenirNext-BoldItalic.svg#AvenirNext-BoldItalic") format("svg");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Avenir Next Demi Italic';
+    src: url("../fonts/AvenirNext-DemiBoldItalic.eot");
+    src: url("../fonts/AvenirNext-DemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-DemiBoldItalic.woff2") format("woff2"), url("../fonts/AvenirNext-DemiBoldItalic.woff") format("woff"), url("../fonts/AvenirNext-DemiBoldItalic.ttf") format("truetype"), url("../fonts/AvenirNext-DemiBoldItalic.svg#AvenirNext-DemiBoldItalic") format("svg");
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Demi';
+    src: url("../fonts/AvenirNext-DemiBold.eot");
+    src: url("../fonts/AvenirNext-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-DemiBold.woff2") format("woff2"), url("../fonts/AvenirNext-DemiBold.woff") format("woff"), url("../fonts/AvenirNext-DemiBold.ttf") format("truetype"), url("../fonts/AvenirNext-DemiBold.svg#AvenirNext-DemiBold") format("svg");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir Next Heavy Italic';
+    src: url("../fonts/AvenirNext-HeavyItalic.eot");
+    src: url("../fonts/AvenirNext-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-HeavyItalic.woff2") format("woff2"), url("../fonts/AvenirNext-HeavyItalic.woff") format("woff"), url("../fonts/AvenirNext-HeavyItalic.ttf") format("truetype"), url("../fonts/AvenirNext-HeavyItalic.svg#AvenirNext-HeavyItalic") format("svg");
+    font-weight: 900;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Heavy';
+    src: url("../fonts/AvenirNext-Heavy.eot");
+    src: url("../fonts/AvenirNext-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-Heavy.woff2") format("woff2"), url("../fonts/AvenirNext-Heavy.woff") format("woff"), url("../fonts/AvenirNext-Heavy.ttf") format("truetype"), url("../fonts/AvenirNext-Heavy.svg#AvenirNext-Heavy") format("svg");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir Next Medium Italic';
+    src: url("../fonts/AvenirNext-MediumItalic.eot");
+    src: url("../fonts/AvenirNext-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-MediumItalic.woff2") format("woff2"), url("../fonts/AvenirNext-MediumItalic.woff") format("woff"), url("../fonts/AvenirNext-MediumItalic.ttf") format("truetype"), url("../fonts/AvenirNext-MediumItalic.svg#AvenirNext-MediumItalic") format("svg");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Medium';
+    src: url("../fonts/AvenirNext-Medium.eot");
+    src: url("../fonts/AvenirNext-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-Medium.woff2") format("woff2"), url("../fonts/AvenirNext-Medium.woff") format("woff"), url("../fonts/AvenirNext-Medium.ttf") format("truetype"), url("../fonts/AvenirNext-Medium.svg#AvenirNext-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Regular';
+    src: url("../fonts/AvenirNext-Regular.eot");
+    src: url("../fonts/AvenirNext-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-Regular.woff2") format("woff2"), url("../fonts/AvenirNext-Regular.woff") format("woff"), url("../fonts/AvenirNext-Regular.ttf") format("truetype"), url("../fonts/AvenirNext-Regular.svg#AvenirNext-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Avenir Next Ultra Italic';
+    src: url("../fonts/AvenirNext-UltraLightItalic.eot");
+    src: url("../fonts/AvenirNext-UltraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-UltraLightItalic.woff2") format("woff2"), url("../fonts/AvenirNext-UltraLightItalic.woff") format("woff"), url("../fonts/AvenirNext-UltraLightItalic.ttf") format("truetype"), url("../fonts/AvenirNext-UltraLightItalic.svg#AvenirNext-UltraLightItalic") format("svg");
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr W00 Ult Light';
+    src: url("../fonts/AvenirNext-UltraLight.eot");
+    src: url("../fonts/AvenirNext-UltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNext-UltraLight.woff2") format("woff2"), url("../fonts/AvenirNext-UltraLight.woff") format("woff"), url("../fonts/AvenirNext-UltraLight.ttf") format("truetype"), url("../fonts/AvenirNext-UltraLight.svg#AvenirNext-UltraLight") format("svg");
+    font-weight: 200;
+    font-style: normal
+}
+
+header .spinraza-header .container {
+    max-width: 1280px;
+    padding: 27px 128px 30px;
+    width: auto
+}
+
+header .spinraza-header .container .header_links {
+    padding: 0
+}
+
+header .spinraza-header .container .header_links p {
+    display: none
+}
+
+header .spinraza-header .container .header_links ul {
+    padding-left: 0px;
+    display: initial;
+    padding-right: 15px
+}
+
+header .spinraza-header .container .header_links ul li {
+    font-size: 13px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    font-weight: 300;
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 0px 5px;
+    line-height: 17px;
+    margin-bottom: 5px
+}
+
+header .spinraza-header .container .header_links ul li:first-child {
+    display: none
+}
+
+header .spinraza-header .container .header_links ul li a {
+    font-size: 13px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #028ca6;
+    font-weight: 300;
+    text-decoration: none
+}
+
+header .spinraza-header .container .header_links ul li a:hover,
+header .spinraza-header .container .header_links ul li a:focus {
+    text-decoration: none
+}
+
+header .spinraza-header .container .header_links ul li a img {
+    max-width: 13px
+}
+
+header .spinraza-header .container .header_links ul li:nth-child(3n),
+header .spinraza-header .container .header_links ul li:nth-child(5n) {
+    border-left: 1px solid #58595b
+}
+
+header .spinraza-header .container .pull-right p {
+    color: #028ca6;
+    text-align: right;
+    margin-bottom: 15px
+}
+
+header .spinraza-header .container .pull-right p a {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #028ca6;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 20px
+}
+
+header .spinraza-header .container .pull-right p a:hover,
+header .spinraza-header .container .pull-right p a:focus,
+header .spinraza-header .container .pull-right p a:visited {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #028ca6;
+    font-weight: 300;
+    text-decoration: none
+}
+
+header .spinraza-header .container .pull-right .form-inline {
+    display: block !important
+}
+
+header .spinraza-header .container .pull-right .form-inline .form-group {
+    width: 90%;
+    text-align: right;
+    height: 34px
+}
+
+header .spinraza-header .container .pull-right .form-inline .form-group .form-control {
+    padding: 6px 34px 6px 12px;
+    width: 90%;
+    border: 1px solid #e1e1e1
+}
+
+header .spinraza-header .container .pull-right .form-inline .form-group button.glyphicon {
+    height: 34px;
+    background: transparent;
+    border: none;
+    top: -34px
+}
+
+@media (min-width: 992px) {
+    header .spinraza-header .container div:nth-child(2) {
+        width: 37.333333%
+    }
+    header .spinraza-header .container div:nth-child(3),
+    header .spinraza-header .container div:nth-child(4),
+    header .spinraza-header .container div:nth-child(5) {
+        width: 29.333333%
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1150px) {
+    header .spinraza-header .container {
+        padding: 27px 60px 30px
+    }
+}
+
+.siteMapFooter-links .first ul li:last-child {
+    font-style: italic
+}
+
+#footer {
+    margin-top: 3px;
+    border-bottom: none;
+    padding: 0px
+}
+
+#footer h1 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important
+}
+
+#footer .wrapper {
+    -webkit-border-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/border-multicolor.png) 50 round !important;
+    -o-border-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/border-multicolor.png) 50 round !important;
+    -moz-border-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/border-multicolor.png) 50 round !important;
+    border-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/border-multicolor.png) 50 round !important;
+    border-top: 7px solid transparent;
+    max-width: 1280px;
+    padding: 62px 128px 41px;
+    background-color: #ebebeb
+}
+
+#footer .wrapper .siteMapFooter-links {
+    padding: 0px 0px 41px 0px;
+    border-top: 0px;
+    border-bottom: 2px solid #ffffff
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn {
+    height: auto;
+    border-right: 0px;
+    width: 20%;
+    padding: 0 4%
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn h2 {
+    font-size: 13px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #028ca6;
+    font-weight: 600;
+    font-family: 'Avenir Next Cyr W00 Regular' !important
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn ul {
+    margin-top: 12px
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn ul li {
+    padding: 0px 0px;
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 12px;
+    margin: 10px 0
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn ul li a {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 12px;
+    text-decoration: none !important
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(4) ul li:nth-child(3) a {
+    font-size: 13px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #028ca6;
+    font-weight: 600 !important;
+    font-family: 'Avenir Next Cyr W00 Regular' !important;
+    font-style: normal !important;
+    display: block;
+    margin-top: 20px
+}
+
+#footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(5) ul li:nth-child(4) a {
+    font-size: 13px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #028ca6;
+    font-weight: 600;
+    font-family: 'Avenir Next Cyr W00 Regular' !important;
+    font-style: normal !important;
+    display: block;
+    margin-top: 20px
+}
+
+#footer .wrapper .footer-links-container {
+    position: relative;
+    padding: 0px 10px
+}
+
+#footer .wrapper .footer-links-container p {
+    padding-left: 0px
+}
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+    margin-top: 95px
+}
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li {
+    font-size: 12px;
+    padding: 1px 15px
+}
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li a {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #028ca6;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li:first-child {
+    padding-left: 0px
+}
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li:last-child {
+    border-right: none
+}
+
+#footer .wrapper .footer-links-container .desktop-disclaimer {
+    margin-top: 148px
+}
+
+#footer .wrapper .footer-links-container .desktop-disclaimer p {
+    padding: 0px
+}
+
+#footer .wrapper .footer-links-container .desktop-disclaimer p .footer-info {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    line-height: 14px
+}
+
+#footer .wrapper .footer-links-container .logo-biogen a {
+    position: absolute;
+    display: block;
+    top: 27px;
+    max-width: 100%
+}
+
+#footer .wrapper .footer-links-container .logo-biogen a:first-child {
+    left: 0px;
+    padding-left: 10px
+}
+
+#footer .wrapper .footer-links-container .logo-biogen a:first-child+a {
+    right: 0px;
+    padding-right: 10px
+}
+
+#footer .wrapper .footer-links-container .logo-biogen .logo-biogen2 {
+    width: 65%
+}
+
+#footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    width: 45%
+}
+
+#footer .back-to-top {
+    bottom: 80px;
+    right: 20px
+}
+
+#footer .back-to-top a {
+    margin-left: -90px;
+    max-width: 50px
+}
+
+#footer .back-to-top .icon-span.glyphicon.glyphicon-chevron-up {
+    background: none;
+    margin: 0px;
+    width: 22px
+}
+
+#footer .back-to-top .icon-span.glyphicon.glyphicon-chevron-up:before {
+    content: "";
+    display: block;
+    background-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/arrow-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 58px;
+    height: 53px
+}
+
+@media screen and (max-width: 360px) {
+    #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+        padding: 0 8px 0 8px !important
+    }
+    #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li:last-child {
+        padding-right: 0px !important
+    }
+    #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li:first-child {
+        padding-left: 0px !important
+    }
+}
+
+.patientRegistration .part-one-div,
+.patientRegistration .part-two-div,
+.patientRegistration .account-found-div,
+.hcpregistration .part-one-div,
+.hcpregistration .part-two-div,
+.hcpregistration .account-found-div {
+    margin: 20px 0 50px
+}
+
+.patientRegistration .part-one-div p,
+.patientRegistration .part-two-div p,
+.patientRegistration .account-found-div p,
+.hcpregistration .part-one-div p,
+.hcpregistration .part-two-div p,
+.hcpregistration .account-found-div p {
+    font-size: 12px
+}
+
+.patientRegistration .part-one-div p.form-inline-text,
+.patientRegistration .part-two-div p.form-inline-text,
+.patientRegistration .account-found-div p.form-inline-text,
+.hcpregistration .part-one-div p.form-inline-text,
+.hcpregistration .part-two-div p.form-inline-text,
+.hcpregistration .account-found-div p.form-inline-text {
+    font-size: 15px
+}
+
+.patientRegistration .part-two-div .form-header h3,
+.hcpregistration .part-two-div .form-header h3 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 40px
+}
+
+.patientRegistration .form-header,
+.hcpregistration .form-header {
+    margin-bottom: 0;
+    max-width: 100%
+}
+
+.patientRegistration .form-header h3,
+.hcpregistration .form-header h3 {
+    margin-bottom: 10px;
+    text-transform: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042;
+    float: left
+}
+
+.patientRegistration .form-header .form-subtitle,
+.hcpregistration .form-header .form-subtitle {
+    float: right;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-top: 0px !important
+}
+
+.patientRegistration .form-header:before,
+.patientRegistration .form-header:after,
+.hcpregistration .form-header:before,
+.hcpregistration .form-header:after {
+    display: table;
+    content: " ";
+    clear: both
+}
+
+.patientRegistration .register-subtitle,
+.hcpregistration .register-subtitle {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+    font-weight: 400;
+    clear: both
+}
+
+.patientRegistration .form-inline-text,
+.hcpregistration .form-inline-text {
+    width: 170px
+}
+
+.patientRegistration #patientRegistrationForm,
+.hcpregistration #patientRegistrationForm {
+    margin-top: 0
+}
+
+.patientRegistration #patientRegistrationForm .checkbox-group input,
+.hcpregistration #patientRegistrationForm .checkbox-group input {
+    margin-top: 2px
+}
+
+.patientRegistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date,
+.hcpregistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date {
+    width: auto;
+    vertical-align: top
+}
+
+.patientRegistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date .select-dropdown,
+.hcpregistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date .select-dropdown {
+    width: 250px
+}
+
+.patientRegistration #patientRegistrationForm select#hospitalaffiationlist,
+.hcpregistration #patientRegistrationForm select#hospitalaffiationlist {
+    text-transform: uppercase;
+    width: 400px
+}
+
+.patientRegistration #patientRegistrationForm .form-group label[for*="hospitalaffiation"]+div.dropdown,
+.hcpregistration #patientRegistrationForm .form-group label[for*="hospitalaffiation"]+div.dropdown {
+    width: 400px
+}
+
+.patientRegistration #patientRegistrationForm .checkbox-group label,
+.patientRegistration #patientRegistrationForm .form-group.checkbox-group label,
+.hcpregistration #patientRegistrationForm .checkbox-group label,
+.hcpregistration #patientRegistrationForm .form-group.checkbox-group label {
+    vertical-align: sub;
+    display: inline
+}
+
+.patientRegistration #patientRegistrationForm select#approximate_dateofdiagnosis_year,
+.hcpregistration #patientRegistrationForm select#approximate_dateofdiagnosis_year {
+    width: 250px
+}
+
+.patientRegistration #patientRegistrationForm .checkbox-group label[for="remember_me"],
+.hcpregistration #patientRegistrationForm .checkbox-group label[for="remember_me"] {
+    font-weight: 400
+}
+
+.patientRegistration #patientRegistrationForm .form-group .sma-edit-date .dropdown,
+.hcpregistration #patientRegistrationForm .form-group .sma-edit-date .dropdown {
+    width: auto;
+    vertical-align: top
+}
+
+.patientRegistration #patientRegistrationForm .form-options,
+.hcpregistration #patientRegistrationForm .form-options {
+    margin-left: 0;
+    margin-bottom: 15px
+}
+
+.patientRegistration #patientRegistrationForm .form-options a,
+.hcpregistration #patientRegistrationForm .form-options a {
+    float: right;
+    display: block;
+    padding-top: 5px;
+    font-weight: 700
+}
+
+.patientRegistration #patientRegistrationForm .form-group,
+.hcpregistration #patientRegistrationForm .form-group {
+    margin-top: 0 !important;
+    margin-bottom: 40px
+}
+
+.patientRegistration #patientRegistrationForm p,
+.hcpregistration #patientRegistrationForm p {
+    line-height: 16px !important
+}
+
+.patientRegistration #patientRegistrationForm label.error,
+.hcpregistration #patientRegistrationForm label.error {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #e45c58 !important
+}
+
+.patientRegistration #patientRegistrationForm .form-group label,
+.hcpregistration #patientRegistrationForm .form-group label {
+    display: block;
+    width: 90% !important;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 20px
+}
+
+.patientRegistration #patientRegistrationForm .form-group label span,
+.hcpregistration #patientRegistrationForm .form-group label span {
+    color: #58595b;
+    float: left
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown,
+.hcpregistration #patientRegistrationForm .form-group .dropdown {
+    position: relative;
+    display: block
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown,
+.patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+.patientRegistration #patientRegistrationForm .form-group input,
+.patientRegistration #patientRegistrationForm .form-group .dropdown input,
+.hcpregistration #patientRegistrationForm .form-group .dropdown,
+.hcpregistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+.hcpregistration #patientRegistrationForm .form-group input,
+.hcpregistration #patientRegistrationForm .form-group .dropdown input {
+    width: 325px
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown:focus,
+.patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown:focus,
+.patientRegistration #patientRegistrationForm .form-group input:focus,
+.hcpregistration #patientRegistrationForm .form-group .dropdown:focus,
+.hcpregistration #patientRegistrationForm .form-group .dropdown select.select-dropdown:focus,
+.hcpregistration #patientRegistrationForm .form-group input:focus {
+    outline: none
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+.patientRegistration #patientRegistrationForm .form-group input,
+.hcpregistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+.hcpregistration #patientRegistrationForm .form-group input {
+    border: none;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    display: block;
+    box-shadow: none;
+    background-color: #ffffff
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown:after,
+.hcpregistration #patientRegistrationForm .form-group .dropdown:after {
+    content: "\203A";
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #e45c58;
+    font-size: 35px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    pointer-events: none
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+.hcpregistration #patientRegistrationForm .form-group .dropdown select.select-dropdown {
+    background: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    padding-right: 38px
+}
+
+.patientRegistration #patientRegistrationForm .form-group select.select-dropdown::-ms-expand,
+.hcpregistration #patientRegistrationForm .form-group select.select-dropdown::-ms-expand {
+    display: none
+}
+
+.patientRegistration #patientRegistrationForm .form-group input.checkbox,
+.hcpregistration #patientRegistrationForm .form-group input.checkbox {
+    margin-top: 0
+}
+
+.patientRegistration #patientRegistrationForm .form-group input.error,
+.patientRegistration #patientRegistrationForm .form-group select.error,
+.patientRegistration #patientRegistrationForm .form-group textarea.error,
+.hcpregistration #patientRegistrationForm .form-group input.error,
+.hcpregistration #patientRegistrationForm .form-group select.error,
+.hcpregistration #patientRegistrationForm .form-group textarea.error {
+    border: 2px solid red !important
+}
+
+.patientRegistration #patientRegistrationForm .form-group label.error,
+.hcpregistration #patientRegistrationForm .form-group label.error {
+    margin-left: 0
+}
+
+.patientRegistration #patientRegistrationForm .form-group #combo-box,
+.hcpregistration #patientRegistrationForm .form-group #combo-box {
+    left: auto;
+    right: 2px;
+    width: 15px;
+    height: 20px;
+    top: 2px
+}
+
+.patientRegistration #patientRegistrationForm .form-group .dropdown-menu.state-field,
+.hcpregistration #patientRegistrationForm .form-group .dropdown-menu.state-field {
+    max-height: 200px;
+    overflow: auto;
+    width: 100%
+}
+
+.patientRegistration #patientRegistrationForm .form-group.checkbox-group input#optin1,
+.hcpregistration #patientRegistrationForm .form-group.checkbox-group input#optin1 {
+    top: 0px
+}
+
+.patientRegistration #patientRegistrationForm .follow-up .form-group .dropdown,
+.hcpregistration #patientRegistrationForm .follow-up .form-group .dropdown {
+    margin-bottom: 10px
+}
+
+.patientRegistration #patientRegistrationForm button.btn-submit-patient-registration,
+.hcpregistration #patientRegistrationForm button.btn-submit-patient-registration {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53
+}
+
+.patientRegistration #patientRegistrationForm button.btn-submit-patient-registration:focus,
+.hcpregistration #patientRegistrationForm button.btn-submit-patient-registration:focus {
+    outline: none
+}
+
+.patientRegistration #patientRegistrationForm button.btn-submit-patient-registration:after,
+.hcpregistration #patientRegistrationForm button.btn-submit-patient-registration:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.patientRegistration #patientRegistrationForm .form-group.checkbox-group input[type='checkbox'],
+.hcpregistration #patientRegistrationForm .form-group.checkbox-group input[type='checkbox'] {
+    height: 29px;
+    background: none
+}
+
+.patientRegistration .hospital-affiliated-list,
+.hcpregistration .hospital-affiliated-list {
+    display: block !important
+}
+
+.content .well {
+    background: none;
+    border: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 10px
+}
+
+.thank-you-page-button {
+    background: #ef3d33;
+    border: 1px solid #ef3d33 !important;
+    color: #fff !important;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 6px 15px;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Avenir Next Cyr W00 Regular", sans-serif, Arial, sans-serif
+}
+
+.thank-you-page-button:focus {
+    outline: none
+}
+
+.sma-hcpregistration {
+    padding: 0 159px;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+.sma-hcpregistration fieldset .form-group:nth-child(5) {
+    display: block !important
+}
+
+.sma-hcpregistration .hospital-affiliated-list {
+    display: block !important
+}
+
+.sma-hcpregistration fieldset .form-group:nth-child(7) {
+    display: none !important
+}
+
+.sma-hcpregistration #register-div .compressed-form fieldset {
+    margin-top: 0
+}
+
+.sma-hcpregistration .compressed-form {
+    padding-left: 0
+}
+
+.sma-hcpregistration .compressed-form p.required {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #e45c58;
+    margin-top: 0
+}
+
+.sma-hcpregistration .compressed-form .form-group {
+    max-width: none
+}
+
+.sma-hcpregistration .compressed-form .form-group label {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #028ca6
+}
+
+.sma-hcpregistration .compressed-form .form-group label span.required {
+    float: left;
+    color: #e45c58
+}
+
+.sma-hcpregistration .compressed-form .form-group label.error {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #e45c58
+}
+
+.sma-hcpregistration .compressed-form .form-group .form-control {
+    height: 50px;
+    width: 340px;
+    margin-left: 0;
+    border-radius: 0;
+    border: 2px solid #c7c7c7;
+    outline: none !important;
+    box-shadow: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b
+}
+
+.sma-hcpregistration .compressed-form .form-group .form-control.error {
+    border: 2px solid #e45c58
+}
+
+.sma-hcpregistration .compressed-form .form-group .form-control#no-of-childern {
+    background: url(../images/icons/isi-arrow-down.png) no-repeat;
+    background-position: 95% 50%;
+    background-size: 20px;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+.sma-hcpregistration .compressed-form .form-group .form-control#no-of-childern::-ms-expand {
+    display: none
+}
+
+.sma-hcpregistration .compressed-form .form-group .register-check .form-control.error {
+    margin-right: 20px
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group .checkbox {
+    max-width: none
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group label {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group label#agree-error {
+    display: none !important
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group label a {
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700 !important;
+    color: #028ca6;
+    text-decoration: underline !important
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group label input {
+    position: relative;
+    bottom: 0
+}
+
+.sma-hcpregistration .compressed-form .form-group.agree-checkbox-group label .redAsterisk {
+    color: #ef3d33
+}
+
+.sma-hcpregistration .compressed-form .lowerTextSize {
+    font-size: 12px;
+    line-height: 18px
+}
+
+.sma-hcpregistration .compressed-form button {
+    width: auto;
+    border-radius: 0;
+    font-family: "vag-rundschrift-d", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    line-height: 16px;
+    margin: 0;
+    display: inline-block;
+    background-color: #a5d9d0;
+    text-decoration: none !important;
+    border: 0;
+    border-bottom: 8px solid #223868;
+    padding: 15px 52px 29px 20px;
+    position: relative;
+    outline: none !important;
+    box-shadow: none
+}
+
+.sma-hcpregistration .compressed-form button::after {
+    content: url("/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png");
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+.shadow-below {
+    padding: 0;
+    margin: 0;
+    min-height: 0
+}
+
+.shadow-below:after {
+    content: none
+}
+
+.signin p.required.sign-in,
+.smacgsignin p.required.sign-in {
+    float: right;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b
+}
+
+.signin form.compressed-form,
+.smacgsignin form.compressed-form {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.signin form.compressed-form .form-group,
+.smacgsignin form.compressed-form .form-group {
+    margin-bottom: 40px
+}
+
+.signin form.compressed-form .form-group label,
+.smacgsignin form.compressed-form .form-group label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    width: 90% !important;
+    margin-bottom: 20px
+}
+
+.signin form.compressed-form .form-group label span,
+.smacgsignin form.compressed-form .form-group label span {
+    color: #58595b;
+    float: left
+}
+
+.signin form.compressed-form .form-group label.error,
+.smacgsignin form.compressed-form .form-group label.error {
+    color: red
+}
+
+.signin form.compressed-form .form-group input.error,
+.smacgsignin form.compressed-form .form-group input.error {
+    border: 2px solid red
+}
+
+.signin form.compressed-form .form-group input.form-control,
+.smacgsignin form.compressed-form .form-group input.form-control {
+    background: #ffffff;
+    border: 0;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    display: block;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    width: 325px
+}
+
+.signin form.compressed-form .form-group input.form-control:focus,
+.smacgsignin form.compressed-form .form-group input.form-control:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.signin form.compressed-form .form-group .help-block,
+.smacgsignin form.compressed-form .form-group .help-block {
+    float: right;
+    display: block;
+    padding-top: 37px;
+    font-weight: 700;
+    margin: 0
+}
+
+.signin form.compressed-form .checkbox,
+.smacgsignin form.compressed-form .checkbox {
+    display: inline-block;
+    margin: 0
+}
+
+.signin form.compressed-form .checkbox label,
+.smacgsignin form.compressed-form .checkbox label {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 1.1
+}
+
+.signin form.compressed-form .checkbox input,
+.smacgsignin form.compressed-form .checkbox input {
+    top: 0
+}
+
+.signin form.compressed-form h2,
+.smacgsignin form.compressed-form h2 {
+    margin-top: 10px
+}
+
+.signin form.compressed-form p.notMember,
+.smacgsignin form.compressed-form p.notMember {
+    margin: 25px 0
+}
+
+.signin form.compressed-form p button.btn,
+.smacgsignin form.compressed-form p button.btn {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    border-radius: 0;
+    color: #223867 !important
+}
+
+.signin form.compressed-form p button.btn:focus,
+.smacgsignin form.compressed-form p button.btn:focus {
+    outline: none
+}
+
+.signin form.compressed-form p button.btn:after,
+.smacgsignin form.compressed-form p button.btn:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.signin form.compressed-form p a.signInButton,
+.smacgsignin form.compressed-form p a.signInButton {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53
+}
+
+.signin form.compressed-form p a.signInButton:focus,
+.smacgsignin form.compressed-form p a.signInButton:focus {
+    outline: none
+}
+
+.signin form.compressed-form p a.signInButton:after,
+.smacgsignin form.compressed-form p a.signInButton:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+#forgot-password p.required.forgotpassword-required {
+    float: right;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b
+}
+
+#forgot-password .shadow-below {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    background: transparent
+}
+
+#forgot-password form.compressed-form {
+    margin-left: 0;
+    padding-left: 0
+}
+
+#forgot-password form.compressed-form .form-group {
+    margin-bottom: 40px
+}
+
+#forgot-password form.compressed-form .form-group label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 20px
+}
+
+#forgot-password form.compressed-form .form-group label span.required {
+    color: #58595b;
+    float: left
+}
+
+#forgot-password form.compressed-form .form-group label.error {
+    color: red
+}
+
+#forgot-password form.compressed-form .form-group input.error {
+    border: 2px solid red
+}
+
+#forgot-password form.compressed-form .form-group input.form-control {
+    border: 0;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    display: block;
+    border: none;
+    box-shadow: none;
+    width: 325px;
+    margin-left: 0;
+    border-radius: 0
+}
+
+#forgot-password form.compressed-form .form-group input.form-control:focus {
+    outline: none;
+    box-shadow: none
+}
+
+#forgot-password form.compressed-form p button.btn {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    border-radius: 0;
+    color: #223867 !important
+}
+
+#forgot-password form.compressed-form p button.btn:focus {
+    outline: none
+}
+
+#forgot-password form.compressed-form p button.btn:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.changepassword form.compressed-form {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.changepassword form.compressed-form .form-group {
+    margin-bottom: 40px
+}
+
+.changepassword form.compressed-form .form-group label {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 20px
+}
+
+.changepassword form.compressed-form .form-group label span.required {
+    color: #58595b;
+    float: left
+}
+
+.changepassword form.compressed-form .form-group label.error {
+    color: red
+}
+
+.changepassword form.compressed-form .form-group input.error {
+    border: 2px solid red
+}
+
+.changepassword form.compressed-form .form-group input.form-control {
+    border: 0;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    display: block;
+    border: none;
+    box-shadow: none;
+    width: 325px;
+    margin-left: 0;
+    border-radius: 0
+}
+
+.changepassword form.compressed-form .form-group input.form-control:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.changepassword form.compressed-form p button.btn {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    border-radius: 0;
+    color: #223867 !important
+}
+
+.changepassword form.compressed-form p button.btn:focus {
+    outline: none
+}
+
+.changepassword form.compressed-form p button.btn:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.page_profile .form-header {
+    margin-bottom: 0;
+    max-width: 100%
+}
+
+.page_profile .form-header .form-subtitle {
+    float: right;
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b
+}
+
+body #myProfileForm .form-group.multi-column-checkbox-group label {
+    width: 100% !important
+}
+
+.unsubscribe-page .form-divider {
+    background: none !important;
+    margin-bottom: 0px
+}
+
+@-moz-document url-prefix() {
+    #myProfileForm .form-group .dropdown select.select-dropdown {
+        background-image: url(../images/form/select_caret_background.png) !important;
+        background-color: #e4f6f7 !important;
+        padding: 0 15px !important;
+        height: 45px !important;
+        display: block !important;
+        width: 325px !important
+    }
+    #myProfileForm button.btn-submit-event-registration {
+        background: transparent url(/content/dam/commercial/specialty/spinraza/caregiver/en_us/images/form/button.png) no-repeat !important;
+        background-size: 100% 100% !important;
+        float: left !important;
+        margin-left: 0 !important
+    }
+}
+
+#myProfileForm .form-header {
+    max-width: none
+}
+
+#myProfileForm p {
+    line-height: 20px !important;
+    margin-top: 0;
+    color: #58595b
+}
+
+#myProfileForm label.error {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #e45c58 !important
+}
+
+#myProfileForm .form-group {
+    margin-bottom: 40px
+}
+
+#myProfileForm .form-group label {
+    display: block !important;
+    width: 90% !important;
+    text-align: left !important;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 20px;
+    float: none !important;
+    margin-right: 0 !important
+}
+
+#myProfileForm .form-group label span {
+    color: #58595b;
+    float: left
+}
+
+#myProfileForm .form-group .dropdown {
+    position: relative;
+    display: inline-block !important
+}
+
+#myProfileForm .form-group .dropdown select.select-dropdown {
+    padding-left: 7px !important
+}
+
+#myProfileForm .form-group .dropdown,
+#myProfileForm .form-group .dropdown select.select-dropdown,
+#myProfileForm .form-group input,
+#myProfileForm .form-group .dropdown input,
+#myProfileForm .form-group input#city-input {
+    width: auto
+}
+
+#myProfileForm .form-group .dropdown:focus,
+#myProfileForm .form-group .dropdown select.select-dropdown:focus,
+#myProfileForm .form-group input:focus {
+    outline: none
+}
+
+#myProfileForm .form-group .dropdown select.select-dropdown,
+#myProfileForm .form-group input {
+    border: none;
+    padding: 0 15px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    display: block;
+    box-shadow: none;
+    width: 325px;
+    margin-left: 0;
+    border-radius: 0;
+    width: 325px !important
+}
+
+#myProfileForm .form-group .dropdown select.select-dropdown:focus,
+#myProfileForm .form-group input:focus {
+    outline: none;
+    box-shadow: none
+}
+
+#myProfileForm .form-group .dropdown:after {
+    content: "\203A";
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #e45c58;
+    font-size: 35px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    pointer-events: none
+}
+
+#myProfileForm .form-group .dropdown select.select-dropdown {
+    background: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    padding-right: 38px
+}
+
+#myProfileForm .form-group select.select-dropdown::-ms-expand {
+    display: none
+}
+
+#myProfileForm .form-group select#editprofhospitalist {
+    text-transform: uppercase
+}
+
+#myProfileForm .form-group input.checkbox {
+    margin-top: 0;
+    max-width: 13px
+}
+
+#myProfileForm .form-group input.error,
+#myProfileForm .form-group select.error,
+#myProfileForm .form-group textarea.error {
+    border-radius: 6px;
+    border: 2px solid #e45c58 !important
+}
+
+#myProfileForm .form-group label.error {
+    margin-left: 0 !important
+}
+
+#myProfileForm .form-group #combo-box {
+    left: auto;
+    right: 2px;
+    width: 15px;
+    height: 20px;
+    top: 2px
+}
+
+#myProfileForm .form-group .sma-date {
+    width: auto !important;
+    vertical-align: top
+}
+
+#myProfileForm .form-group .sma-date select.select-dropdown {
+    width: 250px !important
+}
+
+#myProfileForm .checkbox-group {
+    padding-left: 0 !important
+}
+
+#myProfileForm button.btn-submit-event-registration {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53
+}
+
+#myProfileForm button.btn-submit-event-registration:focus {
+    outline: none
+}
+
+#myProfileForm button.btn-submit-event-registration:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+#search_result ol li a {
+    font-weight: 700
+}
+
+.search.section .search-results-form {
+    margin: 0 0 20px
+}
+
+.search.section .search-results-form .form-group .input-wrap {
+    max-width: 95%
+}
+
+.search.section .search-results-form .form-group .input-wrap input.form-control:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.search.section .search-results-form .form-group .input-wrap .glyphicon-remove-circle.clear-search {
+    top: 3px
+}
+
+.search.section .search-results-form .form-group button.btn-default {
+    color: #fff !important;
+    border: 1px solid #e45c58 !important;
+    border-radius: 10px !important;
+    font-weight: 700;
+    padding: 0px 15px;
+    background: #fff !important;
+    width: auto;
+    margin: 15px 0 0 !important;
+    float: left !important;
+    height: auto;
+    font-family: "Avenir Next Cyr W00 Regular", sans-serif, Arial, sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    margin-top: 0 !important
+}
+
+.search.section .search-results-form .form-group button.btn-default:focus {
+    outline: none;
+    box-shadow: none
+}
+
+.page_preferences .columncontrol.section {
+    padding: 0
+}
+
+.page_preferences .columncontrol.section>.row>.col.col-xs-12.col-sm-4.col-md-4 {
+    padding-left: 0
+}
+
+.page_preferences .columncontrol.section>.row>.col.col-xs-12.col-sm-8.col-md-8 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.mypreferences .my-preferences-container .my-preferences-header {
+    background: #028ca6
+}
+
+.mypreferences .my-preferences-container .my-preferences-header h4 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff
+}
+
+.mypreferences .my-preferences-container .my-preferences-body {
+    background: #a5d9d0;
+    min-height: 150px
+}
+
+.mypreferences .my-preferences-container .my-preferences-body p {
+    font-size: 18px
+}
+
+.mypreferences .my-preferences-container .my-preferences-body a.userNavButton {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    display: inline-block;
+    padding-top: 15px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.mypreferences .my-preferences-container .my-preferences-body a.userNavButton:focus {
+    outline: none
+}
+
+.mypreferences .my-preferences-container .my-preferences-body a.userNavButton:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: bottom
+}
+
+.myevents .events-accordion-container .events-header {
+    background: #028ca6
+}
+
+.myevents .events-accordion-container .events-header h4 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff
+}
+
+.myevents .events-accordion-container .events-accordion {
+    background: #a5d9d0;
+    border: none;
+    min-height: 150px
+}
+
+.myevents .events-accordion-container .events-accordion p {
+    font-size: 18px;
+    color: #58595b
+}
+
+.myevents .events-accordion-container .events-accordion a.no-events {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    display: inline-block;
+    padding-top: 15px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.myevents .events-accordion-container .events-accordion a.no-events:focus {
+    outline: none
+}
+
+.myevents .events-accordion-container .events-accordion a.no-events:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: bottom
+}
+
+.brandregistration #validate-email>legend {
+    font-size: 18px;
+    font-family: "avenir", Arial !important;
+    color: #58595b
+}
+
+.brandregistration .compressed-form {
+    padding-left: 0
+}
+
+.brandregistration .compressed-form label {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b
+}
+
+.brandregistration .compressed-form .form-group .form-control {
+    width: 400px !important;
+    margin-left: 0
+}
+
+.brandregistration .compressed-form .form-group .form-control:focus {
+    box-shadow: none;
+    border-color: #ccc
+}
+
+.brandregistration .compressed-form .form-group .help-block a {
+    font-size: 18px
+}
+
+.brandregistration .compressed-form .form-group label.error {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #e45c58
+}
+
+.brandregistration .compressed-form .form-group input.error.form-control {
+    border: 2px solid red !important
+}
+
+.brandregistration .compressed-form button,
+.brandregistration .compressed-form button:hover,
+.brandregistration .compressed-form button:focus,
+.brandregistration .compressed-form button:active {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    border: 1px solid #e56045 !important;
+    border-radius: 10px;
+    padding: 6px 15px;
+    background: #e56045;
+    height: 36px;
+    display: block !important;
+    text-transform: none;
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    margin: 10px 0 0;
+    outline: none;
+    box-shadow: none
+}
+
+.brandregistration #login-div .compressed-form .form-group {
+    margin-top: 0
+}
+
+.brandregistration span.required {
+    float: left
+}
+
+.brandregistration #register-div .compressed-form fieldset {
+    margin-top: 0
+}
+
+.brandregistration #register-div .compressed-form fieldset input+.form-group {
+    margin-top: 0 !important
+}
+
+.brandregistration #register-div .compressed-form fieldset #npi-toggle {
+    display: block !important
+}
+
+.ie11 #edit-profile .compressed-form .form-group select.form-control,
+.ie11 .brandregistration .compressed-form .form-group select.form-control,
+.ie10 #edit-profile .compressed-form .form-group select.form-control,
+.ie10 .brandregistration .compressed-form .form-group select.form-control {
+    padding-right: 0 !important
+}
+
+#edit-profile .compressed-form,
+#edit-profile+div .compressed-form {
+    padding-left: 0
+}
+
+#edit-profile .compressed-form fieldset>legend,
+#edit-profile+div .compressed-form fieldset>legend {
+    font-size: 18px;
+    font-family: "avenir", Arial !important;
+    color: #58595b
+}
+
+#edit-profile .compressed-form label,
+#edit-profile+div .compressed-form label {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b
+}
+
+#edit-profile .compressed-form .form-group .form-control,
+#edit-profile+div .compressed-form .form-group .form-control {
+    width: 400px !important;
+    margin-left: 0
+}
+
+#edit-profile .compressed-form .form-group .form-control:focus,
+#edit-profile+div .compressed-form .form-group .form-control:focus {
+    box-shadow: none;
+    border-color: #ccc
+}
+
+#edit-profile .compressed-form .form-group .help-block a,
+#edit-profile+div .compressed-form .form-group .help-block a {
+    font-size: 18px
+}
+
+#edit-profile .compressed-form .form-group label.error,
+#edit-profile+div .compressed-form .form-group label.error {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: red
+}
+
+#edit-profile .compressed-form .form-group input.error.form-control,
+#edit-profile+div .compressed-form .form-group input.error.form-control {
+    border: 2px solid red !important
+}
+
+#edit-profile .compressed-form button,
+#edit-profile .compressed-form button:hover,
+#edit-profile .compressed-form button:focus,
+#edit-profile .compressed-form button:active,
+#edit-profile+div .compressed-form button,
+#edit-profile+div .compressed-form button:hover,
+#edit-profile+div .compressed-form button:focus,
+#edit-profile+div .compressed-form button:active {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    border: 1px solid #e56045 !important;
+    border-radius: 10px;
+    padding: 6px 15px;
+    background: #e56045;
+    height: 36px;
+    display: block !important;
+    text-transform: none;
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    margin: 10px 0 0;
+    outline: none;
+    box-shadow: none;
+    float: left !important
+}
+
+#edit-profile span.required,
+#edit-profile+div span.required {
+    float: left
+}
+
+.event_margin {
+    margin-top: 30px;
+    display: block
+}
+
+.eventlocator .col {
+    padding: 0px
+}
+
+.eventlocator #event-locator-form #zip_code {
+    max-height: 29px
+}
+
+.eventlocator #event-locator-form .highlighterPlug {
+    color: #e45c58
+}
+
+.eventlocator #event-locator-form .btn-locate-event {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding: 3px 15px;
+    border-radius: 10px;
+    background: #e45c58;
+    text-decoration: none;
+    border: none !important
+}
+
+.eventlocator #event-locator-form label.error {
+    font-size: 12px
+}
+
+.eventlocator #event-locator-form .select-dropdown {
+    padding: 0px
+}
+
+.eventregistration .col {
+    padding: 0px
+}
+
+.eventregistration .col .form-header {
+    max-width: inherit
+}
+
+.eventregistration .col .form-header ul {
+    margin-bottom: 40px
+}
+
+.eventregistration .col .form-header a.btn {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none !important;
+    float: left;
+    margin-right: 100px
+}
+
+#eventRegistrationForm {
+    margin-right: 0px !important
+}
+
+#eventRegistrationForm #agree-error {
+    font-weight: 400
+}
+
+#eventRegistrationForm .form-group label.error {
+    color: red
+}
+
+#eventRegistrationForm .form-group label {
+    font-family: "avenir", Arial;
+    font-size: 18px;
+    font-weight: 400;
+    color: #574319;
+    display: block !important;
+    text-align: left !important;
+    width: 90% !important
+}
+
+#eventRegistrationForm .form-group label span {
+    color: red;
+    float: left
+}
+
+#eventRegistrationForm .form-group label[for="mssource"] {
+    color: red;
+    max-width: 288px
+}
+
+#eventRegistrationForm .form-group label[for="mssource"] span {
+    width: 97%;
+    float: right;
+    margin-right: 0px
+}
+
+#eventRegistrationForm .form-group .dropdown,
+#eventRegistrationForm .form-group .dropdown select.select-dropdown,
+#eventRegistrationForm .form-group input,
+#eventRegistrationForm .form-group .dropdown input,
+#eventRegistrationForm .form-group input#city-input {
+    width: auto
+}
+
+#eventRegistrationForm .form-group .dropdown:focus,
+#eventRegistrationForm .form-group .dropdown select.select-dropdown:focus,
+#eventRegistrationForm .form-group input:focus {
+    outline: none
+}
+
+#eventRegistrationForm .form-group .dropdown select.select-dropdown,
+#eventRegistrationForm .form-group input {
+    border-radius: 6px !important;
+    padding: 0 12px;
+    height: 45px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #555;
+    display: block;
+    border: none;
+    box-shadow: none
+}
+
+#eventRegistrationForm .form-group .dropdown select.select-dropdown {
+    background: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    padding-right: 38px
+}
+
+#eventRegistrationForm .form-group select.select-dropdown::-ms-expand {
+    display: none
+}
+
+#eventRegistrationForm .form-group input.checkbox {
+    margin-top: 0;
+    max-width: 13px
+}
+
+#eventRegistrationForm .form-group input.error,
+#eventRegistrationForm .form-group select.error,
+#eventRegistrationForm .form-group textarea.error {
+    border-radius: 6px;
+    border: 2px solid red !important
+}
+
+#eventRegistrationForm .form-group label.error {
+    margin-left: 0 !important
+}
+
+#eventRegistrationForm .form-group #combo-box {
+    left: auto;
+    right: 2px;
+    width: 15px;
+    height: 20px;
+    top: 2px
+}
+
+#eventRegistrationForm #event-register-form {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none !important
+}
+
+.event-confirmation-btn {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none !important;
+    width: auto;
+    height: auto;
+    float: left
+}
+
+.event-confirmation-btn a {
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #fff !important;
+    text-decoration: none;
+    border: none !important
+}
+
+.page_unsubscribe .page-header-generic .wrapper {
+    background-color: #a5d9d0
+}
+
+.page_unsubscribe .content .wrapper {
+    margin-top: 40px
+}
+
+.page_unsubscribe .content .wrapper .main>div.title {
+    text-align: center
+}
+
+.page_unsubscribe .content .wrapper .main .sma-hcpunsubscribe {
+    text-align: center
+}
+
+.unsubscribe-page h6 {
+    text-align: center !important
+}
+
+.unsubscribe-page .form-subtitle {
+    font-size: 12px !important;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b !important;
+    line-height: 18px;
+    float: none !important;
+    position: absolute;
+    top: 87px;
+    right: 432px
+}
+
+.unsubscribe-page .form-subtitle:before {
+    content: "*";
+    color: red;
+    display: inline-block
+}
+
+#unsubscribeForm {
+    padding: 0px 477px;
+    margin-top: 30px !important
+}
+
+#unsubscribeForm label.error,
+.unsubscribe-page label.error {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #e45c58 !important
+}
+
+#unsubscribeForm h6,
+.unsubscribe-page h6 {
+    text-align: center !important;
+    display: block !important;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    float: none !important;
+    margin-right: 0 !important
+}
+
+#unsubscribeForm h6 span,
+.unsubscribe-page h6 span {
+    color: #58595b;
+    float: left
+}
+
+#unsubscribeForm .check-box-wrapper label,
+.unsubscribe-page .check-box-wrapper label {
+    font-size: 18px !important;
+    font-weight: 500 !important
+}
+
+#unsubscribeForm .form-group,
+.unsubscribe-page .form-group {
+    margin-bottom: 40px;
+    margin-top: 45px
+}
+
+#unsubscribeForm .form-group label,
+.unsubscribe-page .form-group label {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    margin-bottom: 20px;
+    float: none !important;
+    margin-right: 0 !important
+}
+
+#unsubscribeForm .form-group input,
+.unsubscribe-page .form-group input {
+    height: 50px;
+    width: 340px;
+    margin-left: 0;
+    border-radius: 0;
+    border: 2px solid #c7c7c7;
+    outline: none !important;
+    box-shadow: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #c7c7c7
+}
+
+#unsubscribeForm .form-group input:focus,
+.unsubscribe-page .form-group input:focus {
+    outline: none;
+    box-shadow: none
+}
+
+#unsubscribeForm .form-group input.error,
+#unsubscribeForm .form-group select.error,
+#unsubscribeForm .form-group textarea.error,
+.unsubscribe-page .form-group input.error,
+.unsubscribe-page .form-group select.error,
+.unsubscribe-page .form-group textarea.error {
+    border-radius: 0px;
+    border: 2px solid #e45c58 !important
+}
+
+#unsubscribeForm .form-group label.error,
+.unsubscribe-page .form-group label.error {
+    margin-left: 0 !important;
+    margin-top: 17px
+}
+
+#unsubscribeForm .form-group input.checkbox,
+.unsubscribe-page .form-group input.checkbox {
+    margin-top: 0
+}
+
+#unsubscribeForm .form-group input[type='checkbox'],
+.unsubscribe-page .form-group input[type='checkbox'] {
+    height: 20px;
+    width: 18px !important
+}
+
+#unsubscribeForm .checkbox-group,
+.unsubscribe-page .checkbox-group {
+    padding-left: 0 !important
+}
+
+#unsubscribeForm .check-box-wrapper>p {
+    display: none
+}
+
+.unsubscribe-page #unsubscribeForm #unsub-sub-btn {
+    width: auto;
+    border-radius: 0;
+    font-family: "vag-rundschrift-d", sans-serif !important;
+    color: #223867 !important;
+    font-weight: 700;
+    font-size: 15px !important;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    border-bottom: 8px solid #223867;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    outline: none !important;
+    box-shadow: none;
+    background-color: #a5d9d0
+}
+
+.unsubscribe-page #unsubscribeForm #unsub-sub-btn:focus {
+    outline: none
+}
+
+.unsubscribe-page #unsubscribeForm #unsub-sub-btn:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.page_unsubscribe-confirmation .page-header-generic .wrapper {
+    background-color: #a5d9d0;
+    padding: 121px 205px
+}
+
+.page_unsubscribe-confirmation .content .wrapper .main>div.text {
+    text-align: center !important;
+    margin: 40px 0px !important
+}
+
+.page_unsubscribe-confirmation .content .wrapper .main>div.text p {
+    font-size: 20px
+}
+
+.page_unsubscribe-confirmation .content .wrapper .main>div.text p a {
+    color: #028ca6 !important;
+    font-size: 20px
+}
+
+#editprofhospitalist1 {
+    text-transform: uppercase
+}
+
+#eventRegistrationForm,
+#myProfileForm {
+    margin-right: 0px !important
+}
+
+#myProfileForm .form-group .sma-edit-date .dropdown {
+    vertical-align: top
+}
+
+@media screen and (max-width: 360px) {
+    .unsubscribe-page #unsubscribeForm #unsub-sub-btn {
+        background: #a5d9d0 url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png) no-repeat;
+        background-position: 335px 14px
+    }
+}
+
+.no-touchcapable .main-nav,
+.touchcapable .main-nav,
+.main-nav {
+    margin-bottom: 0px
+}
+
+.no-touchcapable .main-nav .caret,
+.touchcapable .main-nav .caret,
+.main-nav .caret {
+    display: none !important
+}
+
+.no-touchcapable .main-nav .wrapper,
+.touchcapable .main-nav .wrapper,
+.main-nav .wrapper {
+    padding-left: 128px;
+    padding-right: 128px;
+    max-width: 1280px;
+    background: #028ca6;
+    position: relative
+}
+
+.no-touchcapable .main-nav .wrapper>ul,
+.touchcapable .main-nav .wrapper>ul,
+.main-nav .wrapper>ul {
+    position: initial
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li,
+.touchcapable .main-nav .wrapper>ul>li,
+.main-nav .wrapper>ul>li {
+    width: auto;
+    padding: 12px
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li>a,
+.touchcapable .main-nav .wrapper>ul>li>a,
+.main-nav .wrapper>ul>li>a {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #fff;
+    font-weight: 600 !important;
+    line-height: 1;
+    height: auto;
+    background: none !important;
+    text-decoration: none !important
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(4) ul li:nth-child(2) a span,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(4) ul li:nth-child(2) a span,
+.main-nav .wrapper>ul>li:nth-child(4) ul li:nth-child(2) a span {
+    font-style: italic
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul,
+.touchcapable .main-nav .wrapper>ul>li ul,
+.main-nav .wrapper>ul>li ul {
+    background: #fff;
+    top: 42px;
+    padding: 0;
+    z-index: 3;
+    min-height: 39px;
+    box-shadow: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul li,
+.touchcapable .main-nav .wrapper>ul>li ul li,
+.main-nav .wrapper>ul>li ul li {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    border-bottom: none;
+    min-width: 65px;
+    min-height: 10px;
+    padding: 10px 5px
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul li a,
+.no-touchcapable .main-nav .wrapper>ul>li ul li a:active,
+.no-touchcapable .main-nav .wrapper>ul>li ul li a.visited,
+.touchcapable .main-nav .wrapper>ul>li ul li a,
+.touchcapable .main-nav .wrapper>ul>li ul li a:active,
+.touchcapable .main-nav .wrapper>ul>li ul li a.visited,
+.main-nav .wrapper>ul>li ul li a,
+.main-nav .wrapper>ul>li ul li a:active,
+.main-nav .wrapper>ul>li ul li a.visited {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #028ca6;
+    font-weight: 600;
+    padding: 3px 10px;
+    line-height: 1;
+    text-decoration: none;
+    text-align: left
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+.no-touchcapable .main-nav .wrapper>ul>li ul li .on,
+.touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+.touchcapable .main-nav .wrapper>ul>li ul li .on,
+.main-nav .wrapper>ul>li ul li a:hover,
+.main-nav .wrapper>ul>li ul li .on {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868!important;
+    font-weight: 600;
+    padding: 3px 10px;
+    line-height: 1;
+    text-decoration: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul li.level-2.active.over a,
+.touchcapable .main-nav .wrapper>ul>li ul li.level-2.active.over a,
+.main-nav .wrapper>ul>li ul li.level-2.active.over a {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868!important;
+    text-decoration: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+.no-touchcapable .main-nav .wrapper>ul>li:last-child,
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(10),
+.touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+.touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+.touchcapable .main-nav .wrapper>ul>li:last-child,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(10),
+.main-nav .wrapper>ul>li:nth-child(1),
+.main-nav .wrapper>ul>li:nth-child(2),
+.main-nav .wrapper>ul>li:last-child,
+.main-nav .wrapper>ul>li:nth-child(10) {
+    display: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+.no-touchcapable .main-nav .wrapper>ul>li:last-child,
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(11),
+.touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+.touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+.touchcapable .main-nav .wrapper>ul>li:last-child,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(11),
+.main-nav .wrapper>ul>li:nth-child(1),
+.main-nav .wrapper>ul>li:nth-child(2),
+.main-nav .wrapper>ul>li:last-child,
+.main-nav .wrapper>ul>li:nth-child(11) {
+    display: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3),
+.touchcapable .main-nav .wrapper>ul>li:nth-child(3),
+.main-nav .wrapper>ul>li:nth-child(3) {
+    width: 5%
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(3) a,
+.main-nav .wrapper>ul>li:nth-child(3) a {
+    background: url(../images/icons/home-icon.png) no-repeat !important;
+    width: 25px;
+    height: 22px;
+    background-size: cover !important;
+    margin-top: -4px
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a span,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(3) a span,
+.main-nav .wrapper>ul>li:nth-child(3) a span {
+    display: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
+.main-nav .wrapper>ul>li:nth-child(3) a:hover {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #fcdc53!important;
+    font-weight: 600;
+    padding: 3px 10px;
+    line-height: 1
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li a:hover,
+.touchcapable .main-nav .wrapper>ul>li a:hover,
+.main-nav .wrapper>ul>li a:hover {
+    background: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #fcdc53;
+    line-height: 1;
+    transform: none;
+    transition: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li>.on,
+.touchcapable .main-nav .wrapper>ul>li>.on,
+.main-nav .wrapper>ul>li>.on {
+    background: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #fcdc53;
+    line-height: 1;
+    transform: none;
+    transition: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+.touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+.main-nav .wrapper>ul>li ul li a:hover {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li ul>.over,
+.touchcapable .main-nav .wrapper>ul>li ul>.over,
+.main-nav .wrapper>ul>li ul>.over {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li.active>a,
+.touchcapable .main-nav .wrapper>ul>li.active>a,
+.main-nav .wrapper>ul>li.active>a {
+    background: none;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #fcdc53;
+    line-height: 1;
+    transform: none;
+    transition: none
+}
+
+.no-touchcapable .main-nav .wrapper>ul>li.active ul li.active a,
+.touchcapable .main-nav .wrapper>ul>li.active ul li.active a,
+.main-nav .wrapper>ul>li.active ul li.active a {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868
+}
+
+@media screen and (min-width: 992px) {
+    .no-touchcapable .main-nav .wrapper>ul>li.level-1:last-of-type {
+        display: none
+    }
+}
+
+div.isi.isi-inline {
+    padding: 20px 0 0 0 !important
+}
+
+div.isi.isi-inline .wrapper {
+    padding-top: 0
+}
+
+.isi h3,
+.references h3 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042
+}
+
+.isi h2 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6;
+    line-height: 24px;
+    margin: 0px
+}
+
+.isi {
+    padding: 0 !important;
+    margin-top: 0px
+}
+
+.isi .isi-wrapper {
+    margin: 0 auto
+}
+
+.isi .wrapper {
+    max-width: 1280px;
+    padding: 50px 128px 70px
+}
+
+.isi .wrapper h2.isi-header {
+    margin-top: 7px
+}
+
+.isi .wrapper>p {
+    display: none
+}
+
+.isi .wrapper .main-isi p {
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    line-height: 20px
+}
+
+.isi .wrapper .main-isi p b {
+    font-weight: 700;
+    color: #a3e0de;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #58595b
+}
+
+.isi .wrapper .main-isi p span b {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6
+}
+
+.isi .wrapper .main-isi p span b a,
+.isi .wrapper .main-isi p span b a:hover,
+.isi .wrapper .main-isi p span b a:active,
+.isi .wrapper .main-isi p span b a:visited {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6!important
+}
+
+.isi .wrapper .main-isi p+p {
+    margin-top: 10px;
+    margin-bottom: 0px
+}
+
+.isi .wrapper .main-isi p.isi-header {
+    margin-bottom: 0px
+}
+
+.isi .wrapper .main-isi p.isi-header+p {
+    margin-top: 0px
+}
+
+.isi .wrapper .main-isi a {
+    color: #58595b !important
+}
+
+.isi .wrapper .main-isi p u b a {
+    color: #028ca6 !important
+}
+
+.sticky-footer .reveal {
+    max-height: 179px;
+    background-color: #fff;
+    max-width: 1280px;
+    margin: 0 auto
+}
+
+.sticky-footer .reveal .isi-wrapper {
+    padding: 0px 128px 1px;
+    margin-bottom: 10px
+}
+
+.sticky-footer .reveal .isi-wrapper p {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #58595b;
+    line-height: 20px;
+    margin-top: 0
+}
+
+.sticky-footer .reveal .isi-wrapper p a {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #58595b;
+    text-decoration: underline
+}
+
+.sticky-footer .reveal .isi-wrapper p a:hover {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #58595b;
+    text-decoration: underline
+}
+
+.sticky-footer .reveal .isi-wrapper p span b {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6
+}
+
+.sticky-footer .reveal .isi-wrapper p span b a,
+.sticky-footer .reveal .isi-wrapper p span b a:hover,
+.sticky-footer .reveal .isi-wrapper p span b a:active,
+.sticky-footer .reveal .isi-wrapper p span b a:visited {
+    font-size: 16px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6!important
+}
+
+.sticky-footer .reveal .main-isi {
+    padding-top: 8px;
+    background: white
+}
+
+.sticky-footer .reveal .main-isi>p {
+    display: none
+}
+
+.sticky-footer .reveal .main-isi p u b a {
+    color: #028ca6 !important
+}
+
+.sticky-footer .reveal>p {
+    display: none
+}
+
+.sticky-footer .title {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 0px !important;
+    background: #ffffff
+}
+
+.sticky-footer .title h2 {
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: transparent;
+    line-height: 24px;
+    padding: 0 128px;
+    margin-bottom: 0px;
+    background: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/border-multicolor.png) !important;
+    background-size: 100% !important;
+    height: 8px
+}
+
+.sticky-footer .title h2 span {
+    position: absolute;
+    display: block;
+    right: 13%;
+    top: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    font-size: 1em;
+    width: 26px;
+    height: 15px;
+    text-align: center;
+    visibility: visible
+}
+
+.sticky-footer .title h2 span:before {
+    margin-left: 1px;
+    display: none
+}
+
+.sticky-footer .title h2 span.glyphicon-chevron-up {
+    background: url("../images/icons/isi-arrow.png")
+}
+
+.sticky-footer .title h2 span.glyphicon-chevron-down {
+    background: url("../images/icons/isi-arrow-down.png")
+}
+
+.sticky-footer .expanded {
+    overflow-y: auto !important
+}
+
+.sticky-footer.invisible .title h2 span {
+    visibility: hidden
+}
+
+.page_important-safety-information .sticky-footer {
+    display: none
+}
+
+@media screen and (min-width: 992px) {
+    .sticky-footer .reveal.expanded {
+        max-height: 375px !important
+    }
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+    line-height: 18px;
+    margin: 0 auto
+}
+
+.canvas-container {
+    background-color: #ebebeb
+}
+
+.canvas-container .row-offcanvas.row-offcanvas-left {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fff
+}
+
+.modal-body .canvas-container {
+    background: #ffffff
+}
+
+.content .well {
+    margin-bottom: -1px
+}
+
+.template_generic .breadcrumb,
+.breadcrumb {
+    display: none !important
+}
+
+@media screen and (min-width: 992px) {
+    .breadcrumb.sibling-breadcrumb.clearfix {
+        display: block !important;
+        margin: 0;
+        padding: 11px 138px;
+        background: #028ca6
+    }
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb {
+    width: auto;
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #fff;
+    padding: 3px 10px;
+    line-height: 1;
+    text-decoration: none
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb a {
+    font-size: 14px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #fff;
+    padding: 3px 10px;
+    line-height: 1;
+    text-decoration: none
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb a:hover {
+    text-decoration: none;
+    color: #fcdc53
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix>li+li:before {
+    border-left: 1px solid #ffffff;
+    padding: 0;
+    content: " "
+}
+
+.breadcrumb.sibling-breadcrumb.clearfix>li.active .stacked-breadcrumb {
+    padding: 3px 20px;
+    color: #fcdc53
+}
+
+.page-title h1,
+.page-title .h1 {
+    font-size: 40px;
+    font-family: 'vag-rundschrift-d', sans-serif;
+    font-weight: 400 !important;
+    color: #223868;
+    line-height: 40px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0px
+}
+
+.page-title h2,
+.page-title .h2 {
+    font-size: 24px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #223868;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 0 0
+}
+
+.page-header .wrapper .page-title h1:nth-of-type(1) {
+    display: none
+}
+
+.content h1,
+.content .h1,
+.content h1 b,
+.content .h1 b {
+    font-size: 40px;
+    font-family: 'vag-rundschrift-d', sans-serif;
+    font-weight: 400 !important;
+    color: #fff;
+    line-height: 40px;
+    margin-bottom: 0px
+}
+
+.page-title h1 b,
+.page-title .h1 b {
+    font-weight: 700 !important
+}
+
+.content h2,
+.content .h2 {
+    font-size: 24px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #fff;
+    line-height: 30px
+}
+
+.content h3,
+.content .h3 {
+    font-size: 24px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6;
+    line-height: 26px;
+    text-align: center
+}
+
+.calloutbanner {
+    color: #ffffff;
+    background-color: #028ca6;
+    padding: 0.6em;
+    font-size: 19px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 500 !important
+}
+
+.bannerTXT {
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-size: 14px;
+    line-height: 16px
+}
+
+.content h4,
+.content .h4 {
+    font-size: 22px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #727272;
+    line-height: 30px
+}
+
+.content h5,
+.content .h5 {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #58595b;
+    line-height: 20px
+}
+
+.content h5 b,
+.content .h5 b {
+    font-weight: 500
+}
+
+p,
+.content p {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+    line-height: 18px;
+    margin-bottom: 15px
+}
+
+p b,
+.content p b {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042;
+    font-weight: 700
+}
+
+p a,
+.content p a {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #e45c58;
+    text-decoration: underline
+}
+
+p a:hover,
+.content p a:hover {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #e45c58;
+    text-decoration: underline
+}
+
+small {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+    font-weight: 500;
+    line-height: 18px
+}
+
+b {
+    font-weight: 700
+}
+
+.content .key-points.activated li {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #ef3d33;
+    list-style-type: disc;
+    margin-bottom: 15px
+}
+
+.key-points.activated li {
+    color: #ef3d33
+}
+
+body ul li,
+body .content ul li,
+body .content .key-points.activated li>span,
+.content .key-points.activated li>span {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042;
+    line-height: 18px
+}
+
+small.small {
+    font-size: 75%
+}
+
+.dagger {
+    margin-left: -6px
+}
+
+b.font-bold {
+    font-size: 12px !important
+}
+
+.page-header-generic {
+    margin-bottom: 0px;
+    background: none !important
+}
+
+.page-header-generic .wrapper {
+    margin-top: 0px;
+    min-height: 297px;
+    max-width: 1280px;
+    padding: 80px 205px;
+    background-image: url(../images/marquee/marqueeCrystal.png);
+    background-size: cover
+}
+
+.page-header-generic .wrapper .page-title {
+    text-align: center
+}
+
+.page-header-generic .wrapper .page-utils {
+    display: none
+}
+
+.wrapper {
+    padding: 0;
+    max-width: 1280px
+}
+
+.wrapper>.main>.title,
+.wrapper>.main>.text {
+    padding: 0px 128px
+}
+
+.content .image .well.well-tertiary {
+    background: none;
+    border: none;
+    padding: 0 128px
+}
+
+.content .image .well.well-tertiary img {
+    width: auto
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+.home-cta {
+    max-width: 280px;
+    margin-top: 30px
+}
+
+.home-cta a .off-hover {
+    display: block
+}
+
+.home-cta a .on-hover {
+    display: none
+}
+
+.home-cta a:hover .off-hover {
+    display: none
+}
+
+.home-cta a:hover .on-hover {
+    display: block
+}
+
+.continue-global {
+    color: #fff !important;
+    border: none;
+    font-weight: 700;
+    padding: 0px 15px 2px;
+    width: auto;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #028ca6;
+    background: transparent url(/content/dam/commercial/specialty/spinraza/caregiver/en_us/images/form/button.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.continue-global:after {
+    content: "";
+    display: inline-block;
+    background: transparent url(/content/dam/commercial/specialty/spinraza/caregiver/en_us/images/form/arrow-yellow.png) no-repeat;
+    background-position: right center;
+    background-size: 10px;
+    width: 20px;
+    height: 15px;
+    vertical-align: text-top
+}
+
+.continue-global:hover {
+    text-decoration: none !important;
+    color: #213867 !important
+}
+
+.content p a.general-btn,
+.content a.general-btn {
+    border: none;
+    padding: 0px 30px;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223867;
+    background: #ecdc53;
+    display: inline-block;
+    padding-top: 15px;
+    text-decoration: none
+}
+
+.content p a.general-btn:focus,
+.content a.general-btn:focus {
+    outline: none
+}
+
+.content p a.general-btn:after,
+.content a.general-btn:after {
+    content: "\0276F";
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #ed683d;
+    vertical-align: bottom
+}
+
+#modals .third-exit-site .modal-dialog {
+    width: 900px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    height: 40px;
+    width: 40px;
+    background: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/closeButtonx.png);
+    background-size: contain
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-header .close span {
+    display: none
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 700 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #028ca6
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    font-size: 14px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 112px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #a4d9d0 !important;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 {
+    position: absolute !important;
+    width: 166px !important;
+    bottom: 70px;
+    left: 259px;
+    height: 70px !important
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 span {
+    display: block;
+    padding-top: 10px
+}
+
+#modals .third-exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: none !important
+}
+
+#modals .hcp-exit-site .modal-dialog {
+    width: 900px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    height: 40px;
+    width: 40px;
+    background: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/closeButtonx.png);
+    background-size: contain
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-header .close span {
+    display: none
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important;
+    margin: 0 auto
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 700 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #028ca6
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    font-size: 14px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 138px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #a4d9d0 !important;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 {
+    position: absolute !important;
+    width: 166px !important;
+    bottom: 70px;
+    left: 259px;
+    height: 70px !important
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 span {
+    display: block;
+    padding-top: 10px
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: none !important
+}
+
+#modals .exit-site .modal-dialog {
+    width: 900px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    height: 40px;
+    width: 40px;
+    background: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/closeButtonx.png);
+    background-size: contain
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-header .close span {
+    display: none
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title {
+    padding-bottom: 100px !important
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title .description {
+    line-height: 26px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title p {
+    font-weight: 700 !important;
+    font-size: 20px;
+    color: #727272;
+    text-align: center
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title p .modal-style-link {
+    color: #028ca6
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .modal-title .sub-style {
+    font-size: 14px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .register {
+    position: absolute !important;
+    top: 112px;
+    right: 257px;
+    height: 70px;
+    width: 211px !important;
+    text-align: left
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #a4d9d0 !important;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868 !important;
+    padding: 15px 52px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+    position: absolute !important;
+    width: 166px !important;
+    bottom: 70px;
+    left: 259px;
+    height: 70px !important
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button span {
+    display: block;
+    padding-top: 10px
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body .cancel {
+    display: none !important
+}
+
+#modals #exit-site {
+    z-index: 9999
+}
+
+#modals .modal-dialog .modal-content .modal-header {
+    padding: 10px 10px 30px
+}
+
+#modals .modal-dialog .modal-content .modal-header .close span {
+    display: block;
+    margin: -9px auto 0px;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    color: #125181;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 3em;
+    -webkit-font-smoothing: antialiased
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-title p {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-title a {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #e45c58;
+    text-decoration: underline;
+    float: left;
+    position: relative;
+    top: 25px
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta {
+    border-radius: 0;
+    color: #223868;
+    border: 0;
+    padding: 16px 30px;
+    height: 50px;
+    width: auto;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700;
+    background-color: #fcdc53
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta span {
+    color: #223868 !important
+}
+
+#modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta:after {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700;
+    color: #ed683d;
+    vertical-align: middle
+}
+
+.modal-backdrop.in {
+    background-color: #000 !important;
+    opacity: 0.75
+}
+
+.home-cta {
+    max-width: 280px;
+    margin-top: 30px
+}
+
+.home-cta a .off-hover {
+    display: block
+}
+
+.home-cta a .on-hover {
+    display: none
+}
+
+.home-cta a:hover .off-hover {
+    display: none
+}
+
+.home-cta a:hover .on-hover {
+    display: block
+}
+
+#email-this-page {
+    z-index: 2002
+}
+
+#email-this-page .content {
+    background-color: #f2f2f3
+}
+
+#email-this-page label[for='captcha'] {
+    display: none
+}
+
+#email-this-page .modal-header .close span {
+    background: none;
+    color: #125181;
+    font-size: 45px
+}
+
+#email-this-page .modal-body .required {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif
+}
+
+#email-this-page .modal-body .modal-title {
+    font-size: 30px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #223868
+}
+
+#email-this-page .modal-body label {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #414042
+}
+
+#email-this-page .modal-body label.error {
+    color: red !important
+}
+
+#email-this-page .modal-body .form-control {
+    font-size: 14px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: #ffffff;
+    padding: 20px 12px;
+    width: 302px
+}
+
+#email-this-page .modal-body .form-buttons {
+    margin-top: 10px
+}
+
+#email-this-page .btn-next {
+    background: #ef3d33
+}
+
+#email-this-page .btn-next.btn-send {
+    border: none;
+    background: #fcdc53;
+    color: #223868 !important;
+    display: block;
+    padding-left: 6.25em;
+    min-height: 40px;
+    margin-left: 0px;
+    position: relative;
+    min-width: 120px
+}
+
+#email-this-page .btn-next.btn-send:after {
+    content: "\0276F";
+    font-size: 20px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 700;
+    color: #ed683d;
+    vertical-align: middle;
+    background: none;
+    position: absolute;
+    top: 11px;
+    right: 15px
+}
+
+#email-this-page .btn-next .btn-next-left {
+    background: none;
+    padding: 0 0 0 15px;
+    color: #223868 !important;
+    font-family: 'Frankfurter Medium Std Regular', sans-serif;
+    font-size: 20px
+}
+
+#email-this-page .btn-next-left-arrow {
+    display: none
+}
+
+@media screen and (max-width: 767px) {
+    #modals .modal-dialog .modal-buttons {
+        margin: 35px 0 30px
+    }
+    #modals .modal-dialog .modal-content .modal-body .modal-buttons .btn.btn-cta {
+        margin-left: 0px !important
+    }
+}
+
+.content .wrapper .sitemap {
+    padding-bottom: 40px
+}
+
+.content .wrapper .sitemap .main {
+    padding: 100px 10% 0 !important
+}
+
+.content .wrapper .sitemap .underline>li {
+    list-style: none
+}
+
+.content .wrapper .sitemap .underline>li a {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042
+}
+
+.content .wrapper .sitemap .underline>li a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042
+}
+
+.content .wrapper .sitemap .underline>li:before {
+    content: "\2022";
+    color: #e45c58;
+    font-size: 24px;
+    margin-right: 10px;
+    position: relative;
+    bottom: -3px
+}
+
+.content .wrapper .sitemap ul li {
+    text-decoration: none;
+    list-style: none
+}
+
+.content .wrapper .sitemap ul li a {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042
+}
+
+.content .wrapper .sitemap ul li a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042;
+    text-decoration: underline
+}
+
+.content .wrapper .sitemap ul li:before {
+    content: "\25cb";
+    color: #e45c58;
+    font-size: 14px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 1px
+}
+
+.content .wrapper .sitemap ul ul li {
+    list-style: none
+}
+
+.content .wrapper .sitemap ul ul li a {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042
+}
+
+.content .wrapper .sitemap ul ul li a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #414042
+}
+
+.content .wrapper .sitemap ul ul li:before {
+    content: "-";
+    color: #e45c58;
+    font-size: 18px
+}
+
+.template--home .isi .wrapper>p {
+    display: none
+}
+
+#modals #hcp-exit-site h2 {
+    width: 90%
+}
+
+#modals #hcp-exit-site #continue-button2 {
+    min-width: 130px
+}
+
+.utilityNav .accessibilityUtility .default {
+    width: 15px
+}
+
+.content .just-break {
+    display: block;
+    margin-bottom: -10px
+}
+
+.template--home .content .wrapper {
+    padding: 0 114px
+}
+
+.references .content-reference .accordioncontainer>.col .accordion {
+    margin: 0;
+    margin-bottom: 40px
+}
+
+.references .accordioncontainer:before,
+.references .accordioncontainer:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
+    min-height: 43px;
+    height: auto;
+    padding: 0;
+    overflow: visible
+}
+
+.references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody {
+    display: block
+}
+
+.references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody .text p {
+    text-align: left
+}
+
+.carousel .wrapper {
+    max-width: 1280px
+}
+
+.carousel .wrapper:before {
+    box-shadow: none
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 {
+    padding: 0px 7px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas {
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 527px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas a:nth-of-type(1) {
+    width: 60%;
+    margin: 81% 20% 0px;
+    display: inline-block
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas p {
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    line-height: 15px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas p span.kid-name {
+    font-size: 15px;
+    display: block;
+    color: #fcdc53;
+    font-family: 'Frankfurter Medium Std Regular', sans-serif;
+    font-weight: 400
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .first_bg {
+    background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/ruby-later-onset-spinraza-treatment.png)
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .second_bg {
+    background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/cameron-infantile-onset-spinraza-treatment.png)
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .third_bg {
+    background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/emma-later-onset-spinraza-treatment.png)
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-6.col-md-6 {
+    padding: 0px 7px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(1) a.netherLandsDefaultButton:after {
+    right: 80px;
+    top: 28px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(2) a.netherLandsDefaultButton:after {
+    right: 119px;
+    top: 28px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton {
+    font-size: 18px;
+    font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+    font-weight: 600 !important;
+    color: #223868;
+    line-height: 28px;
+    background-color: #fcdc53;
+    text-align: center;
+    position: relative;
+    padding: 23px 0px 17px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton:hover {
+    background-color: #fcdc53
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton span {
+    position: relative
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton span:after {
+    content: "";
+    background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/global/right_arrow.png);
+    background-repeat: no-repeat;
+    background-size: 44%;
+    width: 19px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    bottom: 6px;
+    right: -25px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) {
+    margin-top: 50px
+}
+
+.content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(2) {
+    display: inline-block;
+    width: 100%;
+    margin-top: -6px
+}
+
+.one-column>* {
+    max-width: 100%
+}
+
+.atss .at-share-btn .at-icon-wrapper,
+.atss a .at-icon-wrapper {
+    background: #223868 !important
+}
+
+.callOutKey {
+    position: relative;
+    background-color: #fcdc53;
+    padding: 40px 10px 20px;
+    margin: 40px 0 30px
+}
+
+.callOutKey img {
+    position: absolute;
+    top: -31px;
+    left: 50%;
+    margin-left: -31px
+}
+
+.callOutKey img.key {
+    max-width: 63px
+}
+
+.callOutKey p {
+    margin: 0 !important;
+    text-align: center;
+    font-family: "Avenir Next Cyr W00 Regular", sans-serif !important;
+    font-weight: 500 !important;
+    color: #223868 !important;
+    font-size: 18px !important;
+    line-height: 20px !important
+}
+
+.callOutKey p b {
+    font-family: "Avenir Next Cyr W00 Regular", sans-serif !important;
+    font-weight: 700 !important;
+    color: #223868 !important;
+    font-size: 18px;
+    line-height: 20px
+}
+
+@media (min-width: 768px) {
+    .callOutKey {
+        padding: 60px 100px 40px;
+        margin: 60px 0 50px
+    }
+    .callOutKey p {
+        font-size: 24px !important;
+        line-height: 30px !important
+    }
+    .callOutKey p b {
+        font-family: "Avenir Next Cyr W00 Regular", sans-serif !important;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+        line-height: 30px !important
+    }
+}
+
+.boxLink {
+    font-family: "vag-rundschrift-d", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700;
+    font-size: 15px !important;
+    margin: 0 auto;
+    display: block;
+    background-color: #A4D9D0;
+    text-decoration: none !important;
+    border-bottom: 8px solid #223868;
+    padding: 15px 52px 15px 20px;
+    position: relative;
+    width: 300px
+}
+
+.boxLink::after {
+    content: url("/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png");
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px
+}
+
+.boxPdf {
+    font-family: "vag-rundschrift-d", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 700;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block;
+    background-color: #a4d9d0;
+    text-decoration: none !important;
+    text-align: left;
+    border-bottom: 8px solid #223868;
+    padding: 15px 52px 15px 20px;
+    position: relative;
+    width: 265px
+}
+
+.boxPdf::after {
+    content: " ";
+    background: url("/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueDownload.png") no-repeat;
+    background-size: 100%;
+    width: 29px;
+    height: 31px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 18px
+}
+
+.content-reference .accordioncontainer>.col {
+    padding: 0
+}
+
+.content-reference .accordioncontainer>.col .accordion {
+    border: none;
+    background: #e0f2ef
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement {
+    margin-bottom: 24px
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
+    height: 43px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+    border: none
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader h4 {
+    font-size: 15px;
+    font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+    font-weight: 300 !important;
+    color: #028ca6;
+    font-weight: 300;
+    top: 0;
+    text-align: center;
+    border-bottom: 3px solid;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    padding: 12px 74px 13px 40px
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader h4 b {
+    font-weight: 600 !important
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader .headerToggle {
+    width: 22px;
+    height: 22px;
+    background: url("../images/icons/arrow-down.png") no-repeat;
+    float: none;
+    vertical-align: middle;
+    margin-left: -55px;
+    display: inline-block;
+    top: 10px;
+    position: absolute;
+    background-size: cover
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader .accordionOpen {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader .accordionClose {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody {
+    background-color: #ffffff;
+    padding: 24px 128px 0;
+    border: none
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody .text p {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 18px;
+    margin: 5px 0
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody .text a,
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody .text a:hover {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    text-decoration: underline
+}
+
+.content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody .text b {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+    font-weight: bold !important;
+    color: #58595b
+}
+
+@media (max-width: 767px) {
+    .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader h4 {
+        width: 85%;
+        padding: 12px 60px 13px 16px
+    }
+}
+
+.color-metal,
+span.color-metal,
+span.color-metal b {
+    color: #727272
+}
+
+.color-text,
+span.color-text,
+span.color-text b {
+    color: #58595b
+}
+
+.color-marine,
+span.color-marine,
+span.color-marine b {
+    color: #028ca6
+}
+
+.content hr.hr-style-two {
+    border: 2px solid #fcdc53;
+    margin: 40px 0 60px 0
+}
+
+span.small-text {
+    font-size: 12px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 18px
+}
+
+span.small-text sub,
+span.small-text sup {
+    font-size: 10px;
+    font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+    font-weight: 500 !important;
+    color: #58595b;
+    line-height: 18px
+}
+
+sup.supTitle {
+    font-size: 65%
+}
+
+.carousel .bx-pager a {
+    background-color: #7d7d7d !important
+}
+
+.carousel .bx-pager a:hover,
+.carousel .bx-pager a.active {
+    background-color: #028ca6 !important
+}
+
+.carousel .bx-controls .slider-prev,
+.carousel .bx-controls .slider-next {
+    display: none
+}
+
+@media screen and (max-width: 767px) {
+    header .spinraza-header .container {
+        padding: 0 0 10px !important
+    }
+    header .spinraza-header .container .header_links {
+        padding: 5px 10px 0 !important
+    }
+    header .spinraza-header .container .header_links .text ul {
+        margin-bottom: 5px
+    }
+    header .spinraza-header .container .header_links .text ul li {
+        margin: 0
+    }
+    header .spinraza-header .container .header_links .text ul li:first-child {
+        margin-bottom: 0
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(3) {
+        width: 100%;
+        text-align: center;
+        border-right: 0 !important
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(4) {
+        text-align: center
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(5) {
+        margin-left: 0;
+        width: 49%;
+        border-left: 1px solid #58595b;
+        text-align: center
+    }
+    header .spinraza-header .container .headerlinks_device {
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: 20px
+    }
+    header .spinraza-header .container .headerlinks_device p {
+        display: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink {
+        float: left;
+        width: auto !important
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li {
+        list-style: none;
+        display: inline-block;
+        float: none;
+        padding: 0px 9px !important;
+        line-height: 12px;
+        margin-bottom: 5px
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li a {
+        font-size: 9px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #028ca6;
+        text-decoration: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li a:hover,
+    header .spinraza-header .container .headerlinks_device .headerlink li a:focus {
+        text-decoration: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:first-child li {
+        padding-left: 0 !important
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:first-child li a {
+        font-size: 9px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #414042
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:last-child li {
+        padding-right: 0px !important
+    }
+    header .spinraza-header .container .center-img {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto
+    }
+    header .spinraza-header .container .center-img img {
+        width: 150px;
+        margin: 3px 0
+    }
+    header .spinraza-header .container .pull-right {
+        display: none
+    }
+    header .spinraza-header .container .pull-right .form-inline {
+        display: none !important
+    }
+    .header .mobile-menu-toggle {
+        bottom: 22%;
+        width: 27px;
+        height: 22px;
+        background-size: 100%
+    }
+    .header .mobile-menu-toggle .icon-bar {
+        background-color: #028ca6;
+        display: none
+    }
+    header .spinraza-header .container .header_links .text ul {
+        padding: 0 !important
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(2) {
+        display: none
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(3) {
+        border-left: 0 !important
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(4) {
+        width: 49%
+    }
+    .canvas-container .row-offcanvas.row-offcanvas-left.active header .spinraza-header .container .mobile-menu-toggle.visible-xs- {
+        bottom: 22%;
+        width: 27px;
+        height: 22px;
+        background-size: 100%
+    }
+}
+
+@media screen and (max-width: 767px) and (max-width: 360px) {
+    header .spinraza-header .container .headerlinks_device .headerlink li {
+        padding: 0px 5.5px !important
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body #footer {
+        margin-bottom: 44px
+    }
+    body #footer .wrapper {
+        padding: 30px 10px 3px !important;
+        border-top: 4px solid transparent
+    }
+    body #footer .wrapper .siteMapFooter-links {
+        border: none;
+        padding-bottom: 0;
+        display: block
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn {
+        width: 50%;
+        min-height: auto;
+        display: block;
+        padding: 0px
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(2) {
+        min-height: 80px
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(4) {
+        min-height: 168px
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn h2 {
+        font-family: 'Avenir Next Cyr W00 Medium' !important;
+        font-weight: 500 !important
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn ul li {
+        padding: 0px 0px
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn ul li a {
+        font-family: 'Avenir Next Cyr W00 Regular' !important;
+        font-weight: 400 !important
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(4) ul li:nth-child(3) a {
+        font-family: 'Avenir Next Cyr W00 Medium' !important;
+        font-weight: 500 !important;
+        font-style: normal
+    }
+    body #footer .wrapper .siteMapFooter-links .col.siteMapColumn:nth-child(5) ul li:nth-child(4) a {
+        font-family: 'Avenir Next Cyr W00 Medium' !important;
+        font-weight: 500 !important;
+        font-style: normal
+    }
+    body #footer .wrapper .siteMapFooter-links .col-xs-5ths,
+    body #footer .wrapper .siteMapFooter-links .col-sm-5ths,
+    body #footer .wrapper .siteMapFooter-links .col-md-5ths,
+    body #footer .wrapper .siteMapFooter-links .col-lg-5ths {
+        float: left
+    }
+    body #footer .wrapper .footer-links-container {
+        position: static;
+        padding: 0px
+    }
+    body #footer .wrapper .footer-links-container .footer-links {
+        padding: 0 0 50px
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+        display: block;
+        margin: 0 auto 10px auto !important
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li {
+        padding: 1px 7px
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li a {
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif !important;
+        font-weight: 500 !important;
+        font-size: 9px !important;
+        text-transform: uppercase
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links {
+        margin-top: 50px;
+        border-top: 1px solid #ffffff
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+        border: none;
+        font-size: 12px;
+        padding: 0 9px 0 9px
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li a {
+        font-size: 9px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #028ca6
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li:first-child {
+        padding-left: 0px
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li:last-child {
+        padding-right: 0px
+    }
+    body #footer .wrapper .footer-links-container .desktop-disclaimer {
+        margin-top: 59px
+    }
+    body #footer .wrapper .footer-links-container .desktop-disclaimer p {
+        display: inline-block;
+        margin: 0
+    }
+    body #footer .wrapper .footer-links-container .desktop-disclaimer p .footer-info {
+        font-size: 9px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 10px
+    }
+    body #footer .wrapper .footer-links-container .desktop-disclaimer p .footer-info br {
+        display: none
+    }
+    body #footer .wrapper .footer-links-container .desktop-disclaimer p small {
+        line-height: 10px
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen {
+        position: relative;
+        margin-top: 0px
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen a {
+        top: 0px
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen a:last-child {
+        right: -86px !important;
+        top: 0px
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen a:first-child {
+        padding-left: 0px
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+        width: 40%
+    }
+    body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen2 {
+        width: 30%;
+        position: relative;
+        left: 95px
+    }
+    body #footer .back-to-top {
+        bottom: 110px;
+        right: -30px
+    }
+    body #footer .back-to-top a {
+        margin-left: -85px;
+        max-width: 35px
+    }
+    body #footer .back-to-top .icon-span.glyphicon.glyphicon-chevron-up {
+        background: none;
+        margin: 0px;
+        width: 22px
+    }
+    body #footer .back-to-top .icon-span.glyphicon.glyphicon-chevron-up:before {
+        content: "";
+        display: block;
+        background-image: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/arrow-top.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 58px;
+        height: 53px
+    }
+    .isi {
+        margin-top: 50px
+    }
+    .isi .wrapper {
+        padding: 0px 10px
+    }
+    .isi .wrapper .main-isi {
+        padding: 20px 0px 40px !important
+    }
+    .isi .wrapper .main-isi p {
+        margin: 0px;
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 20px
+    }
+    .isi .wrapper .main-isi p span b {
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #028ca6
+    }
+    .isi .wrapper .main-isi p span b a,
+    .isi .wrapper .main-isi p span b a:hover,
+    .isi .wrapper .main-isi p span b a:active,
+    .isi .wrapper .main-isi p span b a:visited {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #028ca6!important
+    }
+    .sticky-footer .reveal {
+        max-height: 175px
+    }
+    .sticky-footer .reveal .main-isi {
+        padding: 8px 10px
+    }
+    .sticky-footer .reveal .main-isi .isi-wrapper h2 {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 700 !important;
+        text-transform: uppercase
+    }
+    .sticky-footer .reveal .main-isi .isi-wrapper p {
+        font-size: 12px;
+        line-height: 16px
+    }
+    .sticky-footer .reveal .main-isi .isi-wrapper p b {
+        font-size: 12px
+    }
+    .sticky-footer .reveal .main-isi .isi-wrapper b {
+        font-weight: 700 !important
+    }
+    .sticky-footer .reveal .isi-menu {
+        padding: 0 10px
+    }
+    .sticky-footer .title {
+        border-bottom: 0px !important;
+        background: white;
+        border-left: 0px !important;
+        border-right: 0px !important
+    }
+    .sticky-footer .title h2 {
+        padding: 10px 10px 0;
+        border-left: 0px;
+        border-right: 0px;
+        width: 100%;
+        background: white
+    }
+    .sticky-footer .title h2 span {
+        right: 10px;
+        top: 15px;
+        z-index: 99
+    }
+    .sticky-footer .reveal.expanded {
+        max-height: 225px !important;
+        overflow-y: scroll !important;
+        padding-bottom: 40px !important
+    }
+    .sticky-footer .reveal.expanded p {
+        font-size: 12px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 16px
+    }
+    .sticky-footer .reveal.expanded p span b {
+        font-weight: 700;
+        font-size: 12px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #028ca6
+    }
+    .sticky-footer .reveal.expanded p span b a,
+    .sticky-footer .reveal.expanded p span b a:hover,
+    .sticky-footer .reveal.expanded p span b a:active,
+    .sticky-footer .reveal.expanded p span b a:visited {
+        font-size: 12px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #028ca6!important
+    }
+    .page_important-safety-information .isi {
+        margin-top: -8px !important
+    }
+    div.isi.isi-inline {
+        margin-top: 0
+    }
+    .page_my-preferences .fixed-offset {
+        padding-top: 181px
+    }
+    .page_my-preferences .fixed-offset .logo-options .wrapper {
+        padding: 0 15px
+    }
+    .page_my-preferences .fixed-offset .logo-options .wrapper .col1 {
+        margin-top: 22px;
+        margin-left: 0px
+    }
+    .myevents .events-accordion-container .events-accordion {
+        background: #a5d9d0;
+        border: none
+    }
+    .sma-hcpregistration {
+        padding: 10px
+    }
+    .sma-hcpregistration .compressed-form p.required {
+        margin-top: 0
+    }
+    .sma-hcpregistration .compressed-form button {
+        margin-left: -15px;
+        width: 107%
+    }
+    .sma-hcpregistration .compressed-form #validate-email button {
+        margin-left: 0;
+        margin-top: 20px
+    }
+    .sma-hcpregistration .register-check .form-control.error {
+        margin-right: 0px
+    }
+    .sma-hcpregistration .compressed-form .form-group .form-control {
+        width: 100%
+    }
+    .thank-you-page-button {
+        line-height: 38px
+    }
+    p.required-text {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        right: 10px
+    }
+    .patientRegistration .multi-column-checkbox-group .column-one,
+    .patientRegistration .multi-column-checkbox-group .column-two {
+        width: 100%
+    }
+    .patientRegistration .multi-column-checkbox-group>label:before {
+        content: "*";
+        color: red
+    }
+    .patientRegistration .multi-column-checkbox-group>label span {
+        display: none
+    }
+    .patientRegistration span.form-subtitle {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        right: 10px
+    }
+    .patientRegistration #patientRegistrationForm>p {
+        line-height: 18px !important
+    }
+    .patientRegistration #patientRegistrationForm label.error {
+        line-height: 16px
+    }
+    .patientRegistration #patientRegistrationForm .form-group .dropdown,
+    .patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+    .patientRegistration #patientRegistrationForm .form-group input,
+    .patientRegistration #patientRegistrationForm .form-group .dropdown input {
+        width: 100%
+    }
+    .patientRegistration #patientRegistrationForm .form-group label {
+        width: 100% !important
+    }
+    .patientRegistration #patientRegistrationForm .form-group label[for*="hospitalaffiation"]+div.dropdown {
+        width: 100% !important
+    }
+    .patientRegistration #patientRegistrationForm .form-group select#hospitalaffiationlist {
+        width: 100%
+    }
+    .patientRegistration #patientRegistrationForm .form-group select#approximate_dateofdiagnosis_year {
+        width: 100%
+    }
+    .patientRegistration #patientRegistrationForm .form-group.checkbox-group input[type='checkbox'] {
+        margin-bottom: 41px
+    }
+    .patientRegistration .form-header span.form-subtitle:last-child,
+    .patientRegistration .form-header span.required-field-asterisks {
+        right: 85px
+    }
+    .patientRegistration #patientRegistrationForm .form-group .sma-edit-date .dropdown {
+        display: block
+    }
+    .patientRegistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date .select-dropdown {
+        width: 100%
+    }
+    .signin form.compressed-form,
+    .smacgsignin form.compressed-form {
+        padding-bottom: 20px
+    }
+    .signin form.compressed-form .form-group input.form-control,
+    .smacgsignin form.compressed-form .form-group input.form-control {
+        width: 100%;
+        margin-top: 5px
+    }
+    .signin p.required.sign-in,
+    .smacgsignin p.required.sign-in {
+        position: absolute;
+        bottom: -30px;
+        right: 10px
+    }
+    .signin p a,
+    .smacgsignin p a {
+        display: block
+    }
+    #forgot-password form.compressed-form {
+        padding-bottom: 70px
+    }
+    #forgot-password form.compressed-form>p.required {
+        margin-top: -2px
+    }
+    #forgot-password form.compressed-form .form-group input.form-control {
+        width: 100%;
+        margin-top: 5px
+    }
+    #forgot-password p.required.forgotpassword-required {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        right: 10px
+    }
+    .changepassword {
+        padding-bottom: 70px
+    }
+    .changepassword form.compressed-form {
+        padding-top: 20px
+    }
+    .changepassword form.compressed-form>p.required {
+        margin-top: -2px
+    }
+    .changepassword form.compressed-form .form-group input.form-control {
+        width: 100%;
+        margin-top: 5px
+    }
+    .page_profile .form-header {
+        margin-bottom: 30px;
+        max-width: 100%
+    }
+    .page_profile .form-header .form-subtitle {
+        float: right;
+        font-weight: normal;
+        margin-top: 8px;
+        font-size: 14px
+    }
+    span.form-subtitle {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        right: 10px
+    }
+    #myProfileForm {
+        padding-bottom: 70px
+    }
+    #myProfileForm label.error {
+        line-height: 16px
+    }
+    #myProfileForm .form-group .dropdown,
+    #myProfileForm .form-group .dropdown select.select-dropdown,
+    #myProfileForm .form-group input,
+    #myProfileForm .form-group .dropdown input,
+    #myProfileForm .form-group input#city-input {
+        width: 100% !important
+    }
+    #myProfileForm .checkbox-group p {
+        display: inline
+    }
+    #myProfileForm button.btn-submit-event-registration {
+        float: none !important;
+        display: block
+    }
+    #myProfileForm .multi-column-checkbox-group .column-one,
+    #myProfileForm .multi-column-checkbox-group .column-two {
+        width: 100%
+    }
+    #myProfileForm .multi-column-checkbox-group>label:before {
+        content: "*";
+        color: red
+    }
+    #myProfileForm .multi-column-checkbox-group>label span {
+        display: none
+    }
+    .search.section .search-results-form .form-group .input-wrap .glyphicon-remove-circle.clear-search {
+        top: 5px
+    }
+    .brandregistration #validate-email>legend,
+    .brandregistration .compressed-form label,
+    .brandregistration .compressed-form .form-group label.error {
+        font-size: 14px;
+        width: 100%
+    }
+    .brandregistration .compressed-form .form-group .form-control {
+        font-size: 12px;
+        width: 100% !important
+    }
+    .brandregistration .compressed-form button,
+    .brandregistration .compressed-form button:hover,
+    .brandregistration .compressed-form button:focus,
+    .brandregistration .compressed-form button:active,
+    .brandregistration .compressed-form .form-group .help-block a {
+        font-size: 14px
+    }
+    .brandregistration .compressed-form fieldset .form-group {
+        margin: 5px 0
+    }
+    #edit-profile .compressed-form .form-group .form-control,
+    #edit-profile+div .compressed-form .form-group .form-control {
+        width: 100% !important
+    }
+    #edit-profile .compressed-form button,
+    #edit-profile .compressed-form button:hover,
+    #edit-profile .compressed-form button:focus,
+    #edit-profile .compressed-form button:active,
+    #edit-profile .compressed-form .form-group .help-block a,
+    #edit-profile+div .compressed-form button,
+    #edit-profile+div .compressed-form button:hover,
+    #edit-profile+div .compressed-form button:focus,
+    #edit-profile+div .compressed-form button:active,
+    #edit-profile+div .compressed-form .form-group .help-block a {
+        font-size: 14px
+    }
+    #edit-profile .compressed-form fieldset .form-group,
+    #edit-profile+div .compressed-form fieldset .form-group {
+        margin: 5px 0
+    }
+    #edit-profile .compressed-form fieldset>legend,
+    #edit-profile+div .compressed-form fieldset>legend {
+        font-size: 14px
+    }
+    #edit-profile .compressed-form label,
+    #edit-profile .compressed-form .form-group label.error,
+    #edit-profile+div .compressed-form label,
+    #edit-profile+div .compressed-form .form-group label.error {
+        display: inline-block
+    }
+    #edit-profile .compressed-form label,
+    #edit-profile+div .compressed-form label {
+        width: 100%;
+        text-align: left;
+        float: right
+    }
+    #eventRegistrationForm .form-group .dropdown,
+    #eventRegistrationForm .form-group .dropdown select.select-dropdown,
+    #eventRegistrationForm .form-group input,
+    #eventRegistrationForm .form-group .dropdown input,
+    #eventRegistrationForm .form-group input#city-input {
+        width: 100% !important
+    }
+    #eventRegistrationForm #event-register-form {
+        font-size: 14px
+    }
+    .eventregistration .col .form-header a.btn {
+        margin-right: 0px;
+        font-size: 14px
+    }
+    .eventregistration .col .form-header div {
+        float: left
+    }
+    .eventregistration .col .form-header div+div {
+        float: right
+    }
+    .event-confirmation-btn {
+        font-size: 14px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #fff !important;
+        padding: 6px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        border: none !important;
+        width: auto;
+        height: auto;
+        float: left
+    }
+    .event-confirmation-btn a {
+        padding: 0px;
+        font-size: 14px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #fff !important;
+        text-decoration: none;
+        border: none !important
+    }
+    .event-confirmation-btn a:hover,
+    .event-confirmation-btn a:focus {
+        background: #e45c58
+    }
+    .isi .isi-wrapper {
+        padding: 0 !important
+    }
+    #myProfileForm .form-group .sma-date select.select-dropdown {
+        width: 100% !important
+    }
+    .patientRegistration .part-one-div .form-header .required-field-asterisks {
+        right: 85px
+    }
+    .page_unsubscribe .content .wrapper .main>div.text {
+        padding: 0px 10px
+    }
+    #unsubscribeForm {
+        padding: 0px 0px;
+        margin-top: 30px !important
+    }
+    #unsubscribeForm .form-group {
+        margin: 0px 17px
+    }
+    .unsubscribe-page .form-divider {
+        margin-bottom: 45px !important;
+        margin-top: 15px
+    }
+    .unsubscribe-page .form-subtitle {
+        top: 117px;
+        right: 17px
+    }
+    .unsubscribe-page #unsubscribeForm #unsub-sub-btn {
+        width: 100%;
+        background: #a5d9d0 url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png) no-repeat;
+        background-position: 95% 14px;
+        text-align: left;
+        margin-top: 30px
+    }
+    #unsubscribeForm .form-group input,
+    .unsubscribe-page .form-group input {
+        width: 100%
+    }
+    .page-header .page-title h1,
+    .page-header .page-title .h1 {
+        font-size: 20px;
+        font-family: 'vag-rundschrift-d', sans-serif;
+        font-weight: 500 !important;
+        color: #223868;
+        line-height: 1
+    }
+    .page-header .page-title h2,
+    .page-header .page-title .h2 {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #223868;
+        line-height: 1;
+        margin-bottom: 0px
+    }
+    .content h1,
+    .content .h1 {
+        font-size: 40px;
+        font-family: 'vag-rundschrift-d', sans-serif;
+        font-weight: 400 !important;
+        color: #fff;
+        line-height: 40px;
+        margin-bottom: 0px
+    }
+    .content h2,
+    .content .h2 {
+        font-size: 24px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #fff;
+        line-height: 26px
+    }
+    .content h3,
+    .content .h3 {
+        font-size: 24px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #028ca6;
+        line-height: 26px;
+        text-align: center
+    }
+    .content h4,
+    .content .h4 {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #727272;
+        line-height: 18px;
+        max-width: 98%
+    }
+    .content h5,
+    .content .h5 {
+        font-size: 13px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #58595b;
+        line-height: 15px
+    }
+    p,
+    .content p {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 21px;
+        margin-bottom: 15px
+    }
+    p b,
+    .content p b {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #414042;
+        font-weight: 700
+    }
+    p a,
+    .content p a {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #e45c58;
+        text-decoration: underline
+    }
+    p a:hover,
+    .content p a:hover {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #e45c58;
+        text-decoration: underline
+    }
+    ul li,
+    .content ul li,
+    .content .key-points.activated li>span {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 17px
+    }
+    .content .key-points.activated li>span {
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #ef3d33
+    }
+    .template_home .content .wrapper {
+        padding: 0 10px !important
+    }
+    .template_home .mobile-menu-toggle {
+        left: 7px
+    }
+    .content .wrapper {
+        padding: 0 !important
+    }
+    #modals {
+        z-index: 9999
+    }
+    #modals .third-exit-site .modal-dialog {
+        width: auto
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body {
+        padding: 22px 10px 10px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title a {
+        float: none;
+        position: relative;
+        text-align: center;
+        left: 0px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-buttons {
+        margin: 60px 0 30px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-buttons .cancel {
+        margin-bottom: 15px
+    }
+    #modals .modal-dialog {
+        width: auto
+    }
+    #modals .modal-dialog .modal-content .modal-body {
+        padding: 0px 10px 10px;
+        margin-top: 22px
+    }
+    #modals .modal-dialog .modal-content .modal-body .modal-title a {
+        float: none;
+        position: relative;
+        text-align: center;
+        display: block
+    }
+    #modals .modal-dialog .modal-buttons {
+        margin: 60px 0 30px
+    }
+    .isi-menu .cta {
+        margin-left: 5px !important
+    }
+    .accordion .accordionElementHeader {
+        padding: 16px 12px
+    }
+    #third-exit-site,
+    #hcp-exit-site,
+    #exit-site {
+        z-index: 9999
+    }
+    #modals #hcp-exit-site h2 {
+        width: 100% !important
+    }
+    #modals #hcp-exit-site #continue-button2 {
+        width: 120px;
+        text-align: center
+    }
+    #modals #hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title a {
+        left: 0px
+    }
+    .display-together {
+        display: inline-block
+    }
+    .page-header-generic .wrapper {
+        margin-top: 0px;
+        min-height: 210px;
+        max-width: 1280px;
+        padding: 0 15px !important;
+        background-image: url("../images/marquee/header-image-mob.png");
+        background-color: #fcdc53;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position-y: 40%;
+        display: flex;
+        align-items: center
+    }
+    .page-header-generic .wrapper .page-title {
+        text-align: center
+    }
+    .page-header-generic .wrapper .page-utils {
+        display: none
+    }
+    .boxLink {
+        width: 100%
+    }
+    .boxPdf {
+        width: 100%
+    }
+    .page_home .content .wrapper .main {
+        padding: 0% 0px 0% 0px !important;
+        margin-top: -14px;
+        margin-bottom: -67px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 {
+        padding: 0px 0px;
+        margin: 5px 0px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas {
+        min-height: 162px;
+        position: relative;
+        background-size: 100%
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas a.visible-xs {
+        width: 41%
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas p {
+        position: absolute;
+        bottom: 5px;
+        margin-bottom: 0;
+        font-size: 12px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas p span.kid-name {
+        font-size: 12px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .first_bg {
+        background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/ruby-later-onset-spinraza-treatment-mob.png)
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .first_bg a.visible-xs {
+        float: right;
+        margin: 10px 8px 0px 0px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .first_bg p {
+        left: 5px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .second_bg {
+        background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/cameron-infantile-onset-spinraza-treatment-mob.png)
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .second_bg a.visible-xs {
+        float: left;
+        margin: 8px 0px 8px 17px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .second_bg p {
+        right: 5px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .third_bg {
+        background-image: url(/content/dam/commercial/specialty/spinraza/caregiver1/en_us/images/home/emma-later-onset-spinraza-treatment-mob.png)
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .third_bg a.visible-xs {
+        float: right;
+        margin: 13px 12px 0px 0px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .third_bg p {
+        left: 5px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-6.col-md-6 {
+        padding: 0px 0px;
+        width: 48%
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(1) {
+        margin-right: 5px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(1) a.netherLandsDefaultButton:after {
+        right: -4px;
+        top: 36px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(2) {
+        margin-left: 5px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(2) a.netherLandsDefaultButton:after {
+        right: 19px;
+        top: 36px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) {
+        margin-top: 20px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton {
+        font-size: 14px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #223868;
+        line-height: 16px;
+        padding: 20px 12px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline a.netherLandsDefaultButton span:after {
+        bottom: 3px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(2) {
+        display: inline-block;
+        width: 100%;
+        margin-top: -12px
+    }
+    .section.carousel {
+        margin-top: 12px
+    }
+    .section.carousel .carousel .wrapper:before {
+        box-shadow: none
+    }
+    .section.carousel .carousel .wrapper .slider .slides .item.hero .btn-cta {
+        top: 81.2%;
+        left: 0;
+        width: 100%;
+        height: 18.5%
+    }
+    .content .wrapper .sitemap {
+        padding-bottom: 40px
+    }
+    .content .wrapper .sitemap .main {
+        padding: 50px 2% 0 !important
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement {
+        margin-bottom: 10px
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody {
+        padding: 18px 15px 0
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
+        position: relative;
+        margin: 0 auto
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader h4 {
+        width: 73%;
+        padding: 12px 0px 13px 0px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        font-size: 15px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #028ca6
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader h4 b {
+        font-weight: 400
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader .headerToggle {
+        margin-left: 0;
+        display: block;
+        top: 10px;
+        position: absolute;
+        right: 23%
+    }
+    .inline-link {
+        display: block
+    }
+    #modals .third-exit-site .modal-dialog {
+        width: 100%;
+        margin: 50px 0
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-header {
+        padding: 0
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body {
+        margin-top: 0;
+        padding-top: 26px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+        padding: 0 4%;
+        padding-bottom: 86px !important
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body .register {
+        width: 100% !important;
+        right: 0;
+        top: 280px;
+        padding-top: 23px !important;
+        text-align: left
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 {
+        width: 100% !important;
+        left: 0;
+        top: 197px
+    }
+    #modals .hcp-exit-site .modal-dialog {
+        width: 100%;
+        margin: 50px 0
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-header {
+        padding: 0
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body {
+        margin-top: 0;
+        padding-top: 26px
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body .modal-title {
+        padding: 0 4%;
+        padding-bottom: 111px !important
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body .register {
+        width: 100% !important;
+        right: 0;
+        top: 358px;
+        padding-top: 23px !important;
+        text-align: left
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 {
+        width: 100% !important;
+        left: 0;
+        top: 274px;
+        margin-left: 0 !important
+    }
+    #modals .exit-site .modal-dialog {
+        width: 100%;
+        margin: 50px 0
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-header {
+        padding: 0
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body {
+        margin-top: 0;
+        padding-top: 26px
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body .modal-title {
+        padding: 0 4%;
+        padding-bottom: 86px !important
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body .register {
+        width: 100% !important;
+        right: 0;
+        top: 280px;
+        padding-top: 23px !important;
+        text-align: left
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+        width: 100% !important;
+        left: 0;
+        top: 197px
+    }
+    .boxPdf::after {
+        width: 18px;
+        margin-top: -10px
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .utility-nav .navbar-nav {
+        float: none;
+        margin-top: 6px
+    }
+    .utility-nav .navbar-nav li.navbar-right p.navbar-text {
+        float: right;
+        margin-right: 15px;
+        padding: 5px 5px
+    }
+    .logo-options .col3 {
+        margin-top: 8px
+    }
+    header .spinraza-header .container .center-img img {
+        width: 300px;
+        padding: 10px 0
+    }
+    #footer {
+        margin-top: 12px;
+        margin-bottom: 44px;
+        border-bottom: none
+    }
+    #footer .wrapper {
+        padding: 41px 15px
+    }
+    #footer .wrapper .siteMapFooter-links .col.siteMapColumn {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+        margin-top: 98px
+    }
+    #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+        width: 45%
+    }
+    #footer .wrapper .siteMapFooter-links .col.siteMapColumn ul li a {
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif
+    }
+    .sticky-footer .reveal .isi-wrapper {
+        padding: 0px 15px 1px !important
+    }
+    .isi .wrapper {
+        max-width: 1280px;
+        padding: 30px 15px 0px
+    }
+    .sticky-footer .reveal {
+        max-height: 105px
+    }
+    .sticky-footer .title h2 span {
+        right: 15px;
+        z-index: 999
+    }
+    .sticky-footer .title h2 {
+        padding: 10px 15px 0
+    }
+    .main-isi {
+        margin-bottom: 40px
+    }
+    .page_important-safety-information .content .wrapper {
+        min-height: 0px !important
+    }
+    .page_registration .underline .col.col-xs-12.col-sm-6.col-md-12,
+    .page_edit-profile .col.col-xs-12.col-sm-6.col-md-12,
+    .eventregistration .col.col-xs-12.col-sm-6.col-md-12 {
+        width: 100%
+    }
+    .changepassword {
+        padding-bottom: 50px
+    }
+    .changepassword .compressed-form fieldset p:first-child {
+        margin-bottom: 0
+    }
+    #forgot-password {
+        padding-bottom: 30px
+    }
+    #myProfileForm {
+        padding-bottom: 30px
+    }
+    .smacgsignin {
+        padding-bottom: 30px
+    }
+    .patientRegistration #patientRegistrationForm .form-group .sma-edit-date .sma-dropdown.sma-date .select-dropdown,
+    #myProfileForm .form-group .sma-date select.select-dropdown {
+        width: 240px !important
+    }
+    .isi .isi-wrapper {
+        padding: 0 !important
+    }
+    .patientRegistration .form-subtitle {
+        margin-top: 56px
+    }
+    .sma-hcpregistration {
+        padding: 0
+    }
+    #unsubscribeForm {
+        padding: 0px 199px;
+        margin-top: 56px !important
+    }
+    .unsubscribe-page .form-subtitle {
+        top: 90px;
+        right: 213px
+    }
+    .page_unsubscribe .content .wrapper {
+        min-height: auto
+    }
+    .sma-hcpregistration .compressed-form #validate-email .register-check label#email-error+input+input+button {
+        right: -5px;
+        top: 8px
+    }
+    .sma-hcpregistration .compressed-form #validate-email .register-check label#email-error[style="display: none;"]+input+input+button {
+        right: -6.5em;
+        top: 0px
+    }
+    .sma-hcpregistration .compressed-form .form-group .register-check .form-control.error {
+        margin-right: 5px
+    }
+    .wrapper {
+        padding: 0 15px
+    }
+    .content .wrapper .main {
+        padding: 0px;
+        margin-bottom: 20px
+    }
+    .content .wrapper {
+        min-height: 420px
+    }
+    .mobile-menu-toggle {
+        z-index: 1000
+    }
+    .template--home .content .wrapper {
+        padding: 0px 0px
+    }
+    #third-exit-site,
+    #hcp-exit-site,
+    #exit-site {
+        z-index: 9999
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 {
+        padding: 0px 7px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas {
+        min-height: 390px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .col.col-xs-12.col-sm-4.col-md-4 .background-ctas a:nth-of-type(1) {
+        margin: 189px 47px 0px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(1) a.netherLandsDefaultButton:after {
+        right: 17px;
+        top: 28px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline .section.columncontrol .row>div:nth-of-type(2) a.netherLandsDefaultButton:after {
+        right: 56px;
+        top: 28px
+    }
+    .content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) {
+        margin-top: 35px
+    }
+    .page-header-generic .wrapper {
+        margin-top: 0px;
+        min-height: 240px;
+        max-width: 1280px;
+        padding: 60px 50px;
+        background-size: cover
+    }
+    body .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader .headerToggle {
+        position: absolute
+    }
+    #modals .third-exit-site .modal-dialog {
+        width: 700px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body .register {
+        top: 139px;
+        right: 156px
+    }
+    #modals .third-exit-site .modal-dialog .modal-content .modal-body #continue-button3 {
+        left: 156px
+    }
+    #modals .hcp-exit-site .modal-dialog {
+        width: 700px
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body .register {
+        top: 165px;
+        right: 156px
+    }
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 {
+        left: 156px
+    }
+    #modals .exit-site .modal-dialog {
+        width: 700px
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body .register {
+        top: 140px;
+        right: 156px
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+        left: 156px
+    }
+    .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementBody {
+        padding: 24px 0 0
+    }
+    #modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+        bottom: 69px !important
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header .spinraza-header .container {
+        max-width: 1280px;
+        padding: 0 0 20px;
+        width: auto;
+        position: relative
+    }
+    header .spinraza-header .container .header_links {
+        display: block !important;
+        width: 100%;
+        padding: 10px 10px 0;
+        margin-bottom: 10px;
+        background: #ebebeb
+    }
+    header .spinraza-header .container .header_links .text ul {
+        padding: 0 62px;
+        display: block
+    }
+    header .spinraza-header .container .header_links .text ul li {
+        font-size: 13px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #58595b;
+        float: none
+    }
+    header .spinraza-header .container .header_links .text ul li a {
+        font-size: 13px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #028ca6
+    }
+    header .spinraza-header .container .header_links .text ul li:first-child {
+        text-align: center;
+        display: none
+    }
+    header .spinraza-header .container .header_links .text ul li:nth-child(3n) {
+        border-left: 1px solid #58595b;
+        border-right: 1px solid #58595b
+    }
+    header .spinraza-header .container .headerlinks_device {
+        display: none !important;
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: 20px
+    }
+    header .spinraza-header .container .headerlinks_device p {
+        display: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink {
+        padding: 0px;
+        display: initial;
+        width: 33.3%;
+        text-align: center
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li {
+        list-style: none;
+        display: inline-block;
+        float: none;
+        padding: 0px 40px;
+        line-height: 12px;
+        margin-bottom: 5px
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li a {
+        font-size: 10px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #028ca6;
+        text-decoration: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink li a:hover,
+    header .spinraza-header .container .headerlinks_device .headerlink li a:focus {
+        text-decoration: none
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:first-child li {
+        padding-left: 0
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:first-child li a {
+        font-size: 10px;
+        font-family: 'Avenir Next Cyr W00 Demi', sans-serif;
+        font-weight: 600 !important;
+        color: #414042
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink:last-child li {
+        padding-right: 0px
+    }
+    header .spinraza-header .container .headerlinks_device .headerlink+.headerlink {
+        border-left: 1px solid #028ca6
+    }
+    header .spinraza-header .container .center-img {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto
+    }
+    header .spinraza-header .container .center-img .image figure img {
+        width: 50% !important
+    }
+    header .spinraza-header .container .pull-right {
+        display: none
+    }
+    header .spinraza-header .container .pull-right .form-inline {
+        display: none !important
+    }
+    .mobile-menu-toggle {
+        bottom: 24%;
+        background: transparent url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/menuButtonMobile.png) no-repeat;
+        display: inline-block;
+        width: 54px;
+        height: 43px
+    }
+    .mobile-menu-toggle .icon-bar {
+        background-color: #028ca6;
+        display: none
+    }
+    #footer .wrapper .siteMapFooter-links .col.siteMapColumn {
+        padding: 0 2% !important
+    }
+    #footer>div:nth-of-type(1) {
+        display: block
+    }
+    body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li {
+        border: none
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(1),
+    .main-nav .wrapper>ul>li:nth-child(1),
+    .main-nav .wrapper>ul>li:nth-child(1) {
+        display: none
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+    .main-nav .wrapper>ul>li:nth-child(2),
+    .main-nav .wrapper>ul>li:nth-child(2) {
+        display: none
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(3),
+    .main-nav .wrapper>ul>li:nth-child(3) {
+        display: none
+    }
+    .row-offcanvas.row-offcanvas-left.active header .spinraza-header .container .mobile-menu-toggle.visible-xs- {
+        background: transparent url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/menuButtonMobile.png) no-repeat;
+        display: block;
+        width: 54px;
+        height: 43px
+    }
+    .no-touchcapable .main-nav,
+    .touchcapable .main-nav,
+    .main-nav {
+        margin-top: 0px;
+        background: #223868;
+        z-index: 1000000
+    }
+    .no-touchcapable .main-nav .wrapper,
+    .touchcapable .main-nav .wrapper,
+    .main-nav .wrapper {
+        padding: 0px;
+        background: #223868
+    }
+    .no-touchcapable .main-nav .wrapper>ul,
+    .touchcapable .main-nav .wrapper>ul,
+    .main-nav .wrapper>ul {
+        margin-top: 10px
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li,
+    .touchcapable .main-nav .wrapper>ul>li,
+    .main-nav .wrapper>ul>li {
+        margin-right: 0px;
+        width: 100%;
+        min-height: 0px;
+        padding: 0;
+        border-bottom: 1px solid #028ca6
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li>a,
+    .touchcapable .main-nav .wrapper>ul>li>a,
+    .main-nav .wrapper>ul>li>a {
+        font-size: 13px !important;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif !important;
+        font-weight: 500;
+        color: #028ca6 !important;
+        text-align: left;
+        padding: 10px 25px 10px 30px;
+        display: inline-block;
+        width: 100%
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li>a:after,
+    .touchcapable .main-nav .wrapper>ul>li>a:after,
+    .main-nav .wrapper>ul>li>a:after {
+        content: none;
+        display: none
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li>a:before,
+    .touchcapable .main-nav .wrapper>ul>li>a:before,
+    .main-nav .wrapper>ul>li>a:before {
+        content: url(../images/mobile-menu-arrow.png);
+        float: right;
+        width: 11px;
+        height: 18px
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li>a.on:before,
+    .touchcapable .main-nav .wrapper>ul>li>a.on:before,
+    .main-nav .wrapper>ul>li>a.on:before {
+        width: 18px;
+        height: 11px;
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul,
+    .touchcapable .main-nav .wrapper>ul>li ul,
+    .main-nav .wrapper>ul>li ul {
+        margin-bottom: 0;
+        padding: 0 !important;
+        background: #223868
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul li,
+    .touchcapable .main-nav .wrapper>ul>li ul li,
+    .main-nav .wrapper>ul>li ul li {
+        display: block;
+        float: none;
+        padding: 10px 25px 10px 30px;
+        margin-top: 0px
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul li a,
+    .touchcapable .main-nav .wrapper>ul>li ul li a,
+    .main-nav .wrapper>ul>li ul li a {
+        font-size: 13px !important;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif !important;
+        font-weight: 400;
+        color: #fff !important;
+        text-align: left;
+        padding: 3px 0px;
+        background: none !important
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul li:after,
+    .touchcapable .main-nav .wrapper>ul>li ul li:after,
+    .main-nav .wrapper>ul>li ul li:after {
+        display: none
+    }
+    .no-touchcapable .main-nav .wrapper>ul li+li,
+    .touchcapable .main-nav .wrapper>ul li+li,
+    .main-nav .wrapper>ul li+li {
+        border-left: none !important
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li:last-child,
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(10),
+    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(11),
+    .touchcapable .main-nav .wrapper>ul>li:last-child,
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(10),
+    .touchcapable .main-nav .wrapper>ul>li:nth-child(11),
+    .main-nav .wrapper>ul>li:last-child,
+    .main-nav .wrapper>ul>li:nth-child(10),
+    .main-nav .wrapper>ul>li:nth-child(11) {
+        display: block
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+    .no-touchcapable .main-nav .wrapper>ul>li ul li .on,
+    .touchcapable .main-nav .wrapper>ul>li ul li a:hover,
+    .touchcapable .main-nav .wrapper>ul>li ul li .on,
+    .main-nav .wrapper>ul>li ul li a:hover,
+    .main-nav .wrapper>ul>li ul li .on {
+        padding: 3px 0px;
+        color: #fff !important
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li ul li.level-2.active.over a,
+    .touchcapable .main-nav .wrapper>ul>li ul li.level-2.active.over a,
+    .main-nav .wrapper>ul>li ul li.level-2.active.over a {
+        color: #ffffff !important
+    }
+    .sticky-footer .title {
+        margin-bottom: -1px;
+        border-bottom: 0px !important
+    }
+    #myProfileForm .checkbox-group {
+        padding: 0 !important
+    }
+    #myProfileForm .checkbox-group input {
+        display: block !important;
+        float: left !important
+    }
+    .brandregistration .compressed-form .form-group .form-control.input-small,
+    #edit-profile .compressed-form .form-group .form-control.input-small {
+        max-width: 500px
+    }
+    .patientRegistration .form-header h3,
+    .patientRegistration .form-header .form-subtitle,
+    .patientRegistration .form-header h3,
+    .patientRegistration .form-header .form-subtitle {
+        font-size: 16px
+    }
+    .patientRegistration .part-two-div .form-header h3,
+    .patientRegistration .part-two-div .form-header h3 {
+        font-size: 16px
+    }
+    .patientRegistration #patientRegistrationForm .form-group label,
+    .patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+    .patientRegistration #patientRegistrationForm .form-group input,
+    .patientRegistration #patientRegistrationForm .form-group label,
+    .patientRegistration #patientRegistrationForm .form-group .dropdown select.select-dropdown,
+    .patientRegistration #patientRegistrationForm .form-group input {
+        font-size: 16px
+    }
+    .signin form.compressed-form .form-group,
+    .smacgsignin form.compressed-form .form-group {
+        max-width: none
+    }
+    .signin form.compressed-form .form-group input.form-control,
+    .smacgsignin form.compressed-form .form-group input.form-control {
+        font-size: 16px
+    }
+    .signin form.compressed-form .form-group label,
+    .smacgsignin form.compressed-form .form-group label {
+        font-size: 16px
+    }
+    .signin form.compressed-form .form-group .help-block a,
+    .smacgsignin form.compressed-form .form-group .help-block a {
+        font-size: 16px
+    }
+    .signin form.compressed-form .checkbox label,
+    .smacgsignin form.compressed-form .checkbox label {
+        font-size: 16px
+    }
+    .signin p.required.sign-in,
+    .smacgsignin p.required.sign-in {
+        font-size: 16px
+    }
+    .changepassword form.compressed-form>p.required {
+        font-size: 16px
+    }
+    .changepassword form.compressed-form .form-group input.form-control {
+        font-size: 16px
+    }
+    .changepassword form.compressed-form .form-group label {
+        font-size: 16px
+    }
+    .changepassword form.compressed-form .form-group label span.required {
+        font-size: 16px
+    }
+    #forgot-password form.compressed-form>p.required {
+        font-size: 16px
+    }
+    #forgot-password form.compressed-form .form-group input.form-control {
+        font-size: 16px
+    }
+    #forgot-password form.compressed-form .form-group label {
+        font-size: 16px
+    }
+    #forgot-password form.compressed-form .form-group label span.required {
+        font-size: 16px
+    }
+    #forgot-password p.required.forgotpassword-required {
+        font-size: 16px
+    }
+    #myProfileForm {
+        padding-bottom: 70px
+    }
+    #myProfileForm label.error {
+        font-size: 16px;
+        line-height: 16px
+    }
+    #myProfileForm .form-group label {
+        font-size: 16px
+    }
+    #myProfileForm .form-group .dropdown,
+    #myProfileForm .form-group .dropdown select.select-dropdown,
+    #myProfileForm .form-group input,
+    #myProfileForm .form-group .dropdown input,
+    #myProfileForm .form-group input#city-input {
+        font-size: 16px
+    }
+    #myProfileForm .checkbox-group p {
+        display: inline
+    }
+    .canvas-container .content {
+        padding-top: 0px
+    }
+    .content .wrapper .main {
+        padding: 0 0px 0 0px;
+        margin-bottom: 0px
+    }
+    body {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 18px;
+        margin: 0 auto
+    }
+    p,
+    .content p {
+        font-size: 16px
+    }
+    p b,
+    .content p b {
+        font-size: 16px
+    }
+    p a,
+    .content p a {
+        font-size: 16px
+    }
+    .template_generic .breadcrumb,
+    .breadcrumb {
+        display: none !important
+    }
+    .page-title h1,
+    .page-title .h1 {
+        font-size: 30px;
+        font-family: 'vag-rundschrift-d', sans-serif;
+        font-weight: 500 !important;
+        color: #223868;
+        line-height: 36px
+    }
+    .page-title h2,
+    .page-title .h2 {
+        font-size: 20px;
+        font-family: 'Avenir Next Cyr W00 Medium', sans-serif;
+        font-weight: 500 !important;
+        color: #223868;
+        line-height: 23px;
+        margin-bottom: 0px
+    }
+    .page-header .wrapper .page-title h1:nth-of-type(1) {
+        display: none
+    }
+    .content h1,
+    .content .h1 {
+        font-size: 30px;
+        font-family: 'vag-rundschrift-d', sans-serif;
+        font-weight: 500 !important;
+        color: #223868;
+        line-height: 36px
+    }
+    p,
+    .content p {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+        font-weight: 300 !important;
+        color: #414042;
+        line-height: 19px;
+        margin-bottom: 16px
+    }
+    p b,
+    .content p b {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #414042;
+        font-weight: 700
+    }
+    p a,
+    .content p a {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #e45c58;
+        text-decoration: underline
+    }
+    p a:hover,
+    .content p a:hover {
+        font-size: 16px;
+        font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+        font-weight: bold !important;
+        color: #e45c58;
+        text-decoration: underline
+    }
+    .wrapper>.main>.title,
+    .wrapper>.main>.text {
+        padding: 0
+    }
+    .content .image .well.well-tertiary {
+        padding: 0
+    }
+    .utility-nav .navbar-nav>li {
+        width: 50%
+    }
+    .utility-nav .navbar-nav>li:nth-child(1) {
+        text-align: left
+    }
+    .utility-nav .navbar-nav>li:nth-child(2) {
+        text-align: right
+    }
+    #modals #hcp-exit-site h2 {
+        width: 90%
+    }
+    #modals #hcp-exit-site #continue-button2 {
+        width: 120px
+    }
+    .home-cta a:hover .off-hover {
+        display: block
+    }
+    .home-cta a:hover .on-hover {
+        display: none
+    }
+    .row-offcanvas-left {
+        background: white
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+    .no-touchcapable .main-nav .wrapper>ul>li>a,
+    .touchcapable .main-nav .wrapper>ul>li>a,
+    .main-nav .wrapper>ul>li>a {
+        font-size: 13px
+    }
+    .no-touchcapable .main-nav .wrapper>ul>li>a:hover,
+    .touchcapable .main-nav .wrapper>ul>li>a:hover,
+    .main-nav .wrapper>ul>li>a:hover {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .template--generic-one-column header,
+    .template--register header,
+    .template--search-results header {
+        border-bottom: none
+    }
+    header .center-img {
+        padding: 0 35px
+    }
+    .patientRegistration .form-header .form-subtitle {
+        margin-top: 38px
+    }
+    .patientRegistration .sma-edit-date {
+        display: inline-block;
+        width: 100%
+    }
+    .patientRegistration .sma-edit-date .sma-dropdown.sma-date {
+        width: 30% !important
+    }
+    .patientRegistration .sma-edit-date .sma-dropdown.sma-date .select-dropdown {
+        width: 100% !important
+    }
+    #myProfileForm .form-group .sma-edit-date {
+        display: inline-block;
+        width: 100%
+    }
+    #myProfileForm .form-group .sma-edit-date .sma-date {
+        width: 30% !important
+    }
+    #myProfileForm .form-group .sma-edit-date .sma-date select.select-dropdown {
+        width: 100% !important
+    }
+}
+
+.highContrast.content,
+.highContrast.content p,
+.highContrast ul li,
+.highContrast p,
+.highContrast.isi p b,
+.highContrast .btn-next .btn-next-left .btn-next-left-text,
+.highContrast.content .key-points span,
+.highContrast h1,
+.highContrast h2,
+.highContrast h3,
+.highContrast h4,
+.highContrast h5,
+.highContrast span,
+.highContrast a,
+.highContrast p,
+.highContrast#footer h1,
+.highContrast#footer h2,
+.highContrast#footer h3,
+.highContrast#footer h4,
+.highContrast#footer h5,
+.highContrast#footer span,
+.highContrast#footer a,
+.highContrast#footer p {
+    color: #000 !important;
+    border-color: #000 !important
+}
+
+.highContrast .cta-learnmore,
+.highContrast .tysabri-promo {
+    background: white !important;
+    border: none !important
+}
+
+.highContrast.isi p,
+.highContrast.isi p b {
+    color: #fff !important
+}
+
+.highContrast.content p b {
+    color: #000 !important
+}
+
+.smallTextSize.content .form-group .dropdown-container,
+.smallTextSize p a,
+.smallTextSize li,
+.smallTextSize#footer a,
+.smallTextSize#footer p,
+.smallTextSize#footer small,
+.smallTextSize h1,
+.smallTextSize h2,
+.smallTextSize h3,
+.smallTextSize h4,
+.smallTextSize h5 {
+    font-size: 12px !important;
+    line-height: 1 !important
+}
+
+.smallTextSize.isi p,
+.smallTextSize.isi p b,
+.smallTextSize.content .form-group label {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.smallTextSize span {
+    font-size: 13px !important;
+    line-height: 16px
+}
+
+.smallTextSize h2 {
+    font-size: 30px !important
+}
+
+.smallTextSize h3 {
+    font-size: 18px !important
+}
+
+.smallTextSize h6 {
+    font-size: 24px !important
+}
+
+.isi.smallTextSize .wrapper .isi-menu .cta1:hover h3 {
+    font-size: 18px !important
+}
+
+.content.smallTextSize h1,
+.content.smallTextSize .h1 {
+    font-size: 33px !important;
+    line-height: 1.1
+}
+
+.content.smallTextSize h2,
+.content.smallTextSize .h2 {
+    font-size: 30px !important;
+    line-height: 1.1 !important
+}
+
+.content.smallTextSize h4,
+.content.smallTextSize .h4 {
+    font-size: 16px !important;
+    line-height: 1.1
+}
+
+.content.smallTextSize h6,
+.content.smallTextSize .h6 {
+    font-size: 24px !important;
+    line-height: 40px
+}
+
+.content.smallTextSize p {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize p a {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize p a:hover {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize p b {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize ul li {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize a {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize a:hover {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.smallTextSize small {
+    font-size: 13px !important;
+    line-height: 16px
+}
+
+.content.smallTextSize .patientRegistration #patientRegistrationForm .checkbox-group {
+    clear: both
+}
+
+.content.smallTextSize .accordioncontainer .accordion .accordionElement .accordionElementHeader h4 {
+    font-size: 16px !important;
+    line-height: 1 !important
+}
+
+.template--home .smallTextSize h1,
+.template--home .smallTextSize .h1,
+.template--home .smallTextSize.content h1,
+.template--home .smallTextSize.content .h1 {
+    font-size: 80px !important;
+    line-height: 1.1
+}
+
+#modals .modal-dialog .modal-content.smallTextSize .modal-body .modal-buttons a,
+#modals .modal-dialog .modal-content.smallTextSize .modal-body .modal-buttons a span {
+    font-size: 15px !important
+}
+
+#modals .modal-dialog .modal-content.smallTextSize .modal-header .close span {
+    font-size: 3em !important
+}
+
+.mediumTextSize.content .form-group .dropdown-container,
+.mediumTextSize p a,
+.mediumTextSize li,
+.mediumTextSize#footer a,
+.mediumTextSize#footer p,
+.mediumTextSize#footer small,
+.mediumTextSize h1,
+.mediumTextSize h2,
+.mediumTextSize h3,
+.mediumTextSize h4,
+.mediumTextSize h5 {
+    font-size: 14px !important;
+    line-height: 1 !important
+}
+
+.mediumTextSize.isi p,
+.mediumTextSize.isi p b,
+.mediumTextSize.content .form-group label,
+.mediumTextSize span {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.mediumTextSize span {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.mediumTextSize h2 {
+    font-size: 30px !important
+}
+
+.mediumTextSize h3 {
+    font-size: 20px !important
+}
+
+.mediumTextSize h6 {
+    font-size: 24px !important
+}
+
+.isi.mediumTextSize .wrapper .isi-menu .cta1:hover h3 {
+    font-size: 20px !important
+}
+
+.content.mediumTextSize h1,
+.content.mediumTextSize .h1 {
+    font-size: 35px !important;
+    line-height: 1.1
+}
+
+.content.mediumTextSize h2,
+.content.mediumTextSize .h2 {
+    font-size: 32px !important;
+    line-height: 1.1 !important
+}
+
+.content.mediumTextSize h4,
+.content.mediumTextSize .h4 {
+    font-size: 18px !important
+}
+
+.content.mediumTextSize h6,
+.content.mediumTextSize .h6 {
+    font-size: 26px !important;
+    line-height: 42px
+}
+
+.content.mediumTextSize p {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize p a {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize p a:hover {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize p b {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize ul li {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize a {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize a:hover {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.content.mediumTextSize small {
+    font-size: 15px !important;
+    line-height: 18px
+}
+
+.content.mediumTextSize .patientRegistration #patientRegistrationForm .checkbox-group {
+    clear: both
+}
+
+.content.mediumTextSize .patientRegistration #patientRegistrationForm .form-group input {
+    margin-top: 0px
+}
+
+.content.mediumTextSize .accordioncontainer .accordion .accordionElement .accordionElementHeader h4 {
+    font-size: 18px !important;
+    line-height: 1.1 !important
+}
+
+.template--home .mediumTextSize h1,
+.template--home .mediumTextSize .h1,
+.template--home .mediumTextSize.content h1,
+.template--home .mediumTextSize.content .h1 {
+    font-size: 82px !important;
+    line-height: 1.1
+}
+
+.isi.mediumTextSize .wrapper .isi-menu .cta2 {
+    margin-left: 0px !important
+}
+
+#modals .modal-dialog .modal-content.mediumTextSize .modal-body .modal-buttons a,
+#modals .modal-dialog .modal-content.mediumTextSize .modal-body .modal-buttons a span {
+    font-size: 15px !important
+}
+
+#modals .modal-dialog .modal-content.mediumTextSize .modal-header .close span {
+    font-size: 3em !important
+}
+
+.largeTextSize.content .form-group .dropdown-container,
+.largeTextSize p a,
+.largeTextSize p,
+.largeTextSize li,
+.largeTextSize#footer a,
+.largeTextSize#footer p,
+.largeTextSize#footer small,
+.largeTextSize h1,
+.largeTextSize h2,
+.largeTextSize h3,
+.largeTextSize h4,
+.largeTextSize h5 {
+    font-size: 16px !important;
+    line-height: 1 !important
+}
+
+.largeTextSize.isi p,
+.largeTextSize.isi p b,
+.largeTextSize.content .form-group label,
+.largeTextSize span {
+    font-size: 19px !important;
+    line-height: 22px
+}
+
+.largeTextSize span {
+    font-size: 17px !important;
+    line-height: 20px
+}
+
+.largeTextSize h2 {
+    font-size: 30px !important
+}
+
+.largeTextSize h3 {
+    font-size: 22px !important
+}
+
+.largeTextSize h6 {
+    font-size: 24px !important
+}
+
+.isi.largeTextSize .wrapper .isi-menu .cta1:hover h3 {
+    font-size: 22px !important
+}
+
+.content.largeTextSize h1,
+.content.largeTextSize .h1 {
+    font-size: 37px !important;
+    line-height: 1.1
+}
+
+.content.largeTextSize h2,
+.content.largeTextSize .h2 {
+    font-size: 34px !important;
+    line-height: 1.1 !important
+}
+
+.content.largeTextSize h4,
+.content.largeTextSize .h4 {
+    font-size: 20px !important;
+    line-height: 1.1
+}
+
+.content.largeTextSize h6,
+.content.largeTextSize .h6 {
+    font-size: 28px !important;
+    line-height: 44px
+}
+
+.content.largeTextSize p {
+    font-size: 19px !important;
+    line-height: 23px
+}
+
+.content.largeTextSize p a {
+    font-size: 19px !important;
+    line-height: 23px
+}
+
+.content.largeTextSize p a:hover {
+    font-size: 19px !important;
+    line-height: 23px
+}
+
+.content.largeTextSize p b {
+    font-size: 19px !important;
+    line-height: 23px;
+    line-height: 23px
+}
+
+.content.largeTextSize ul li {
+    font-size: 19px !important;
+    line-height: 22px
+}
+
+.content.largeTextSize a {
+    font-size: 19px !important;
+    line-height: 23px
+}
+
+.content.largeTextSize a:hover {
+    font-size: 19px !important;
+    line-height: 23px
+}
+
+.content.largeTextSize small {
+    font-size: 18px !important;
+    line-height: 20px
+}
+
+.content.largeTextSize .patientRegistration #patientRegistrationForm .checkbox-group {
+    clear: both
+}
+
+.content.largeTextSize .patientRegistration #patientRegistrationForm .form-group input {
+    margin-top: -2px
+}
+
+.content.largeTextSize .accordioncontainer .accordion .accordionElement .accordionElementHeader h4 {
+    font-size: 20px !important;
+    line-height: 1.1 !important
+}
+
+.template--home .largeTextSize h1,
+.template--home .largeTextSize .h1,
+.template--home .largeTextSize.content h1,
+.template--home .largeTextSize.content .h1 {
+    font-size: 84px !important;
+    line-height: 1.1
+}
+
+#modals .modal-dialog .modal-content.largeTextSize .modal-body .modal-buttons a,
+#modals .modal-dialog .modal-content.largeTextSize .modal-body .modal-buttons a span {
+    font-size: 15px !important
+}
+
+#modals .modal-dialog .modal-content.largeTextSize .modal-header .close span {
+    font-size: 3em !important
+}
+
+
+/*# sourceMappingURL=main-spinraza-hcp-pat.css.map */
