@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var buttongroup = $('<div class="checkbox"><input class="hcp-checkbox" type="checkbox"><span class="hcp-checkmark"></span><b>Yes,</b> I confirm that I am a healthcare professional registered in Australia<br></div><div class="proceed-button"><a href="https://contentprod-spinraza-com-au.biogen-support.com" target="_blank" id="continue-button3" class="proceed-link">Proceed</a></div><a href="#" class="cancel-link" data-dismiss="modal">Cancel</a>');
+  var buttongroup = $('<div class="checkboxFive"><input type="checkbox" id="checkboxFiveInput" name=""/><label for="checkboxFiveInput"></label><b>Yes,</b> I confirm that I am a healthcare professional registered in Australia<br></div><div class="proceed-button"><a href="https://contentprod-spinraza-com-au.biogen-support.com"  id="continue-button3" class="proceed-link">Proceed</a></div><a href="#" class="cancel-link" data-dismiss="modal">Cancel</a>');
 
   $(".exit-site .modal-buttons").append(buttongroup);
   $(".third-exit-site .modal-buttons").append(buttongroup);
@@ -14,14 +14,14 @@ $(document).ready(function(){
     return false;
   });
 
-  $(".hcp-checkbox").on("click", function(){
+  $("#checkboxFiveInput").on("click", function(){
     validateIfHCP();
   });
 });
 
 
 function validateIfHCP(){
-  if ($(".hcp-checkbox").is(':checked')) {
+  if ($("#checkboxFiveInput").is(':checked')) {
     $(".proceed-button").removeClass("not-active");
   }else{
     $(".proceed-button").addClass("not-active");
