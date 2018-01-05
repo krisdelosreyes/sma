@@ -1,0 +1,163 @@
+.content .main .columncontrol figure{
+	margin-top: 0px;
+}
+.content .wrapper .main .section.columncontrol .column-control-column .text p a{
+	display: inline-block;
+	background: #4570b7;
+	font-family: "brandon-grotesque";
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 19px 10px 19px;
+	width: 100%;
+}
+
+.content .wrapper .main .section.columncontrol .column-control-column .text p a img{
+	width: 18px;
+	position: relative;
+	top: -2px;
+	/*right: -9px;*/
+	right:-6px;
+}
+.content .wrapper .main .section.columncontrol .column-control-column a figure span img {
+	transform: translateZ(0);
+	padding:0;
+	width: 80%;
+	backface-visibility: hidden;
+}
+
+.col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+	text-align: left;
+	margin-left: 28px;
+	min-height: 280px;
+}
+.content .altWrapper .columncontrol:nth-of-type(3) .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+	min-height: 210px;
+}
+.content .altWrapper .columncontrol:nth-of-type(4) .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+	min-height: 150px;
+}
+.col.col-xs-12.col-sm-4.col-md-4 .column-control-column div.parbase.section.text{
+	text-align: center;
+	margin-left: 28px;
+}
+
+.section.columncontrol{
+	margin-top: 36px;
+}
+
+div.section.columncontrol:nth-of-type(2){
+	margin-top: 0px;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+	.content .wrapper .main .section.columncontrol .column-control-column .text p a{
+		padding: 10px 14px 10px 14px;
+	}
+	.col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+		margin-left: 0px;
+		min-height: 280px;
+	}
+	.col.col-xs-12.col-sm-4.col-md-4 .column-control-column div.parbase.section.text{
+		margin-left: 0px;
+	}
+	.content .altWrapper .columncontrol:nth-of-type(3) .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+		min-height: 280px!important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+		text-align: left;
+		margin: 0px 18px;
+		min-height: 0px;
+	}
+	.content .wrapper .main .section.columncontrol .column-control-column .text p a{
+		width: auto;
+	}
+	.col.col-xs-12.col-sm-4.col-md-4 .column-control-column div.parbase.section.text{
+		margin-left: 0px;
+	}
+	.content .whiteWrap{
+		padding: 0px 20px 30px;
+	}
+	.content .whiteWrap .columncontrol:nth-of-type(2) .row .col:nth-of-type(3) .image img{
+		width: 70%;
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+	.content .whiteWrap .columncontrol:nth-of-type(3) .row .col:nth-of-type(3) .image img{
+		width: 80%;
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+
+	.content .whiteWrap .columncontrol:nth-of-type(3) .row .col:nth-of-type(2) figure{
+		margin-bottom: 0px;
+	}
+	.section.columncontrol{
+		margin-top: 0px;
+	}
+	.content .altWrapper .columncontrol:nth-of-type(3) .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+		min-height: auto;
+	}
+	a.break-mobile {
+		width: 65% !important;
+	}
+	.content .wrapper .main .section.columncontrol .column-control-column a figure span img {
+		transform: translateZ(0);
+		padding:0;
+		width: 60%;
+		backface-visibility: hidden;
+	}
+	.content .wrapper .main .html .section.columncontrol:nth-child(2) .col:nth-child(2) .image + .text + .text a{
+		width:228px!important;
+	}
+	.content .wrapper .main > .html > .altWrapper > .columncontrol:nth-child(2) > .row > .col:first-child .responsive-options figure{
+		margin-top:46px;
+	}
+	.content .wrapper .main > .html > .altWrapper > .columncontrol:nth-child(2) > .row > .col:nth-child(2) .responsive-options figure{
+		margin-top:16px;
+	}
+	.content .wrapper .main > .html > .altWrapper > .columncontrol:nth-child(3){
+		margin-top: 3px;
+	}
+	.content .wrapper .main > .html > .altWrapper > .columncontrol:nth-child(3) .row .col:nth-child(2) .image{
+		margin-top: -22px;
+	}
+	.content .wrapper .main > .html > .altWrapper > .columncontrol:nth-child(4) .row > .col:first-child .image{
+		margin-top: -23px;
+	}
+
+
+}
+@media screen and (min-width: 768px){
+	.content .main .columncontrol figure{
+		margin-bottom: 0px;
+	}
+	.content .altWrapper .columncontrol:nth-of-type(4) figure{
+		margin-bottom: 24px;
+	}
+	.content .wrapper .main .section.columncontrol .column-control-column a figure span img{
+		transform:none;
+		backface-visibility:initial;
+	}
+	.content .altWrapper .columncontrol:nth-of-type(3) .col.col-xs-12.col-sm-4.col-md-4 .column-control-column .image.adaptiveimage.parbase.section + div.parbase.section.text{
+		min-height: 260px;
+	}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.content .wrapper .main .section.columncontrol .column-control-column .text p a{
+		padding:10px 14px 10px 14px;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.content .wrapper .main .section.columncontrol .column-control-column a figure span img{
+		transform:none;
+		backface-visibility:initial;
+	}
+}

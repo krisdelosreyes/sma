@@ -1,0 +1,301 @@
+#modals .modal-dialog .modal-body .modal-title {
+    text-align: center;
+    margin: 0px 40px 0px 35px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons {
+    border-top: 1px solid #a7abb0;
+}
+
+ #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
+    display: none;
+}
+
+img.proceed {
+    width: 150px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a.cancel-link{
+  color: #56c8e4;
+  background: none;
+  text-decoration: underline;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a.cancel-link, #modals .modal-dialog .modal-body .modal-buttons a.proceed-link{
+  display: block;
+}
+
+.not-active{
+  pointer-events: none;
+  cursor: default;
+}
+
+.proceed-button {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+ #modals .third-exit-site .modal-dialog .modal-body .modal-buttons a {
+    height: auto !important;
+  }
+
+/*  #modals .exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }
+
+  #modals .third-exit-site .modal-dialog .modal-body .modal-title .popup-button{
+    display: none !important;
+  }*/
+
+.checkbox {
+   display: block;
+   position: relative;
+   padding-left: 35px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 22px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/*
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+}
+
+.hcp-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkbox:hover input ~ .hp-checkmark {
+  background-color: #ccc;
+}
+
+.checkbox input:checked ~ .hp-checkmark {
+  background-color: #fff;
+}
+
+.hp-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .hp-checkmark:after {
+  display: block;
+}
+
+.checkbox .hp-checmark:after {
+  left:9px;
+  top:5px;
+  width: 5px;
+  height: 10px;
+  border: solid #ccc;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}*/
+
+#modals #third-exit-site .modal-dialog .modal-body .modal-buttons a{
+      padding: 25px 24px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a.btn{
+  background: none !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a,
+#modals .exit-site .modal-dialog .modal-content .modal-body a {
+    font-family: "Avenir Next Cyr W00 Bold", sans-serif !important;
+    color: #223868 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    background-color: #4570b7 !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    padding: 50px 120px 15px 20px !important;
+    position: relative !important;
+    width: 300px !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a::after,
+#modals .exit-site .modal-dialog .modal-content .modal-body a::after {
+    content: url(/content/dam/commercial/specialty/spinraza/hcp/en_us/images/icons/blueArrow.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 15px;
+    display: none;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+#modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border-bottom: 0 !important;
+  text-decoration: underline !important;
+  color: #10a6b7 !important;
+  position: absolute !important;
+  width: 142px !important;
+  bottom: 80px;
+  left: 50px;
+  right: 0;
+  height: 8px !important;
+  top: 290px;
+  text-align: center;
+  line-height: 20px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2,
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+  position: absolute !important;
+  width: 142px !important;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  height: 70px !important;
+  top: 250px;
+}
+
+#modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2 span,
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button span {
+  display: block;
+  text-transform: none;
+  text-align: center;
+  padding-left: 18px;
+  margin-top: -24px;
+  color: #eeeff1 !important;
+}
+
+#modals #hcp-exit-site #continue-button2,
+#modals #exit-site #continue-button{
+  min-width: auto;
+}
+
+#modals #hcp-exit-site .modal-dialog .modal-body .modal-buttons,
+#modals #exit-site .modal-dialog .modal-body .modal-buttons{
+  padding: 83px 0px 0px !important;
+}
+
+#modals #hcp-exit-site .modal-dialog .modal-body,
+#modals #exit-site .modal-dialog .modal-body{
+  margin-bottom: 50px;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.checkboxFive {
+    width: auto;
+    margin: 20px 25px;
+    position: relative;
+}
+
+/**
+ * Create the hover event of the tick
+ */
+.checkboxFive label:hover::after {
+	opacity: 0;
+}
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background: #ffff;
+    border: 1px solid #ddd;
+}
+
+.checkboxFive label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 7px;
+    border: 3px solid #048820;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 767px){
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+      width: 100% !important;
+  }
+
+  .radio input[type="radio"], .radio-inline input[type="radio"], .checkboxFive input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+      margin-left: -15px;
+  }
+
+  #third-exit-site .modal-body .modal-title.text-center p:last-child {
+    border-bottom : none;
+  }
+
+  #modals .modal-dialog .modal-body .modal-title {
+    margin: 0px 0px 50px 0px;
+  }
+
+  #modals .modal-dialog .modal-body .modal-buttons {
+    overflow: inherit;
+  }
+
+  #third-exit-site .modal-dialog .modal-body .modal-title {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 382px){
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-bottom: 0 !important;
+    text-decoration: underline !important;
+    color: #10a6b7 !important;
+    bottom: 80px;
+    height: 8px !important;
+    top: 450px !important;
+    margin-left: 74px !important;
+  }
+
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2,
+  #modals .exit-site .modal-dialog .modal-content .modal-body #continue-button {
+    bottom: 80px;
+    height: 70px !important;
+    top: 410px;
+  }
+}

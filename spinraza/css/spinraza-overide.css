@@ -133,6 +133,10 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 	    padding: 50px 128px;
 }
 
+body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>.main>.text {
+    padding: 20px 128px;
+}
+
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
 	   width: 17.3%;
@@ -178,6 +182,12 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 
 	.text.parbase.section p {
 		padding: 0 100px 0;
+	}
+
+	body.template--generic-one-column.page_mode-of-action.template_generic .text.parbase.section p {
+    padding: 0 175px 0;
+    line-height: 22px;
+	
 	}
 
     .page-header.page-header-generic {
@@ -252,11 +262,25 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 	    margin-left: 7rem;
 	}
 
+	.spinraza-reference {
+	    font-size: 12px;
+	    margin-left: 100px;
+	}
+
+	#footer .wrapper {
+		padding: 45px 128px 50px;
+	}
+
+	#footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    	width: 45%;
+    	margin-left: 150px;
+	}
+
 	/*Forms*/
 
 	.get-in-touch .form-control, .authentication-form .form-control {
-		padding: 0;
-    	height: 50px;
+		padding: 8px;
+    	height: 40px;
 		border-radius: 0;
 	}
 
@@ -279,6 +303,26 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 	p a.request:hover, p a, .content p a:hover {
 		color: #028ca6;
 	}
+
+	p.h-pro {
+    	margin-left: 15px;
+	}
+
+	.content .form-control {
+		font-size: 15px;
+	}
+
+	.checkbox.col-md-12 {
+    	margin-bottom: 30px;
+	}
+
+	.submit-btn span {
+	    font-size: 20px;
+	    font-weight: bold;
+	    margin-left: 15px;
+	}
+
+	/*end of form style*/
 
 	/*Product information page*/
 	.spinraza-callout h3 {
@@ -317,7 +361,7 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 		display:table;
 		position:relative;
 		width: 750px;
-		margin: 30px auto 30px;
+		margin: 30px auto 0px;
 	}
 
 	.cg-playpause {

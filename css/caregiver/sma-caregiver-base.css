@@ -203,6 +203,15 @@ footer a {
   .template_home .altWrapper .adaptiveimage {
     padding: 0;
   }
+
+  .external-links div .columncontrol.section .row .col.col-xs-12.col-sm-4.col-md-4.ipadright .column-control-column, .external-links div .columncontrol.section .row .col.col-xs-12.col-sm-4.col-md-4 .column-control-column {
+    position: unset !important;
+    bottom: 0px;
+  }
+
+  body.template--generic-one-column.page_connecting-with-community.template_generic .col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
+    height: auto !important;
+  }
 }
 
 @media (max-width: 1024px){
