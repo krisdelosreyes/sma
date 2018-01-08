@@ -42,10 +42,13 @@ let markercustom = '/content/dam/commercial-au/specialty/sma/hcp/en_au/images/ic
 
 $(document).ready(function(){
   var map;
+  var initialMapLoc;
+  var infoContent;
   var bounds = new google.maps.LatLngBounds();
   var mapOptions = {
       mapTypeId: 'roadmap'
   };
+  var centerValue;
 
   // Display a map on the page
   map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
@@ -73,9 +76,42 @@ $(document).ready(function(){
           }
       })(marker, i));
 
+
+
       // Automatically center the map fitting all markers on the screen
       map.fitBounds(bounds);
   }
+  
+
+	$(".clinic-direction-0").click(function() {
+    setMapOfClinic(0);
+    infoContent = 0;
+	});
+
+  $(".clinic-direction-1").click(function() {
+    setMapOfClinic(1);
+    infoContent = 1;
+  });
+
+  $(".clinic-direction-2").click(function() {
+    setMapOfClinic(2);
+    infoContent = 2;
+  });
+
+  $(".clinic-direction-3").click(function() {
+    setMapOfClinic(3).getCenter();
+    infoContent = 3;
+  });
+
+  $(".clinic-direction-4").click(function() {
+    setMapOfClinic(4);
+    infoContent = 4;
+  });
+
+  $(".clinic-direction-5").click(function() {
+    setMapOfClinic(5);
+    infoContent = 5;
+  });
 
   // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
   var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
@@ -83,29 +119,26 @@ $(document).ready(function(){
       google.maps.event.removeListener(boundsListener);
   });
 
-	$(".clinic-direction-0").click(function() {
-    setMapOfClinic(0);
-	});
+  // //
+  // // //Use event listener for resize on window
+   google.maps.event.addDomListener(window, 'resize', function() {
+     // console.log(initialMapLoc,"dsa");
+     // google.maps.event.trigger(map, 'resize');
+     // map.setCenter(initialMapLoc);
+     if(typeof infoContent != 'undefined'){
+       setMapOfClinic(infoContent);
+     }else{
+       google.maps.event.trigger(map, "resize");
+       map.fitBounds(bounds);
+     }
 
-  $(".clinic-direction-1").click(function() {
-    setMapOfClinic(1);
   });
 
-  $(".clinic-direction-2").click(function() {
-    setMapOfClinic(2);
-  });
 
-  $(".clinic-direction-3").click(function() {
-    setMapOfClinic(3);
-  });
 
-  $(".clinic-direction-4").click(function() {
-    setMapOfClinic(4);
-  });
-
-  $(".clinic-direction-5").click(function() {
-    setMapOfClinic(5);
-  });
+  // google.maps.event.trigger(map, 'resize', function(){
+  //   console.log(currCenter,"non");
+  // });
 
 });
 

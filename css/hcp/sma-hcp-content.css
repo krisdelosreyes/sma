@@ -11,6 +11,10 @@
     margin-bottom: 30px;
 }
 
+p.email {
+    width: 320px;
+}
+
 .cg-playpause {
     background-image:url('/content/dam/commercial-au/specialty/sma/hcp/en_au/images/overview-of-sma/play_button.png');
     background-repeat:no-repeat;
@@ -192,7 +196,7 @@ body .content .main table tbody tr td ul, body.template--generic-one-column.page
     padding: 0px 70px;
 }
 
-body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul, 
+body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul,
 body.template--generic-one-column.page_nutrition.template_generic .content .main table tbody tr td ul,
 body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table tbody tr td ul,
 body.template--generic-one-column.page_respiratory-support.template_generic .content .main table tbody tr td ul {
@@ -203,7 +207,7 @@ body.template--generic-one-column.page_genetics-and-diagnostics.template_generic
   padding: 0px 15px !important;
 }
 
-body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table.second tbody tr td ul li ul, 
+body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table.second tbody tr td ul li ul,
 body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table.third tbody tr td ul li ul {
   padding: 0 10px 0 10px !important;
 }
@@ -244,7 +248,7 @@ body .content .main table.third tbody tr td + td {
   padding: 1px 100px 0px;
 }
 
-body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap, 
+body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_respiratory-support.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_cpd-points.template_generic .content .whiteWrap {
@@ -368,9 +372,9 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
       padding: 0px 15px !important;
   }
 
-  .content .whiteWrap, 
+  .content .whiteWrap,
   body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap,
-  body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap, 
+  body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap,
   body.template--generic-one-column.page_respiratory-support.template_generic .content .whiteWrap,
   body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap,
   body.template--generic-one-column.page_cpd-points.template_generic .content .whiteWrap {
@@ -381,7 +385,7 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     padding: 30px 20px 30px;
   }
 
-  body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul, 
+  body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul,
   body.template--generic-one-column.page_nutrition.template_generic .content .main table tbody tr td ul,
   body.template--generic-one-column.page_sma-symptoms.template_generic .content .main table tbody tr td ul,
   body.template--generic-one-column.page_respiratory-support.template_generic .content .main table tbody tr td ul {

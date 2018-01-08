@@ -7,7 +7,7 @@ $(document).ready(function(){
 
   //$(".main-nav-list li:nth-child(2) a").attr("href","https://www.spinraza.com.au");
 
-  $(".main-nav-list li:nth-child(4) a, #treatment, .link-spinraza,.sitemap-title-link").click(function(e){
+  $(".main-nav-list li.level-1:nth-child(4) a, #treatment, .link-spinraza,.sitemap-title-link").click(function(e){
     e.preventDefault();
     $('#third-exit-site').modal('show');
     validateIfHCP();
