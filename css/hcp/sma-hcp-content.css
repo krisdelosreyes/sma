@@ -416,4 +416,8 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   margin: 30px 0px 30px 25px;
  }
 
+ .type-list li {
+     width: auto !important;
+ }
+
 }

@@ -148,4 +148,8 @@ ul.type-list li {
   .content .whiteWrap, .content .grayWrap {
       padding: 30px 20px 30px;
   }
+
+  .type-list li {
+      width: auto !important;
+  }
 }
