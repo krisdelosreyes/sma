@@ -241,6 +241,10 @@ footer a {
 }
 
 @media screen and (max-width: 767px){
+  .main-nav .wrapper .main-nav-list>li {
+    width: 100%;
+  }
+
   header .logo-options img {
     margin-top: 30px;
   }
@@ -269,6 +273,27 @@ footer a {
 
   .template_home .altWrapper .adaptiveimage {
     padding: 0;
+  }
+
+   #marquee-container .btn-sma-care-container {
+    visibility: hidden;
+   }
+
+   #marquee-container .btn-sma-container {
+    width: 100%;
+   }
+
+   #marquee-container .buttons-wrapper {
+    display: unset;
+   }
+
+   ul.family-footer-slider.collins-footer-slide.slick-initialized.slick-slider li {
+    margin-bottom: 0;
+  }
+
+   #marquee-container .itemContent {
+    padding: 60px 5% 0px 5%;
+    margin-bottom: -60px;
   }
 }
 

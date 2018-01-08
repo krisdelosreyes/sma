@@ -258,6 +258,18 @@ input[type=checkbox] {
       width: 100% !important;
   }
 
+
+  #modals #exit-site .modal-dialog .modal-body .modal-buttons a.btn {
+    top: 70%;
+  }
+
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel {
+    bottom: 80px;
+    top: 80% !important;
+    left: 25%;
+    margin: 0 auto !important;
+  }
+
   .radio input[type="radio"], .radio-inline input[type="radio"], .checkboxFive input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
       margin-left: -15px;
   }
@@ -289,7 +301,7 @@ input[type=checkbox] {
     bottom: 80px;
     height: 8px !important;
     top: 450px !important;
-    margin-left: 74px !important;
+    /*margin-left: 74px !important;*/
   }
 
   #modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2,
