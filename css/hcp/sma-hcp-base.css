@@ -8,6 +8,14 @@
     width: 180px;
 }
 
+#marquee-container .buttons-wrapper button{
+  padding: 20px 7px !important;
+}
+
+#marquee-container .mobile-slide-arrow {
+    height: 20px !important;
+}
+
 .desktop-family-slider{
   display: none;
 }
@@ -284,7 +292,7 @@ footer a {
    }
 
    #marquee-container .buttons-wrapper {
-    display: unset;
+    display: block;
    }
 
    ul.family-footer-slider.collins-footer-slide.slick-initialized.slick-slider li {

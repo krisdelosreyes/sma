@@ -11,6 +11,10 @@
     display: none;
 }
 
+#modals .modal-dialog .modal-body .modal-title p+p{
+      font-size: 17px;
+}
+
 img.proceed {
     width: 150px;
 }
@@ -228,7 +232,7 @@ input[type=checkbox] {
     width: 25px;
     height: 25px;
     top: 0;
-    left: 0;
+    left: -6px;
     background: #ffff;
     border: 1px solid #ddd;
 }
@@ -289,6 +293,11 @@ input[type=checkbox] {
   #third-exit-site .modal-dialog .modal-body .modal-title {
     height: auto;
   }
+
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    left: 95px !important;
+    top: 310px !important;
+  }
 }
 
 @media screen and (max-width: 382px){
@@ -310,4 +319,11 @@ input[type=checkbox] {
     height: 70px !important;
     top: 410px;
   }
+
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    left: 95px !important;
+    top: 450px !important;
+  }
+
 }
