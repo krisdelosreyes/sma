@@ -294,7 +294,7 @@ input[type=checkbox] {
     height: auto;
   }
 
-  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
     left: 95px !important;
     top: 310px !important;
   }
@@ -320,9 +320,10 @@ input[type=checkbox] {
     top: 410px;
   }
 
-  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
     left: 95px !important;
-    top: 390px !important;
+    top: 450px !important;
   }
 
 }
