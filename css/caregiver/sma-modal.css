@@ -327,3 +327,14 @@ input[type=checkbox] {
   }
 
 }
+
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+    #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+      left: 95px !important;
+      top: 450px !important;
+    }    
+  }

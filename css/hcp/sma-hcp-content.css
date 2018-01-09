@@ -309,6 +309,10 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   height: auto;
 }
 
+.label-info-table.label-info-table-blue table .lable-info-main {
+    border: 1px solid #63676f !important;
+}
+
 @media (min-width: 992px){
   .cg-video {
       width: 85%;

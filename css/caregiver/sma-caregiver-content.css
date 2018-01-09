@@ -135,10 +135,16 @@ ul.type-list li {
     font-size: 12.6px;
 }
 
-.col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
+/* .col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
     height: 385px;
     position: relative;
+} */
+
+.col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
+    height: 450px !important;
+    position: relative;
 }
+
 .external-links div .columncontrol.section .row .col.col-xs-12.col-sm-4.col-md-4.ipadright .column-control-column, .external-links div .columncontrol.section .row .col.col-xs-12.col-sm-4.col-md-4 .column-control-column {
     position: absolute;
     bottom: 0px;

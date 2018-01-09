@@ -313,4 +313,10 @@ input[type=checkbox] {
       left: 95px !important;
       top: 390px !important;
     }
+
+  .checkboxFive {
+    width: auto;
+    margin: 20px 5px;
+    position: relative;
+  }
 }

@@ -217,9 +217,9 @@ footer a {
     bottom: 0px;
   }
 
-  body.template--generic-one-column.page_connecting-with-community.template_generic .col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
+  /* body.template--generic-one-column.page_connecting-with-community.template_generic .col.col-xs-12.col-sm-4.col-md-4.ipadright, .col.col-xs-12.col-sm-4.col-md-4 {
     height: auto !important;
-  }
+  } */
 
    #marquee-container .btn-sma-care-container {
     visibility: hidden;
