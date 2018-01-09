@@ -40,6 +40,7 @@ $(document).ready(function() {
   }
 });
 
+
 $("#request-pword").click(function(){
     $("#request-form").show(500);
 });
@@ -61,3 +62,5 @@ $('.cg-video').parent().click(function () {
         $(this).children(".cg-playpause").fadeIn();
     }
 });
+
+$('.bx-viewport').

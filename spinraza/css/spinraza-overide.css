@@ -133,8 +133,8 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
     border: 2px solid #ea6767;
 }
 
-.wrapper>.main>.title, .wrapper>.main>.text{
-	    padding: 50px 128px;
+.wrapper>.main>.title, .wrapper>.main>.text {
+	    padding: 25px 128px;
 }
 
 body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>.main>.text {
@@ -177,7 +177,7 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
 
 	.title.base.parbase.section h3 {
 		color:#223867;
-		margin-top: 70px;
+		margin-top: 30px;
 	}
 
 	.content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) > h3 {
@@ -449,13 +449,18 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
    	max-width: 567px !important;
    }
 
-   .footer-info span {
-    	white-space: pre;
-	}
-
 	footer .footer-links {
     	padding: 10px 0 30px !important;
 	}
+
+	div.bx-viewport {
+    	height: auto !important;
+	}
+
+	.touchcapable .main-nav .wrapper>ul>li:nth-child(1), .main-nav .wrapper>ul>li:nth-child(1), .touchcapable .main-nav .wrapper>ul>li:nth-child(2), .main-nav .wrapper>ul>li:nth-child(2) {
+		display: inline-block;
+	}
+
 }
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
@@ -486,6 +491,74 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
 	    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
 	}
 
+	.inner-container {
+		width: 100%;
+	}
+
+	.wrapper>.main>.title, .wrapper>.main>.text {
+		padding: 0;
+	}
+
+	.touchcapable .main-nav .wrapper>ul>li:nth-child(1), .touchcapable .main-nav .wrapper>ul>li:nth-child(1), .main-nav .wrapper>ul>li:nth-child(1), .main-nav .wrapper>ul>li:nth-child(1),
+	.touchcapable .main-nav .wrapper>ul>li:nth-child(2), .touchcapable .main-nav .wrapper>ul>li:nth-child(2), .main-nav .wrapper>ul>li:nth-child(2), .main-nav .wrapper>ul>li:nth-child(2),
+	.touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3) {
+		display: block;
+	}
+
+	.touchcapable .main-nav .wrapper, .main-nav .wrapper {
+		background: unset;
+	}
+
+	nav.main-nav.sidebar-offcanvas.clearfix ul.main-nav-list {
+    	text-align: left;
+	}
+
+	.main-nav .wrapper>ul>li>a:before, .main-nav .wrapper>ul>li>a:after {
+		position: absolute;
+	    display: block;
+	    left: 232px;
+	    top: 50%;
+	    margin-top: -9px;
+	    width: 18px;
+	    height: 18px;
+	    line-height: 18px;
+	}
+
+	.carousel .wrapper .bx-wrapper {
+		margin-top: 0;
+	}
+
+	.content .wrapper {
+		min-height: auto;
+	}
+
+	body.template--generic-one-column.page_mode-of-action.template_generic .inner-content {
+		padding: 0px 128px;
+	}
+
+	body.template--generic-one-column.page_mode-of-action.template_generic .text.parbase.section p {
+		padding: 0;
+	}
+
+	.reference {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.spinraza-callout h3 {
+		width: auto;
+	}
+
+	.country-dd {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+
+	.country_options {
+    	top: 50px !important;
+    	right: 12px !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -512,6 +585,22 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
 		width: 75%;
 	}
 
+	.country-dd{
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+
+	.country_options {
+		top:33px !important;
+		right: 10px !important;
+	}
+
+	.header.spinraza-header .hcp-text p {
+	    font-size: 9px;
+	    width: 50%;
+	}
+
 
 	video.cg-video {
 	    width: 100%;
@@ -529,8 +618,8 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
 	.wrapper>.main>.title, .wrapper>.main>.text,
 	body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>.main>.text,
 	body.template--generic-one-column.page_mode-of-action.template_generic .inner-content,
-	.more-spinraza.col-md-12.col-sm-12.col-xs-12, .grey-content, .white-container {
-    	padding: 10px 30px 20px 30px;
+	.grey-content, .white-container {
+    	padding: 1% 30px 1% 30px;
 	}
 
 	body.template--generic-one-column.page_hcp.template_generic .image.adaptiveimage.parbase.section {
@@ -548,6 +637,21 @@ body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>
 
 	.row.injection-content {
     	margin-bottom: 5%;
+	}
+
+	div.bx-viewport {
+    	height: auto !important;
+	}
+
+	.main-nav .wrapper>ul>li>a:before, .main-nav .wrapper>ul>li>a:after {
+		position: absolute;
+	    display: block;
+	    left: 232px;
+	    top: 50%;
+	    margin-top: -9px;
+	    width: 18px;
+	    height: 18px;
+	    line-height: 18px;
 	}
 }
 
