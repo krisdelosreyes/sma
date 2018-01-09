@@ -309,6 +309,7 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   height: auto;
 }
 
+
 .label-info-table.label-info-table-blue table .lable-info-main {
     border: 1px solid #63676f !important;
 }
@@ -348,8 +349,12 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     padding: 60px 20px;
   }
 
+  body .page-header {
+    margin-bottom: 15px;
+  }
+
   body .content .altWrapper>div.parbase.section.text p{
-    padding: 0px 20px !important;
+    padding: 0px 10px !important;
   }
 
   .direction-link{
@@ -412,9 +417,6 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     padding: 0px 30px !important;
  }
 
- .content .altWrapper .text ul.bullet-aligned {
-    padding-left: 40px;
- }
 
  body.template--generic-one-column.page_sma-symptoms.template_generic ul.key-points.double-column.activated {
   margin: 30px 0px 30px 25px;
@@ -423,5 +425,13 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
  .type-list li {
      width: auto !important;
  }
+
+.content .altWrapper .text ul.bullet-aligned{
+    padding-left: 25px !important;
+ }
+
+ ul.key-points.activated {
+    margin-left: 25px;
+  }
 
 }
