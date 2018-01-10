@@ -1,0 +1,7 @@
+user-agent: *
+disallow: /en_au/home/404.html
+disallow: /en_au/home/500.html
+disallow: /en_au/home/thank-you.html
+disallow: /en_au/home/unsubscribe/unsubscribe-confirmation.html
+disallow: /en-au/content/commercial
+sitemap: /sitemap.xml

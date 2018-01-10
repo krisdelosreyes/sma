@@ -3,8 +3,22 @@ $(document).ready(function(){
   validateFieldsforRequestPassword();
   validateFieldsforGetInTouch();
   setSelectionState();
-
 });
+
+function checkCurrentSelection(){
+  var selected = document.getElementById("spin_username").selectedIndex;
+    if ( selected == '1'){
+      $(".h-pro").show();
+      $(".h-patient").hide();
+    //$("#user-login").attr("action", "/content/commercial-au/specialty/spinraza/hcp/en_au/home/hcp.html");
+  }else if (selected == '2'){
+      $(".h-pro").hide();
+      $(".h-patient").show();
+  }else{
+    $(".h-pro").hide();
+    $(".h-patient").hide();
+  }
+}
 
 function setSelectionState(){
   var getUser = localStorage.getItem('initialUser');
@@ -14,6 +28,7 @@ function setSelectionState(){
   }else{
     $('#spin_username').val("0");
   }
+  checkCurrentSelection();
 }
 
 function authenticateLogin(){

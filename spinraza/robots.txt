@@ -1,0 +1,5 @@
+User-agent: *
+sitemap: /sitemap.xml
+Disallow: /*.p.html
+Disallow: /*.email.html
+Disallow: /*.display.html

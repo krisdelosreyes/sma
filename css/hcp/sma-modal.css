@@ -11,6 +11,10 @@
     display: none;
 }
 
+#modals .modal-dialog .modal-body .modal-title p+p{
+      font-size: 17px;
+}
+
 img.proceed {
     width: 150px;
 }
@@ -198,6 +202,14 @@ img.proceed {
   margin-bottom: 50px;
 }
 
+#modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+  top: 250px;
+}
+
+#modals .exit-site .modal-dialog .modal-content .modal-body #continue-button{
+  top: 210px;
+}
+
 input[type=checkbox] {
     visibility: hidden;
 }
@@ -252,6 +264,39 @@ input[type=checkbox] {
     transform: rotate(-45deg);
 }
 
+#modals .modal-dialog .modal-body{
+   padding: 10px 20px 10px;
+}
+
+
+#modals .modal-dialog .modal-body .modal-buttons{
+    overflow: hidden;
+    padding: 10px 0px 0px !important;
+}
+
+.proceed-button {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+#modals #third-exit-site .modal-dialog .modal-body .modal-buttons a {
+    padding: 20px 20px;
+}
+
+
+
+#modals .modal-dialog .modal-body .modal-title {
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+}
+
+#modals .modal-dialog .modal-body .modal-buttons a{
+  font-size: 17px;
+}
+
 .hide-element {
     display: none;
 }
@@ -260,6 +305,22 @@ input[type=checkbox] {
 
   #modals .modal-dialog .modal-body .modal-buttons {
       width: 100% !important;
+  }
+
+  #modals #hcp-exit-site .modal-dialog .modal-body, #modals #exit-site .modal-dialog .modal-body {
+    margin-bottom: 0;
+    padding: 10px 20px 10px;
+  }
+
+  #modals #exit-site .modal-dialog .modal-body .modal-buttons a.btn {
+    top: 50%;
+  }
+
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel {
+    bottom: 80px;
+    top: 65% !important;
+    left: 95px !important;
+    margin: 0 auto !important;
   }
 
   .radio input[type="radio"], .radio-inline input[type="radio"], .checkboxFive input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
@@ -271,7 +332,7 @@ input[type=checkbox] {
   }
 
   #modals .modal-dialog .modal-body .modal-title {
-    margin: 0px 0px 50px 0px;
+      margin: 0px 0px 25px 0px;
   }
 
   #modals .modal-dialog .modal-body .modal-buttons {
@@ -282,9 +343,26 @@ input[type=checkbox] {
     height: auto;
   }
 
-  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
-    left: 95px !important;
-    top: 310px !important;
+  #modals .modal-dialog .modal-body {
+    margin-bottom: 0;
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 678px){
+  .content .modal-buttons {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 414px){
+  #modals #exit-site .modal-dialog .modal-body .modal-buttons a.btn {
+    top: 67%;
+  }
+
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel {
+    top: 75% !important;
   }
 }
 
@@ -297,8 +375,8 @@ input[type=checkbox] {
     color: #10a6b7 !important;
     bottom: 80px;
     height: 8px !important;
-    top: 450px;
-    margin-left: 100px !important;
+    top: 450px !important;
+    /*margin-left: 74px !important;*/
   }
 
   #modals .hcp-exit-site .modal-dialog .modal-content .modal-body #continue-button2,
@@ -308,15 +386,37 @@ input[type=checkbox] {
     top: 410px;
   }
 
+  #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    left: 95px !important;
+    top: 450px !important;
+  }
 
-    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel{
-      left: 95px !important;
-      top: 390px !important;
-    }
+  #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+    left: 95px !important;
+    top: 360px !important;
+  }
 
   .checkboxFive {
     width: auto;
-    margin: 20px 5px;
+    margin: 20px 15px;
     position: relative;
   }
+
 }
+
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    #modals .hcp-exit-site .modal-dialog .modal-content .modal-body a.cancel,
+    #modals .exit-site .modal-dialog .modal-content .modal-body a.cancel{
+      left: 95px !important;
+      top: 360px !important;
+    }
+
+    .checkboxFive {
+      width: auto;
+      margin: 20px 2px;
+      position: relative;
+    }
+  }

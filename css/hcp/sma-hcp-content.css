@@ -244,16 +244,16 @@ body .content .main table.third tbody tr td + td {
     padding-top: 15px;
 }
 
-.content .whiteWrap {
+/*.content .whiteWrap {
   padding: 1px 100px 0px;
-}
+}*/
 
-body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap,
+/*body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_respiratory-support.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap,
 body.template--generic-one-column.page_cpd-points.template_generic .content .whiteWrap {
   padding: 50px 100px 50px;
-}
+}*/
 
 .content figure {
     margin-bottom: 39px;
@@ -276,9 +276,9 @@ body .content .content-info-2 {
   margin-top: 40px;
 }
 
-.content .grayWrap {
+/*.content .grayWrap {
   padding: 25px 100px 50px;
-}
+}*/
 
 body .content h2, body .content .h2 {
   padding: 0 35px;
@@ -288,9 +288,9 @@ body .content .content-info-4 h3 {
   margin: 30px 0 -20px 0;
 }
 
-body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap {
+/*body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap {
     padding: 20px 100px 0px;
-}
+}*/
 
 body.template--generic-one-column.page_overview-of-sma.template_generic .content .altWrapper .text ul.bullet-aligned {
     padding-left: 60px;
@@ -312,6 +312,24 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
 
 .label-info-table.label-info-table-blue table .lable-info-main {
     border: 1px solid #63676f !important;
+}
+
+.label-info-table.label-info-table-blue table .lable-info-main td {
+    border-right: 2px solid #5f6d8c47 !important
+}
+
+.label-info-table table tr td{
+    border-right: 2px solid #5f6d8c47 !important
+}
+
+.another-column {
+    background: #4570b7;
+    height: 50px;
+}
+
+.label-info-table table tr td p.column-extra {
+    line-height: 50px;
+    color: white;
 }
 
 @media (min-width: 992px){
@@ -381,6 +399,11 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
       padding: 0px 15px !important;
   }
 
+  .label-info-table table .lable-info-main td .lable-info-title {
+    font-size: 15px;
+  }
+
+/*
   .content .whiteWrap,
   body.template--generic-one-column.page_overview-of-sma.template_generic .content .whiteWrap,
   body.template--generic-one-column.page_nutrition.template_generic .content .whiteWrap,
@@ -388,11 +411,12 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   body.template--generic-one-column.page_sma-symptoms.template_generic .content .whiteWrap,
   body.template--generic-one-column.page_cpd-points.template_generic .content .whiteWrap {
     padding: 0px 20px 30px;
-  }
-
+  }*/
+/*
   .content .grayWrap {
     padding: 30px 20px 30px;
   }
+*/
 
   body.template--generic-one-column.page_musculoskeletal-support.template_generic .content .main table tbody tr td ul,
   body.template--generic-one-column.page_nutrition.template_generic .content .main table tbody tr td ul,
