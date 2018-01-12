@@ -78,7 +78,6 @@ body.template--generic-one-column.page_efficacy.template_generic .inner-containe
 
 .hcp-text p {
 	text-transform: uppercase;
-    width: 330px;
     line-height: 1.5em;
     font-weight: 600 !important;
 }
@@ -120,9 +119,9 @@ header .spinraza-header .container .pull-right .form-inline {
 	padding-bottom: 5px;
 }
 
-.no-touchcapable .main-nav .wrapper > ul > li:nth-child(1), 
-.no-touchcapable .main-nav .wrapper>ul>li:nth-child(2), 
-.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3), 
+.no-touchcapable .main-nav .wrapper > ul > li:nth-child(1),
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(2),
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3),
 .no-touchcapable .main-nav .wrapper>ul>li.level-1:last-of-type{
 	display: inline-block !important;
 }
@@ -222,7 +221,7 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 }
 
 body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul li {
-	padding-left: 1em; 
+	padding-left: 1em;
 	text-indent: -.7em;
 }
 
@@ -243,7 +242,7 @@ body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.
   	margin-right: .3em;
 }
 
-body.template--generic-one-column.page_dosing-and-administration.template_generic .container {	
+body.template--generic-one-column.page_dosing-and-administration.template_generic .container {
 	width: 80%;
 }
 
@@ -742,7 +741,7 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 
 	li.resourced-list a img {
     	margin-left: 25px;
-	}	
+	}
 
 
 }
@@ -783,8 +782,8 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 		    width: 88%;
 		}
 
-		body.template--generic-one-column.page_dosing-and-administration.template_generic .container, 
-		body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {	
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .container,
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {
 			width: 100%;
 		}
 
@@ -795,7 +794,7 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 
 		li.resourced-list a img {
 	    	margin-left: 25px;
-		}		
+		}
 
 }
 
@@ -869,7 +868,10 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 	}*/
 
 	header .spinraza-header .container .center-img img {
-		margin: 0 auto;
+		margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 40%;
 	}
 
 	.touchcapable .main-nav .wrapper, .main-nav .wrapper {
@@ -967,7 +969,7 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
     	padding: 1% 30px 1% 30px;
 	}
 
-	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content, 
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content,
 	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container {
     	padding: 4%;
 	}

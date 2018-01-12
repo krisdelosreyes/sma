@@ -1,0 +1,196 @@
+
+#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links li a{
+  font-weight: 600 !important;
+}
+
+footer small {
+    display: block;
+    font-size: 12px !important;
+}
+
+
+/* .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
+.touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
+.main-nav .wrapper>ul>li:nth-child(3) a:hover {
+    margin-right: 0px;
+    width: 100%;
+    min-height: 0px;
+    padding: 0;
+    font-size: 15px;
+    padding: 0 9px;
+    text-align: left;
+    padding: 10px 25px 10px 30px;
+    color: #6ebbca !important;
+} */
+
+@media only screen and (min-width: 768px){
+  #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+      width: 150px !important;
+      float: right;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+  #footer .wrapper {
+      padding: 41px 15px;
+  }
+}
+
+
+@media only screen and (max-width: 767px){
+  body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+    display: none;
+    margin: 0 auto 10px auto !important;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links {
+      margin-top: 130px;
+      border-top: 1px solid #ffffff;
+      text-transform: uppercase;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen {
+    position: relative;
+    margin-top: -190px;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    width: 150px !important;
+    position: relative;
+  }
+
+  body #footer .wrapper .footer-links-container .desktop-disclaimer {
+    position: relative;
+    margin-top: -90px;
+  }
+
+  footer .footer-links-container .footer-info {
+    text-align: left;
+    max-width: 425px;
+    margin-left: auto;
+  }
+
+  #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    margin-left: 15px;
+  }
+
+  body.page_home #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+    width: auto;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li a{
+    font-size: 12px;
+  }
+
+  footer small {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 671px){
+  body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+    display: none;
+    margin: 0 auto 10px auto !important;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links {
+      margin-top: 200px;
+      border-top: 1px solid #ffffff;
+      text-transform: uppercase;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen {
+    position: relative;
+    margin-top: -285px;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    width: 150px !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body #footer .wrapper .footer-links-container .desktop-disclaimer {
+    position: relative;
+    margin-top: 0;
+  }
+
+  footer .footer-links-container .footer-info {
+    text-align: left;
+    max-width: 100% !important;
+    margin-left: auto;
+  }
+
+  #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    margin-left: 15px;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+    width: 100px;
+  }
+
+  body.page_home #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+    width: auto;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li a{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  body #footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links {
+    display: none;
+    margin: 0 auto 10px auto !important;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links {
+      margin-top: 200px;
+      border-top: 1px solid #ffffff;
+      text-transform: uppercase;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen {
+    position: relative;
+    margin-top: -285px;
+  }
+
+  body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    width: 40%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body #footer .wrapper .footer-links-container .desktop-disclaimer {
+    position: relative;
+    margin-top: 0;
+  }
+
+  footer .footer-links-container .footer-info {
+    text-align: left;
+    max-width: 100% !important;
+    margin-left: auto;
+  }
+
+  #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
+    margin-left: 15px;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+    width: 88px;
+  }
+
+  body.page_home #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li {
+    width: auto;
+  }
+
+  body #footer .wrapper .footer-links-container .footer-links ul.mobile-footer-links li a{
+    font-size: 12px;
+  }
+
+  footer small {
+    font-size: 12px;
+  }
+}

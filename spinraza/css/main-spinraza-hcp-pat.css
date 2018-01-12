@@ -4480,7 +4480,8 @@ sup.supTitle {
         padding-left: 0px
     }
     body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
-        width: 40%
+        width: 40%;
+    }
     }
     body #footer .wrapper .footer-links-container .logo-biogen .logo-biogen2 {
         width: 30%;
@@ -6601,6 +6602,3 @@ sup.supTitle {
 #modals .modal-dialog .modal-content.largeTextSize .modal-header .close span {
     font-size: 3em !important
 }
-
-
-/*# sourceMappingURL=main-spinraza-hcp-pat.css.map */
