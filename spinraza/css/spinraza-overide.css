@@ -25,7 +25,12 @@
     width: auto;
 }
 
-.page_home .desktop-footer-links > li:nth-child(1),.page_home .desktop-footer-links > li:nth-child(4),.page_home .desktop-footer-links > li:nth-child(5){
+.page_home .desktop-footer-links > li:nth-child(1),
+.page_home .desktop-footer-links > li:nth-child(4),
+.page_home .desktop-footer-links > li:nth-child(5),
+.page_home .mobile-footer-links > li:nth-child(1),
+.page_home .mobile-footer-links > li:nth-child(4),
+.page_home .mobile-footer-links > li:nth-child(5) {
   display: none;
 }
 
@@ -95,7 +100,14 @@ header .spinraza-header .container .pull-right .form-inline {
 }
 
 .grey-content{
-	background: #f3f4f4;display: inline-block !important;
+	background: #f3f4f4;
+	display: inline-block !important;
+	height: auto;
+	padding: 25px 128px;
+	width: 100%;
+}
+
+.white-container{
 	height: auto;
 	padding: 25px 128px;
 	width: 100%;
@@ -108,7 +120,10 @@ header .spinraza-header .container .pull-right .form-inline {
 	padding-bottom: 5px;
 }
 
-.no-touchcapable .main-nav .wrapper > ul > li:nth-child(1), .no-touchcapable .main-nav .wrapper>ul>li:nth-child(2), .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3), .no-touchcapable .main-nav .wrapper>ul>li.level-1:last-of-type{
+.no-touchcapable .main-nav .wrapper > ul > li:nth-child(1), 
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(2), 
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3), 
+.no-touchcapable .main-nav .wrapper>ul>li.level-1:last-of-type{
 	display: inline-block !important;
 }
 
@@ -125,8 +140,8 @@ body.template--home.page_home.template_home .canvas-container .row-offcanvas.row
 } */
 
 
-.no-touchcapable .main-nav .wrapper, .touchcapable .main-nav .wrapper, .main-nav .wrapper{
-	background: #ffffffab;
+.main-nav .wrapper{
+	background: #ffffffab !important;
 }
 
 body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li.level-1:last-of-type {
@@ -154,7 +169,6 @@ body.template--generic-one-column.page_patient-resources.template_generic .main-
 .content input.error, .content select.error, .content textarea.error {
     border: 2px solid #ea6767;
 }
-
 
 
 .template_home .header.spinraza-header {
@@ -187,10 +201,51 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 	text-align: left;
 }
 
+.dark-blue {
+    color: #223867;
+    font-weight: bold !important;
+}
 
+p.light-blue {
+	color: #5db5c6;
+}
 /*body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>.main>.text {
     padding: 20px 128px;
 }*/
+
+body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {
+    width: 80%;
+    margin: 5% auto;
+    padding-bottom: 2%;
+    list-style: none;
+    padding-left: 0;
+}
+
+body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul li {
+	padding-left: 1em; 
+	text-indent: -.7em;
+}
+
+body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul li::before {
+	content: "• ";
+  	color: #ee3b33;
+  	margin-right: .3em;
+}
+
+body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.col-md-12.col-sm-12.col-xs-12 ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.col-md-12.col-sm-12.col-xs-12 ul li::before {
+	content: "• ";
+  	color: #ee3b33;
+  	margin-right: .3em;
+}
+
+body.template--generic-one-column.page_dosing-and-administration.template_generic .container {	
+	width: 80%;
+}
 
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
@@ -231,6 +286,7 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 	.title.base.parbase.section h3 {
 		color:#223867;
 		margin-top: 30px;
+		line-height: 1.4;
 	}
 
 	.content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) > h3 {
@@ -277,28 +333,28 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 	}
 
 
-  div.image.adaptiveimage img {
-  	display: block !important;
-  }
+	div.image.adaptiveimage img {
+	  	display: block !important;
+	}
 
-  .carousel .wrapper .bx-wrapper {
-  	margin-top: -38px;
-  }
+	.carousel .wrapper .bx-wrapper {
+	  	margin-top: -38px;
+	}
 
-  .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
-  	background: none !important;
-  }
+	.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
+		background: none !important;
+	}
 
-   .no-touchcapable  .main-nav .wrapper>ul {
-  	text-align: center;
-  }
+	.no-touchcapable  .main-nav .wrapper>ul {
+	  	text-align: center;
+	}
 
-  .touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
-  	text-align: center;
-  }
+	.touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
+	  	text-align: center;
+	}
 
-  .accordioncontainer.base.parbase.section, #footer .wrapper .siteMapFooter-links {
-  	display: none;
+  	.accordioncontainer.base.parbase.section, #footer .wrapper .siteMapFooter-links {
+  		display: none;
 	}
 
 	#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links, #footer .wrapper .footer-links-container .desktop-disclaimer {
@@ -443,86 +499,96 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 
   /*phase2*/
 
-  .reference {
-      margin-top: 55px;
-      margin-bottom: 100px;
-  }
+	  .reference {
+	      margin-top: 55px;
+	      margin-bottom: 100px;
+	  }
 
-  .resource-access {
-      margin-top: 60px;
-      margin-bottom: 130px;
-  }
+	  .resource-access {
+	      margin-top: 60px;
+	      margin-bottom: 130px;
+	  }
 
-  p.dark-blue {
-      color: #223867;
-      font-size: 17px;
-      margin-top: 40px;
-      font-weight: bold !important;
-  }
+	  p.dark-blue {
+	      color: #223867;
+	      font-size: 17px;
+	      margin-top: 40px;
+	      font-weight: bold !important;
+	  }
 
-  p.light-blue {
-  	  color: #5db5c6;
-  }
+	  p.light-blue {
+	  	  color: #5db5c6;
+	  }
 
-  .dark-blue {
-      color: #223867;
-      font-weight: bold !important;
-  }
+	  .dark-blue {
+	      color: #223867;
+	      font-weight: bold !important;
+	  }
 
-  li.resourced-list {
-	    list-style: none;
-	    display: inline-block;
-	    width: auto;
-  }
+	  li.resourced-list {
+		    list-style: none;
+		    display: inline-block;
+		    width: auto;
+	  }
 
-  li.resourced-list p, li.resourced-list a {
-		text-align: center;
-		width: 285px;
-  }
+	  li.resourced-list p, li.resourced-list a {
+			text-align: center;
+			width: 285px;
+	  }
 
-	li.resourced-list a img {
-	  margin-left: 50px;
-	}
+		li.resourced-list a img {
+		  margin-left: 50px;
+		}
 
-  .download-container.row {
-    width: 100%;
-  	margin: 40px auto;
-  }
+	  .download-container.row {
+	    width: 100%;
+	  	margin: 40px auto;
+	  }
 
-  .row.injection-content {
-    margin-top: 20px;
-   }
+	  .row.injection-content {
+	    margin-top: 20px;
+	   }
 
-   .row.injection-content p {
-   	padding-top: 20px;
-    font-size: .9em;
-    font-weight: bold !important;
-    line-height: 1.3em;
-   }
+	   .row.injection-content p {
+	   	padding-top: 20px;
+	    font-size: .9em;
+	    font-weight: bold !important;
+	    line-height: 1.3em;
+	   }
 
-   footer .footer-links-container .footer-info {
-   	max-width: 567px !important;
-   }
+	   footer .footer-links-container .footer-info {
+	   	max-width: 567px !important;
+	   }
 
-	footer .footer-links {
-    	padding: 10px 0 30px !important;
-	}
+		footer .footer-links {
+	    	padding: 10px 0 30px !important;
+		}
 
-	div.bx-viewport {
-    	height: auto !important;
-	}
+		div.bx-viewport {
+	    	height: auto !important;
+		}
 
-	.touchcapable .main-nav .wrapper>ul>li:nth-child(1), .main-nav .wrapper>ul>li:nth-child(1), .touchcapable .main-nav .wrapper>ul>li:nth-child(2), .main-nav .wrapper>ul>li:nth-child(2), .touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3) {
-		display: inline-block;
-	}
+		.touchcapable .main-nav .wrapper>ul>li:nth-child(1), .main-nav .wrapper>ul>li:nth-child(1), .touchcapable .main-nav .wrapper>ul>li:nth-child(2), .main-nav .wrapper>ul>li:nth-child(2), .touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3) {
+			display: inline-block;
+		}
 
-	body.template--generic-one-column.page_safety.template_generic .content .well {
-		margin-top: 0;
-	}
+		/*body.template--generic-one-column.page_safety.template_generic .content .well,*/ .content .well {
+			margin-top: 0;
+		}
 
-	body.template--generic-one-column.page_patient-resources li.level-1.here.active{
-	 	border-bottom: 2px solid #1092ab;
-	}
+		body.template--generic-one-column.page_patient-resources li.level-1.here.active{
+		 	border-bottom: 2px solid #1092ab;
+		}
+
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .title.base.parbase.section {
+			width: 68%;
+			margin: auto;
+		}
+
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .reference {
+			margin-left: 110px;
+    		width: 65%;
+		}
 }
 
 
@@ -613,8 +679,8 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 		min-height: auto;
 	}
 
-	.grey-content {
-		padding: 0;
+	.grey-content, .white-container {
+		padding: 1% 30px 1% 30px;
 	}
 
 	#footer .wrapper .footer-links-container .logo-biogen .logo-biogen1 {
@@ -665,6 +731,20 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 		margin-top: 5px;
 	}
 
+	.row.injection-content .col-md-2.col-xs-3 {
+    	text-align: center;
+	}
+
+	li.resourced-list p, li.resourced-list a {
+	    text-align: center;
+	    width: 235px;
+	}
+
+	li.resourced-list a img {
+    	margin-left: 25px;
+	}	
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -694,9 +774,33 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
     		margin-right: 8px;
     	}
 
+    	body.template--generic-one-column.page_dosing-and-administration.template_generic .title.base.parbase.section {
+    		width: 80%;
+		}
+
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .reference {
+		    margin-left: 86px;
+		    width: 88%;
+		}
+
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .container, 
+		body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {	
+			width: 100%;
+		}
+
+		li.resourced-list p, li.resourced-list a {
+		    text-align: center;
+		    width: 235px;
+		}
+
+		li.resourced-list a img {
+	    	margin-left: 25px;
+		}		
+
 }
 
 @media only screen and (max-width: 991px){
+		/* portrait phones */
 	.touchcapable .main-nav .wrapper>ul>li ul li a, .main-nav .wrapper>ul>li ul li a{
 			color: #6ebbca !important;
 	}
@@ -713,7 +817,6 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
     display: block;
     margin-top: 10px;
 	}
-	/* portrait phones */
 
 	/* header .spinraza-header .container .center-img img {
 		margin-left: -5%;
@@ -749,6 +852,10 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
     top: 0;
     right: 0;
 	}
+
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container, body.template--generic-one-column.page_dosing-and-administration.template_generic .container, body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {
+		width: 100%;
+	}
 }
 
 /*overide for responsive*/
@@ -757,9 +864,9 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
     text-align: center;
 	}
 
-	.touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3), .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
+/*	.touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3), .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
 		width: 100% !important;
-	}
+	}*/
 
 	header .spinraza-header .container .center-img img {
 		margin: 0 auto;
@@ -785,6 +892,15 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 @media only screen and (max-width: 767px) {
 
     /* phones */
+
+    .dark-blue {
+      color: #223867;
+      font-weight: bold !important;
+  	}
+
+  	p.light-blue {
+  	  color: #5db5c6;
+  	}
 
     .page-header-generic .wrapper {
     	display: none;
@@ -849,6 +965,16 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 	body.template--generic-one-column.page_mode-of-action.template_generic .inner-content,
 	.grey-content, .white-container {
     	padding: 1% 30px 1% 30px;
+	}
+
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content, 
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container {
+    	padding: 4%;
+	}
+
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content .container,
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container .container{
+    	padding: 0;
 	}
 
 	body.template--generic-one-column.page_hcp.template_generic .image.adaptiveimage.parbase.section {
@@ -976,15 +1102,4 @@ body.template--generic-one-column.page_patient-contact-us .content h3 {
 		padding-right: 0;
 	}
 
-
-}
-
-
-@media only screen and (max-width: 767px)
-spinraza-overide.css:887
-ul li.resourced-list {
-    list-style: none;
-    width: 210px;
-    display: inline-block;
-    margin-left: 20px;
 }
