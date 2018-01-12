@@ -5507,7 +5507,7 @@ sup.supTitle {
         margin-right: 5px
     }
     .wrapper {
-        padding: 0 15px
+        padding: 0;
     }
     .content .wrapper .main {
         padding: 0px;
@@ -5515,6 +5515,9 @@ sup.supTitle {
     }
     .content .wrapper {
         min-height: 420px
+    }
+    .page_get-in-touch .content .wrapper {
+        min-height: auto;
     }
     .mobile-menu-toggle {
         z-index: 1000

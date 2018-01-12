@@ -29,6 +29,17 @@
   display: none;
 }
 
+/*Sign out*/
+header .spinraza-header .container .pull-right p a{
+	font-size: 15px;
+	font-weight: 600 !important;
+}
+
+header .spinraza-header .container .pull-right p a:hover, header .spinraza-header .container .pull-right p a:focus, header .spinraza-header .container .pull-right p a:visited{
+	font-size: 15px;
+	font-weight: 600 !important;
+}
+
 p a.pi-link:visited,p a.pi-link,p a.pi-link:hover{
 	color: #414042 !important;
 }
@@ -114,6 +125,10 @@ body.template--home.page_home.template_home .canvas-container .row-offcanvas.row
 } */
 
 
+.no-touchcapable .main-nav .wrapper, .touchcapable .main-nav .wrapper, .main-nav .wrapper{
+	background: #ffffffab;
+}
+
 body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li.level-1:last-of-type {
     display: inline-block;
 }
@@ -163,13 +178,23 @@ body.template--generic-one-column.page_product-information.template_generic .con
 	margin-bottom: 0;
 }
 
+.download-container .text {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+body.template--generic-one-column.page_patient-contact-us .content h3 {
+	text-align: left;
+}
+
+
 /*body.template--generic-one-column.page_mode-of-action.template_generic .wrapper>.main>.text {
     padding: 20px 128px;
 }*/
 
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
-	   width: 17.3%;
+	    width: 180px;
 	}
 
 	.countryselector {
@@ -212,30 +237,26 @@ body.template--generic-one-column.page_product-information.template_generic .con
 		margin-bottom: 50px;
 	}
 
-
-/*	.text.parbase.section p {
-		padding: 0 100px 0;
-	}*/
-
 	body.template--generic-one-column.page_mode-of-action.template_generic .text.parbase.section p {
     /*padding: 0 175px 0;*/
     line-height: 22px;
 
 	}
 
-    .page-header.page-header-generic {
-    	display: none;
-    }
+  .page-header.page-header-generic {
+  	display: none;
+  }
 
-    .no-touchcapable .main-nav .wrapper, .touchcapable .main-nav .wrapper, .main-nav .wrapper {
-    	background: rgba(255, 255, 255, 0.86);
-    }
+  .main-nav .wrapper {
+  	z-index: 5;
+  }
 
-    .main-nav .wrapper {
-    	z-index: 5;
-    }
+	body.template--generic-one-column.page_patient-resources .no-touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-resources .touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-resources .main-nav .wrapper,
+	body.template--generic-one-column.page_patient-contact-us .no-touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-contact-us .touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-contact-us .main-nav .wrapper {
+    background: none !important;
+	}
 
-    .main-nav .wrapper > ul > li > a {
+  .main-nav .wrapper > ul > li > a {
     	color: #028ca6 !important;
 	}
 
@@ -256,28 +277,28 @@ body.template--generic-one-column.page_product-information.template_generic .con
 	}
 
 
-    div.image.adaptiveimage img {
-    	display: block !important;
-    }
+  div.image.adaptiveimage img {
+  	display: block !important;
+  }
 
-    .carousel .wrapper .bx-wrapper {
-    	margin-top: -38px;
-    }
+  .carousel .wrapper .bx-wrapper {
+  	margin-top: -38px;
+  }
 
-    .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
-    	background: none !important;
-    }
+  .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
+  	background: none !important;
+  }
 
-     .no-touchcapable  .main-nav .wrapper>ul {
-    	text-align: center;
-    }
+   .no-touchcapable  .main-nav .wrapper>ul {
+  	text-align: center;
+  }
 
-    .touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
-    	text-align: center;
-    }
+  .touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
+  	text-align: center;
+  }
 
-    .accordioncontainer.base.parbase.section, #footer .wrapper .siteMapFooter-links {
-    	display: none;
+  .accordioncontainer.base.parbase.section, #footer .wrapper .siteMapFooter-links {
+  	display: none;
 	}
 
 	#footer .wrapper .footer-links-container .footer-links ul.desktop-footer-links, #footer .wrapper .footer-links-container .desktop-disclaimer {
@@ -451,7 +472,7 @@ body.template--generic-one-column.page_product-information.template_generic .con
   li.resourced-list {
 	    list-style: none;
 	    display: inline-block;
-	    width: 315px;
+	    width: auto;
   }
 
   li.resourced-list p, li.resourced-list a {
@@ -464,8 +485,8 @@ body.template--generic-one-column.page_product-information.template_generic .con
 	}
 
   .download-container.row {
-    width: 1024px;
-    margin: 70px auto;
+    width: 100%;
+  	margin: 40px auto;
   }
 
   .row.injection-content {
@@ -499,6 +520,9 @@ body.template--generic-one-column.page_product-information.template_generic .con
 		margin-top: 0;
 	}
 
+	body.template--generic-one-column.page_patient-resources li.level-1.here.active{
+	 	border-bottom: 2px solid #1092ab;
+	}
 }
 
 
@@ -625,8 +649,8 @@ body.template--generic-one-column.page_product-information.template_generic .con
     	right: 12px !important;
     }
 
-    .content .wrapper {
-    	min-height: 340px;
+	.page_get-in-touch .content .wrapper {
+			min-height: auto !important;
 	}
 
 	#footer .wrapper {
@@ -637,10 +661,14 @@ body.template--generic-one-column.page_product-information.template_generic .con
 		font-size: 9px;
 	}
 
+	.country-dd {
+		margin-top: 5px;
+	}
+
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
     	#footer .wrapper {
     	padding: 45px 30px 50px;
 		}
@@ -665,8 +693,94 @@ body.template--generic-one-column.page_product-information.template_generic .con
     	.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb a {
     		margin-right: 8px;
     	}
-    
+
 }
+
+@media only screen and (max-width: 991px){
+	.touchcapable .main-nav .wrapper>ul>li ul li a, .main-nav .wrapper>ul>li ul li a{
+			color: #6ebbca !important;
+	}
+
+	.touchcapable .main-nav .wrapper>ul>li>a, .main-nav .wrapper>ul>li>a{
+		color: #6ebbca !important;
+	}
+
+	header .spinraza-header .container div:nth-child(2){
+			width: 100% !important;
+	}
+
+	header .spinraza-header .container .pull-right {
+    display: block;
+    margin-top: 10px;
+	}
+	/* portrait phones */
+
+	/* header .spinraza-header .container .center-img img {
+		margin-left: -5%;
+	} */
+
+	header .spinraza-header .container div:nth-child(5) {
+	    width: 200px;
+	}
+
+	.references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
+		display: none;
+	}
+
+	.content-reference .accordioncontainer>.col p {
+		font-size: 10px;
+	}
+
+	.accordioncontainer.base.parbase.section {
+		margin-bottom: -50px;
+	}
+
+	.inner-content {
+		padding: 10px;
+	}
+
+	h3.inner-title {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.country-dd {
+    position: absolute;
+    top: 0;
+    right: 0;
+	}
+}
+
+/*overide for responsive*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
+    text-align: center;
+	}
+
+	.touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3), .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
+		width: 100% !important;
+	}
+
+	header .spinraza-header .container .center-img img {
+		margin: 0 auto;
+	}
+
+	.touchcapable .main-nav .wrapper, .main-nav .wrapper {
+    	background: none;
+    }
+
+	.country-dd {
+		margin-top: 5px !important;
+	}
+
+	.country_options {
+    top: 45px !important;
+    right: 23px !important;
+    width: 200px;
+	}
+
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -703,7 +817,7 @@ body.template--generic-one-column.page_product-information.template_generic .con
 		right: 10px !important;
 	}
 
-	.header.spinraza-header .hcp-text p {
+	.header.spinraza-header .hcp-text p,.header.spinraza-header .patients-text p  {
 	    font-size: 9px;
 	    width: 50%;
 	}
@@ -787,6 +901,50 @@ body.template--generic-one-column.page_product-information.template_generic .con
 	    color: #223867;
 	    font-weight: bold !important;
 	}
+
+	header .spinraza-header .container div:nth-child(2) {
+    width: 100% !important;
+	}
+
+	 header .spinraza-header .container .header_links{
+		padding: 12px 10px 0 !important;
+	}
+
+	.country_text {
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 9px;
+	}
+
+	header .spinraza-header .container div:nth-child(5) {
+    width: 165px;
+	}
+
+	.image-download {
+    width: 60%;
+	}
+
+	.download-container.row ul {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+
+	.download-text {
+    font-size: 21px;
+	}
+
+	li.resourced-list {
+    margin-bottom: 50px;
+	}
+
+	.country-dd {
+    margin-top: 5px;
+	}
+
+	li.countryselector {
+    bottom: 0;
+		padding: 5px;
+	}
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
@@ -794,6 +952,7 @@ body.template--generic-one-column.page_product-information.template_generic .con
 
     header .spinraza-header .container .center-img img {
     	margin-left: -5%;
+			width: 50%;
     }
 
     .references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
@@ -820,21 +979,12 @@ body.template--generic-one-column.page_product-information.template_generic .con
 
 }
 
-/*overide for responsive*/
-@media only screen and (min-width: 769px) and (max-width: 991px) {
-	.touchcapable .main-nav .wrapper>ul, .main-nav .wrapper>ul {
-		text-align: left;
-	}
 
-	.touchcapable .main-nav .wrapper>ul>li:nth-child(3), .main-nav .wrapper>ul>li:nth-child(3), .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
-		width: 100% !important;
-	}
-
-	header .spinraza-header .container .center-img img {
-		margin: 0 auto;
-	}
-
-	.touchcapable .main-nav .wrapper, .main-nav .wrapper {
-    	background: none;
-    }
+@media only screen and (max-width: 767px)
+spinraza-overide.css:887
+ul li.resourced-list {
+    list-style: none;
+    width: 210px;
+    display: inline-block;
+    margin-left: 20px;
 }

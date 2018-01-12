@@ -249,11 +249,15 @@ footer a {
   }
 }
 
-@media (max-width: 990px){
+@media (max-width: 991px){
   .carousel-content {
       width: auto !important;
       top: 60px !important;
       left: 50% !important;
+  }
+
+  #marquee-container #marquee-footer .sma-care{
+    display: none;
   }
 }
 
