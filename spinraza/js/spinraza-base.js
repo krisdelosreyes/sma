@@ -2,6 +2,28 @@ $(document).ready(function() {
   $(".h-pro").hide();
   $(".h-patient").hide();
 
+  
+  $('#sd1').on('click', function() {
+    $('.design1').slideToggle('fast');
+    $( this ).toggleClass("closed")
+  });
+
+  $('#sd2').on('click', function() {
+    $('.design2').slideToggle('fast');
+    $( this ).toggleClass("closed")
+  }); 
+
+  $('#sd3').on('click', function() {
+    $('.design3').slideToggle('fast');
+    $( this ).toggleClass("closed")
+  });
+
+  $('#sd4').on('click', function() {
+    $('.design4').slideToggle('fast');
+    $( this ).toggleClass("closed")
+  });   
+
+
   $('#spin_username').on('change', function() {
     var selected = document.getElementById("spin_username").selectedIndex;
       if ( selected == '1'){
@@ -62,5 +84,3 @@ $('.cg-video').parent().click(function () {
         $(this).children(".cg-playpause").fadeIn();
     }
 });
-
-$('.bx-viewport').
