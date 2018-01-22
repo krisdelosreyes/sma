@@ -3,6 +3,7 @@ $(document).ready(function(){
   validateFieldsforRequestPassword();
   validateFieldsforGetInTouch();
   setSelectionState();
+  // processRegistration();
 });
 
 function checkCurrentSelection(){
@@ -177,4 +178,57 @@ function validateFieldsforGetInTouch(){
 //     //   error.show();
 //     // }
 //   });
+}
+
+function scrollToFormTop() {
+  $('html, body').animate({
+      scrollTop: $('.sma-hcpregistration').offset().top
+  }, 1000);
+}
+
+function processRegistration(){
+
+  var form = $("#request-pword-form");
+
+  form.unbind('submit');
+
+  form.submit(function(event){
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if($(this).valid()){
+          var url = "/content/commercial-au/specialty/spinraza/hcp/en_au/home/jcr:content/secondarypar/divwrapper/divwrapperpar/sma_hcpregistration/register.p.html";
+          //$('.submit-registration').addClass('disabled');
+          jQuery.ajax({
+              url: url,
+              data: $(this).closest('form').serializeArray(),
+              method: "POST",
+              success: function(data) {
+               $('.sma-hcpregistration').append(data);
+                //  $("#validate-email").hide();
+               // $("#register-div").hide();
+               // $("#login-div").hide();
+               // $("#update-div").show();
+                //  $("#part_two").show();
+               // $("#part_one").hide();
+                  window.scrollTo(0,0);
+
+                  // if (CQ_Analytics.Sitecatalyst) {
+                  //     var currentTime = formatedDateTime();
+                  //
+                  //     var events = "successfulRegistration";
+                  //
+                  //     var checkbox = $('input[name=receive_updates]');
+                  //     if(checkbox.is(':checked')){
+                  //         events += ",receiveUpdates"
+                  //     }
+                  //
+                  //     CQ_Analytics.record(populateAnalytics(events,'/apps/hcp/components/csd/sma-hcpregistration/register','hcp:spinraza:account:registered',null,'hcp:spinraza:account',null,null));
+                  // }
+
+              }
+          });
+      }else{
+       scrollToFormTop();
+      }
+  });
 }
