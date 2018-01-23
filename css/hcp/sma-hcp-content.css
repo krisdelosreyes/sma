@@ -318,8 +318,13 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     border-right: 2px solid #5f6d8c47 !important
 }
 
-.label-info-table table tr td{
-    border-right: 2px solid #5f6d8c47 !important
+.page_care .label-info-table table tr td{
+    border-right: 2px solid #5f6d8c47 !important;
+    vertical-align: middle;
+}
+
+.page_care .label-info-table table tr td{
+  vertical-align: middle;
 }
 
 .another-column {
@@ -332,6 +337,30 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     color: white;
 }
 
+body.page_sma-symptoms .content .main table.second tbody tr td:nth-of-type(1),
+body.page_sma-symptoms .content .main table.third tbody tr td:nth-of-type(1) {
+    vertical-align: text-top;
+}
+
+body.page_sma-symptoms .heading-top{
+  margin-top: 25px !important;
+}
+
+body.page_assessment-of-function-in-sma .content .main table.third {
+    margin: 20px 0 60px;
+}
+
+.image-bulletpoint {
+    margin-top: 20px;
+}
+
+.content .title.base.parbase.section a {
+    color: #65b2e9;
+    text-decoration: underline;
+}
+
+
+
 @media (min-width: 992px){
   .cg-video {
       width: 85%;
@@ -341,9 +370,17 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
       padding: 40px 245px 52px;
   }
 
-  body .content .altWrapper>div.parbase.section.text p {
-      padding-right: 10px;
+  .bullet-content {
+    padding: 0px 110px;
   }
+
+  body .content .altWrapper>div.parbase.section.text .content-left p {
+    padding: 0;
+  }
+
+  /* body .content .altWrapper>div.parbase.section.text p {
+      padding-right: 10px;
+  } */
 
   .content .altWrapper .text ul.bullet-aligned {
       padding-right: 75px;
@@ -354,7 +391,7 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   }
 
   .content .footnote {
-    padding: 20px 20px 0px 0;
+    padding: 20px 20px 0px 10px;
   }
 }
 
@@ -371,9 +408,9 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
     margin-bottom: 15px;
   }
 
-  body .content .altWrapper>div.parbase.section.text p{
+  /* body .content .altWrapper>div.parbase.section.text p{
     padding: 0px 10px !important;
-  }
+  } */
 
   .direction-link{
     text-align: left;
@@ -402,6 +439,7 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
   .label-info-table table .lable-info-main td .lable-info-title {
     font-size: 15px;
   }
+
 
 /*
   .content .whiteWrap,

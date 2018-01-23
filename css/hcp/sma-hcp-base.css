@@ -221,6 +221,12 @@ footer a {
   color: #56c8e4;
 }
 
+.icon-buttom-home {
+    width: 7px;
+    margin-left: 6px;
+    margin-top: -4px;
+}
+
 @media (min-width: 992px){
   .logo-options .col1 .first {
     margin: -30px 0 15px;
