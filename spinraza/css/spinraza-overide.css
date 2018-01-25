@@ -47,7 +47,7 @@ p.study-text2 {
     font-weight: 700 !important;
 }
 
-p.study-text::before {
+p.study-text.open::before {
 	background-image: url('/content/dam/commercial-au/specialty/spinraza/hcp/en_au/images/upTotoparrow.png');
 	background-size: 32px 32px;
 	content: "";
@@ -59,7 +59,7 @@ p.study-text::before {
     cursor: pointer;
 }
 
-p.study-text.closed::before {
+p.study-text::before {
 	background-image: url('/content/dam/commercial-au/specialty/spinraza/hcp/en_au/images/downToarrow.png');
 	background-size: 32px 32px;
 	content: "";
@@ -69,6 +69,11 @@ p.study-text.closed::before {
 	margin-right: 9px;
     margin-bottom: -10px;
     cursor: pointer;
+}
+
+.design1, .design2, .design3, .design4 {
+	display: none;
+	margin-left: 40px;
 }
 
 
@@ -231,7 +236,7 @@ body.template--generic-one-column.page_product-information.template_generic .con
 
 .list-container {
     margin: auto;
-    width: 95%;
+    width: 75%;
 }
 
 .download-container .text {
@@ -348,6 +353,13 @@ h1.page-title.dosing {
 	display: none;
 }
 
+.efficacy-callout {
+  	color: #5db5c6;
+  	font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
+  	font-weight: bold;
+  	margin-left: 40px;
+  	font-size: 15px;
+}
 
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
@@ -374,6 +386,7 @@ h1.page-title.dosing {
 	}
 
 }
+
 
 @media only screen and (min-width: 768px) {
 
@@ -670,7 +683,7 @@ h1.page-title.dosing {
 	   }
 
 	   footer .footer-links-container .footer-info {
-	   	max-width: 567px !important;
+	   	max-width: 700px !important;
 	   }
 
 		footer .footer-links {
@@ -1123,6 +1136,10 @@ h1.page-title.dosing {
 
   	p.light-blue {
   	  color: #5db5c6;
+  	}
+
+  	.light-blue {
+  		color: #5db5c6;
   	}
 
     .page-header-generic .wrapper {

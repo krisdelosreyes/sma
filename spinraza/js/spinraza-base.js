@@ -5,22 +5,22 @@ $(document).ready(function() {
   
   $('#sd1').on('click', function() {
     $('.design1').slideToggle('fast');
-    $( this ).toggleClass("closed")
+    $( this ).toggleClass("open")
   });
 
   $('#sd2').on('click', function() {
     $('.design2').slideToggle('fast');
-    $( this ).toggleClass("closed")
+    $( this ).toggleClass("open")
   }); 
 
   $('#sd3').on('click', function() {
     $('.design3').slideToggle('fast');
-    $( this ).toggleClass("closed")
+    $( this ).toggleClass("open")
   });
 
   $('#sd4').on('click', function() {
     $('.design4').slideToggle('fast');
-    $( this ).toggleClass("closed")
+    $( this ).toggleClass("open")
   });   
 
 
