@@ -320,7 +320,7 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 .inner-banner-container h1{
     left: 10%;
 	position: absolute;
-    font-size: 2em;
+    font-size: 6vw;
     line-height: 1em;
     letter-spacing: 0.1em;
     color: white;
@@ -360,6 +360,15 @@ h1.page-title.dosing {
   	margin-left: 40px;
   	font-size: 15px;
 }
+
+.desktop-image{
+	display: block;
+}
+
+.mobile-image{
+	display: none;
+}
+
 
 @media only screen and (min-width: 992px) {
 	header .spinraza-header .container div:nth-child(5) {
@@ -459,8 +468,8 @@ h1.page-title.dosing {
 	  	display: block !important;
 	}
 
-	body.template--generic-one-column.page_hcp.template_generic .carousel .wrapper .bx-wrapper { 
-		margin-top: -58px; 
+	body.template--generic-one-column.page_hcp.template_generic .carousel .wrapper .bx-wrapper {
+		margin-top: -58px;
 	}
 
 	.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a, .main-nav .wrapper>ul>li:nth-child(3) a {
@@ -1286,9 +1295,14 @@ h1.page-title.dosing {
     width: 165px;
 	}
 
-	.image-download {
-    	width: 60%;
+	.desktop-image{
+		display: none;
 	}
+
+	.mobile-image{
+		display: block;
+	}
+
 
 	.download-container.row ul {
 	    padding-left: 15px;
@@ -1350,7 +1364,7 @@ h1.page-title.dosing {
 	    top: 2%;
 	    left: 10%;
 	    width: 72%;
-	    font-size: 1.6em;
+	    font-size: 6vw;/*1.6em;*/
 	    line-height: 1em;
 	}
 
@@ -1359,9 +1373,13 @@ h1.page-title.dosing {
 	}
 
 	h1.page-title.efficacy, h1.page-title.dosing, h3.sub-title {
-		font-size: 1.5em;
-	    text-align: center;
-	    width: 83%;
+    font-size: 5.5vw;
+	   /*text-align: center;
+	    width: 83%;*/
+	}
+
+	h1.page-title.efficacy, h1.page-title.dosing{
+		margin-top: 15px;
 	}
 
 	li.resourced-list p, li.resourced-list a {
