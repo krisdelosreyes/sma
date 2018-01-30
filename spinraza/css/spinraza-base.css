@@ -8,6 +8,14 @@ footer small {
     font-size: 11.5px !important;
 }
 
+.request-form .flexiform{
+  display: none;
+}
+
+.email-recipient{
+  display: none;
+}
+
 
 /* .no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
 .touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,

@@ -320,10 +320,11 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 .inner-banner-container h1{
     left: 10%;
 	position: absolute;
-    font-size: 6vw;
+	    font-family: 'vag-rundschrift-d', sans-serif !important;
+    font-size: 2vw !important;
     line-height: 1em;
     letter-spacing: 0.1em;
-    color: white;
+    color: white !important;
 }
 
 h1.page-title {
