@@ -177,6 +177,14 @@ footer a {
     padding-left: 60px;
 }
 
+.utility-nav .wrapper .navbar-nav {
+    width: auto;
+}
+
+.country_options.rightAdjustment {
+    right: 0px !important;
+}
+
 
 @media (min-width: 992px){
   .logo-options .col1 .first {

@@ -229,9 +229,9 @@ footer a {
 
 @media (min-width: 992px){
   .logo-options .col1 .first {
-    margin: -30px 0 15px;
+      margin: -15px 0 30px;
   }
-
+  
   .main-nav .wrapper > ul{
     text-align: center;
   }
