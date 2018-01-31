@@ -20,6 +20,7 @@ Hides the patients navigation
 
 .no-touchcapable .main-nav .wrapper>ul>li.active>a, .touchcapable .main-nav .wrapper>ul>li.active>a, .main-nav .wrapper>ul>li.active>a{
   font-size: 15px;
+  margin-top: 3px;
 }
 
 

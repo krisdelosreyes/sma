@@ -13,6 +13,8 @@
 
 .content h3 {
 	color: #213963;
+	font-family: 'vag-rundschrift-d', sans-serif;
+	font-weight: normal !important;
 }
 
 .invalidLogin {
@@ -123,6 +125,7 @@ body.template--generic-one-column.page_efficacy.template_generic .inner-containe
 	text-transform: uppercase;
     line-height: 1.5em;
     font-weight: 600 !important;
+    font-size: 14px
 }
 
 header .spinraza-header .container .pull-right .form-inline {
@@ -183,7 +186,7 @@ body.template--home.page_home.template_home .canvas-container .row-offcanvas.row
 
 
 .main-nav .wrapper{
-	background: #ffffffab !important;
+	background: #ffffffdd !important;
 }
 
 body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li.level-1:last-of-type {
@@ -305,6 +308,10 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 	display: block;
 }
 
+.inner-sub-banner {
+	margin-top: 50px;
+}
+
 .main-banner h1 {
     position: absolute;
     top: 14%;
@@ -320,8 +327,8 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
 .inner-banner-container h1{
     left: 10%;
 	position: absolute;
-	    font-family: 'vag-rundschrift-d', sans-serif !important;
-    font-size: 2vw !important;
+	font-family: 'vag-rundschrift-d', sans-serif !important;
+    font-size: 2em;
     line-height: 1em;
     letter-spacing: 0.1em;
     color: white !important;
@@ -370,8 +377,18 @@ h1.page-title.dosing {
 	display: none;
 }
 
+.no-touchcapable .main-nav .wrapper>ul>li:nth-child(3) a:hover,
+.main-nav .wrapper>ul>li:nth-child(3) a:hover {
+    font-size: 15px;
+    font-weight: 600 !important;
+    color: #028ca6 !important;
+    line-height: 1
+    padding: 0;
+}
+
 
 @media only screen and (min-width: 992px) {
+
 	header .spinraza-header .container div:nth-child(5) {
 	    width: 180px;
 	}
@@ -393,6 +410,14 @@ h1.page-title.dosing {
 	    left: 9%;
 	    width: 52%;
 	    font-size: 3em;
+	}
+
+	.breadcrumb.sibling-breadcrumb.clearfix {
+		padding: 11px;
+		text-align: center
+	}
+	.breadcrumb li {
+		float:none;
 	}
 
 }
@@ -419,7 +444,10 @@ h1.page-title.dosing {
 		color:#223867;
 		margin-top: 30px;
 		line-height: 1.4;
+		font-family: 'vag-rundschrift-d', sans-serif;
+		font-weight: normal !important;
 	}
+
 
 	.content .wrapper .row .main.col.col-xs-12 .underline>div:nth-of-type(1) > h3 {
 		margin-bottom: 50px;
@@ -449,7 +477,7 @@ h1.page-title.dosing {
 	}
 
 	.level-1.has-children.here.active {
-    	border-bottom: 2px solid #028ca6;
+    	border-bottom: 4px solid #028ca6;
 	}
 
 	.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb a {
@@ -983,7 +1011,7 @@ h1.page-title.dosing {
 
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
 		/* portrait phones */
 	.touchcapable .main-nav .wrapper>ul>li ul li a, .main-nav .wrapper>ul>li ul li a{
 			color: #6ebbca !important;
@@ -1010,6 +1038,10 @@ h1.page-title.dosing {
 	    width: 200px;
 	}
 
+	.wrapper>.main>.title, .wrapper>.main>.text {
+    	padding: 1% 30px 1% 30px;
+	}
+
 	.references .content-reference .accordioncontainer>.col .accordion .accordionElement .accordionElementHeader {
 		display: none;
 	}
@@ -1023,7 +1055,7 @@ h1.page-title.dosing {
 	}
 
 	.inner-content {
-		padding: 10px;
+		padding: 1% 30px 1% 30px;
 	}
 
 	h3.inner-title {
@@ -1217,6 +1249,10 @@ h1.page-title.dosing {
     	padding: 1% 30px 1% 30px;
 	}
 
+	.wrapper>.main>.title {
+		padding: 5% 30px 1% 30px;
+	}
+
 	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content,
 	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container {
     	padding: 4%;
@@ -1332,7 +1368,7 @@ h1.page-title.dosing {
 	}
 }
 
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (min-width: 165px) and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
 
     header .spinraza-header .container .center-img img {
@@ -1365,7 +1401,7 @@ h1.page-title.dosing {
 	    top: 2%;
 	    left: 10%;
 	    width: 72%;
-	    font-size: 6vw;/*1.6em;*/
+	    font-size: 7vw;
 	    line-height: 1em;
 	}
 
