@@ -125,7 +125,8 @@ body.template--generic-one-column.page_efficacy.template_generic .inner-containe
 	text-transform: uppercase;
     line-height: 1.5em;
     font-weight: 600 !important;
-    font-size: 14px
+   	font-size: 12px;
+    width: 250px;
 }
 
 header .spinraza-header .container .pull-right .form-inline {
@@ -339,6 +340,20 @@ h1.page-title {
 	top: 3%;
 }
 
+h1.page-title.efficacy {
+	margin-top: 1.5em;
+	width: 71%;
+	top: 3%;
+	max-width: 100%;
+	line-height: 40px;
+	text-align: left;
+	font-size: 37px;
+}
+
+h1.page-title.get-in-touch {
+    font-size: 2em;
+}
+
 
 h1.page-title.dosing {
 	width: 82%;
@@ -363,8 +378,8 @@ h1.page-title.dosing {
 
 .efficacy-callout {
   	color: #5db5c6;
-  	font-family: 'Avenir Next Cyr W00 Regular', sans-serif;
-  	font-weight: bold;
+  	font-family: 'vag-rundschrift-d', sans-serif;
+  	font-weight: normal;
   	margin-left: 40px;
   	font-size: 15px;
 }
@@ -382,8 +397,13 @@ h1.page-title.dosing {
     font-size: 15px;
     font-weight: 600 !important;
     color: #028ca6 !important;
-    line-height: 1
-    padding: 0;
+    line-height: 1;
+    padding-top: 0;
+}
+
+
+.countryselector a {
+	color: #000 !important;
 }
 
 
@@ -402,7 +422,7 @@ h1.page-title.dosing {
 	}
 
 	.country-dd{
-		font-size: 14px;
+		font-size: 13px;
 	}
 
 	.main-banner h1 {
@@ -461,11 +481,11 @@ h1.page-title.dosing {
 
   .page-header.page-header-generic {
   	display: none;
-  }
+    }
 
   .main-nav .wrapper {
   	z-index: 5;
-  }
+   }
 
 	body.template--generic-one-column.page_patient-resources .no-touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-resources .touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-resources .main-nav .wrapper,
 	body.template--generic-one-column.page_patient-contact-us .no-touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-contact-us .touchcapable .main-nav .wrapper,body.template--generic-one-column.page_patient-contact-us .main-nav .wrapper {
@@ -478,6 +498,7 @@ h1.page-title.dosing {
 
 	.level-1.has-children.here.active {
     	border-bottom: 4px solid #028ca6;
+    	padding-bottom: 15px;
 	}
 
 	.breadcrumb.sibling-breadcrumb.clearfix .stacked-breadcrumb a {
@@ -609,6 +630,7 @@ h1.page-title.dosing {
 	    width: 815px;
 	    margin: auto;
 	    padding: 20px;
+	    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
 	}
 
 	/*Contact Us*/
@@ -763,11 +785,17 @@ h1.page-title.dosing {
 		}
 
 		h3.sub-title {
-			color:#fff;
-			position: absolute;
-			top: 50%;
+			color: #fff;
+		    position: absolute;
+		    top: 50%;
 		    width: 100%;
-		    margin: auto;
+		    margin: 10px auto;
+		    font-size: 29px;
+		    line-height: 33px;
+		}
+
+		h1.page-title.get-in-touch {
+    	font-size: 2em;
 		}
 }
 
@@ -1005,6 +1033,10 @@ h1.page-title.dosing {
 		    margin-top: 0;
 		}
 
+		/*h1.page-title.efficacy {
+			margin-top: 0;
+		}*/
+
 		.list-container ul {
 			padding-left: 0 !important;
 		}
@@ -1074,12 +1106,12 @@ h1.page-title.dosing {
 	}
 
 	.mobile-banner, .mobile-sub {
-		display: block;
-		width: 100%;
+		display: none;
 	}
 
 	.home-banner, .desktop-banner, .desktop-sub {
-		display: none;
+		display: block;
+		width: 100%;
 	}
 
 	.main-banner h1 {
@@ -1096,15 +1128,31 @@ h1.page-title.dosing {
 	    width: 58%;
 	}
 
+	body.template--generic-one-column.page_mode-of-action.template_generic .inner-banner-container h1 {
+	    top: 38%;
+	    left: 2%;
+	    width: 58%;
+	    font-size: 5vw;
+	}
+
 	h1.page-title {
 		margin-top: 0;
 	}
 
 	h1.page-title.efficacy, h1.page-title.dosing {
 		margin-top: 0;
-		font-size: 2.5em;
+		font-size: 4vw;
 		width: 80%;
 	}
+
+	body.template--generic-one-column.page_safety.template_generic .inner-banner-container h1 {
+		width: 70%;
+	}
+
+	h1.page-title.safety {
+		font-size: 4vw;
+	}
+
 
 	.inner-banner-container small {
 	    display: none;
@@ -1116,7 +1164,7 @@ h1.page-title.dosing {
 		top: 50%;
 		width: 100%;
 		margin: auto;
-		font-size: 2em;
+		font-size: 26px;
 		line-height: 1.2em;
 	}
 }
@@ -1187,6 +1235,16 @@ h1.page-title.dosing {
     .page-header-generic .wrapper {
     	display: none;
     }
+
+
+    .mobile-banner, .mobile-sub {
+		display: block;
+		width: 100%;
+	}
+
+	.home-banner, .desktop-banner, .desktop-sub {
+		display: none;
+	}
 
     body #footer .wrapper .footer-links-container .desktop-disclaimer {
     	margin-top: 0;
@@ -1395,13 +1453,14 @@ h1.page-title.dosing {
 	h3.inner-title {
 		padding-left: 0;
 		padding-right: 0;
+		line-height: 3rem;
 	}
 
 	.main-banner h1, .inner-banner-container h1 {
 	    top: 2%;
 	    left: 10%;
 	    width: 72%;
-	    font-size: 7vw;
+	    font-size: 5.5vw;
 	    line-height: 1em;
 	}
 
@@ -1409,10 +1468,14 @@ h1.page-title.dosing {
 		margin-top: 1em;
 	}
 
-	h1.page-title.efficacy, h1.page-title.dosing, h3.sub-title {
-    font-size: 5.5vw;
+	h1.page-title.efficacy, h1.page-title.dosing{
+    font-size: 5vw;
 	   /*text-align: center;
 	    width: 83%;*/
+	}
+
+	h3.sub-title {
+		/*font-size: 3.5vw;*/
 	}
 
 	h1.page-title.efficacy, h1.page-title.dosing{
@@ -1425,6 +1488,10 @@ h1.page-title.dosing {
 
 	li.resourced-list a img {
 		margin-left: 0;
+	}
+
+	.inner-sub-banner {
+		margin-top: 25px;
 	}
 
 }
