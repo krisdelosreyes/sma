@@ -121,6 +121,13 @@ body.template--generic-one-column.page_efficacy.template_generic .inner-containe
 	width: 100%;
 }
 
+body.template--generic-one-column.page_efficacy.template_generic .grey-content .inner-container, 
+body.template--generic-one-column.page_efficacy.template_generic .more-spinraza {
+	width: 750px;
+	margin: auto;
+}
+
+
 .hcp-text p {
 	text-transform: uppercase;
     line-height: 1.5em;
@@ -149,11 +156,12 @@ header .spinraza-header .container .pull-right .form-inline {
 	background: #f3f4f4;
 	display: inline-block !important;
 	height: auto;
-	padding: 25px 128px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	width: 100%;
 }
 
-.white-container{
+.white-container, .grey-container {
 	height: auto;
 	padding: 25px 128px;
 	width: 100%;
@@ -187,7 +195,8 @@ body.template--home.page_home.template_home .canvas-container .row-offcanvas.row
 
 
 .main-nav .wrapper{
-	background: #ffffffdd !important;
+	background: rgb(255, 255, 255) transparent !important;
+	background: rgba(255, 255, 255, 0.8) !important;
 }
 
 body.template--generic-one-column.page_patient-resources.template_generic .main-nav .wrapper > ul > li.level-1:last-of-type {
@@ -240,12 +249,16 @@ body.template--generic-one-column.page_product-information.template_generic .con
 
 .list-container {
     margin: auto;
-    width: 75%;
+    width: 808px;
+}
+
+.list-container ul {
+	padding-left: 0;
 }
 
 .download-container .text {
 	margin: auto;
-	width: 80%;
+	width: 808px;
 }
 
 body.template--generic-one-column.page_patient-contact-us .content h3 {
@@ -283,12 +296,12 @@ body.template--generic-one-column.page_dosing-and-administration.template_generi
   	margin-right: .3em;
 }
 
-body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.col-md-12.col-sm-12.col-xs-12 ul {
+body.template--generic-one-column.page_efficacy.template_generic .more-spinraza ul {
 	list-style: none;
 	padding-left: 0;
 }
 
-body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.col-md-12.col-sm-12.col-xs-12 ul li::before {
+body.template--generic-one-column.page_efficacy.template_generic .more-spinraza ul li::before {
 	content: "• ";
   	color: #ee3b33;
   	margin-right: .3em;
@@ -296,6 +309,11 @@ body.template--generic-one-column.page_efficacy.template_generic .more-spinraza.
 
 body.template--generic-one-column.page_dosing-and-administration.template_generic .container {
 	width: 80%;
+}
+
+
+body.template--generic-one-column.page_contact-us.template_generic .container {
+    margin-top: 50px;
 }
 
 .main-banner {
@@ -380,8 +398,9 @@ h1.page-title.dosing {
   	color: #5db5c6;
   	font-family: 'vag-rundschrift-d', sans-serif;
   	font-weight: normal;
-  	margin-left: 40px;
   	font-size: 15px;
+  	width: 750px;
+  	margin: auto;
 }
 
 .desktop-image{
@@ -407,39 +426,10 @@ h1.page-title.dosing {
 }
 
 
-@media only screen and (min-width: 992px) {
-
-	header .spinraza-header .container div:nth-child(5) {
-	    width: 180px;
-	}
-
-	.countryselector {
-    	padding: 0 !important;
-	}
-
-	.country_options {
-	    top: 81px !important;
-	}
-
-	.country-dd{
-		font-size: 13px;
-	}
-
-	.main-banner h1 {
-	    top: 14%;
-	    left: 9%;
-	    width: 52%;
-	    font-size: 3em;
-	}
-
-	.breadcrumb.sibling-breadcrumb.clearfix {
-		padding: 11px;
-		text-align: center
-	}
-	.breadcrumb li {
-		float:none;
-	}
-
+.inner-content {
+	/*padding: 0px 128px;*/
+	width: 972px;
+	margin: auto;
 }
 
 
@@ -476,7 +466,15 @@ h1.page-title.dosing {
 	body.template--generic-one-column.page_mode-of-action.template_generic .text.parbase.section p {
     /*padding: 0 175px 0;*/
     line-height: 22px;
+    width: 682px;
+    margin: 20px auto;
+	}
 
+	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section p, 
+	body.template--generic-one-column.page_efficacy.template_generic .title.base.parbase.section h3,
+	body.template--generic-one-column.page_efficacy.template_generic .grey-content .title.base.parbase.section h3 {
+		width: 750px;
+		margin: 20px  auto;
 	}
 
   .page-header.page-header-generic {
@@ -548,7 +546,9 @@ h1.page-title.dosing {
 	}
 
 	.inner-content {
-		padding: 0px 128px;
+		/*padding: 0px 128px;*/
+		width: 972px;
+		margin: auto;
 	}
 
 	body.template--generic-one-column.page_patient-resources.template_generic .inner-content {
@@ -559,6 +559,12 @@ h1.page-title.dosing {
 	    margin-top: 3rem;
 	    margin-bottom: 3rem;
 	 /*   margin-left: 7rem;*/
+	}
+
+	body.template--generic-one-column.page_safety.template_generic .small-note {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
 	}
 
 	.spinraza-reference {
@@ -627,10 +633,15 @@ h1.page-title.dosing {
 	.spinraza-callout h3 {
 	    color: black;
 	    border: 2px solid black;
-	    width: 815px;
+	    width: 81%;
 	    margin: auto;
 	    padding: 20px;
 	    font-family: 'Avenir Next Cyr W00 Bold', sans-serif;
+	}
+
+	body.template--generic-one-column.page_product-information.template_generic p, .content p {
+		text-align: justify;
+
 	}
 
 	/*Contact Us*/
@@ -683,11 +694,31 @@ h1.page-title.dosing {
     font-size: 12px;
   	}
 
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section p small {
+  		margin-left: -65px;
+  	}
+
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section .study-text{
+  		margin-left: 68px;
+  	}
+
+  	body.template--generic-one-column.page_efficacy.template_generic .grey-content .text.parbase.section .study-text {
+  		margin-left: 200px;
+  	}
+
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section .design1 small, 
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section .design2 small,
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section .design3 small,
+  	body.template--generic-one-column.page_efficacy.template_generic .text.parbase.section .design4 small {
+  		margin-left: 0;
+  	} 
+
   /*phase2*/
 
 	  .reference {
-	      margin-top: 55px;
+	      margin: 55px auto;
 	      margin-bottom: 100px;
+	      width: 750px;
 	  }
 
 	  .resource-access {
@@ -719,11 +750,11 @@ h1.page-title.dosing {
 
 	  li.resourced-list p, li.resourced-list a {
 			text-align: center;
-			width: 285px;
+			width: 256px;
 	  }
 
 		li.resourced-list a img {
-		  margin-left: 50px;
+		  margin-left: 35px;
 		}
 
 	  .download-container.row {
@@ -976,6 +1007,7 @@ h1.page-title.dosing {
 	}
 
 
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1101,7 +1133,7 @@ h1.page-title.dosing {
     right: 0;
 	}
 
-	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container, body.template--generic-one-column.page_dosing-and-administration.template_generic .container, body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container, body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-container, body.template--generic-one-column.page_dosing-and-administration.template_generic .container, body.template--generic-one-column.page_dosing-and-administration.template_generic .content .wrapper ul {
 		width: 100%;
 	}
 
@@ -1117,7 +1149,7 @@ h1.page-title.dosing {
 	.main-banner h1 {
 	    top: 6%;
 	    left: 10%;
-	    width: 58%;
+	    width: 62%;
 	    font-size: 3.0em;
 	    line-height: 1em;
 	}
@@ -1164,9 +1196,14 @@ h1.page-title.dosing {
 		top: 50%;
 		width: 100%;
 		margin: auto;
-		font-size: 26px;
+		font-size: 24px;
 		line-height: 1.2em;
 	}
+
+	.spinraza-callout h3 {
+		width: 95%;
+	}
+
 }
 
 /*overide for responsive*/
@@ -1205,11 +1242,18 @@ h1.page-title.dosing {
 	}
 
 	.main-banner h1 {
-	    top: 6%;
+	    top: 11%;
 	    left: 10%;
-	    width: 58%;
+	    width: 62%;
 	    font-size: 3.0em;
 	    line-height: 1em;
+	}
+
+	.download-container .text {
+		margin: auto;
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 }
@@ -1316,7 +1360,7 @@ h1.page-title.dosing {
     	padding: 4%;
 	}
 
-	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-content .container,
+	body.template--generic-one-column.page_dosing-and-administration.template_generic .grey-container,
 	body.template--generic-one-column.page_dosing-and-administration.template_generic .white-container .container{
     	padding: 0;
 	}
@@ -1424,6 +1468,23 @@ h1.page-title.dosing {
 	.inner-banner-container small {
 	    display: none;
 	}
+
+	/*download patient page*/
+
+	.download-container .text {
+		margin: auto;
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.list-container {
+		width: 100%;
+	}
+
+	small {
+		font-size: 80%;
+	}
 }
 
 @media only screen and (min-width: 165px) and (max-width: 767px) and (orientation: portrait) {
@@ -1450,6 +1511,10 @@ h1.page-title.dosing {
 		padding: 10px;
 	}
 
+	.download-container.row.inner-content {
+    	width: 100%;
+	}
+
 	h3.inner-title {
 		padding-left: 0;
 		padding-right: 0;
@@ -1457,9 +1522,9 @@ h1.page-title.dosing {
 	}
 
 	.main-banner h1, .inner-banner-container h1 {
-	    top: 2%;
+	    top: 17%;
 	    left: 10%;
-	    width: 72%;
+	    width: 63%;
 	    font-size: 5.5vw;
 	    line-height: 1em;
 	}
@@ -1492,6 +1557,42 @@ h1.page-title.dosing {
 
 	.inner-sub-banner {
 		margin-top: 25px;
+	}
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+	header .spinraza-header .container div:nth-child(5) {
+	    width: 180px;
+	}
+
+	.countryselector {
+    	padding: 0 !important;
+	}
+
+	.country_options {
+	    top: 81px !important;
+	}
+
+	.country-dd{
+		font-size: 13px;
+	}
+
+	.main-banner h1 {
+	    top: 14%;
+	    left: 9%;
+	    width: 62%;
+	    font-size: 3em;
+	}
+
+	.breadcrumb.sibling-breadcrumb.clearfix {
+		padding: 11px;
+		text-align: center
+	}
+	.breadcrumb li {
+		float:none;
 	}
 
 }

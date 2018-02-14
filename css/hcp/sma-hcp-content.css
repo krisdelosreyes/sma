@@ -324,7 +324,15 @@ body.template--generic-one-column.page_nutrition.template_generic .content .main
 }
 
 .page_care .label-info-table table tr td{
-  vertical-align: middle;
+  vertical-align: top;
+}
+
+body.template--generic-one-column.page_care.template_generic .page_care .label-info-table table tr td {
+    vertical-align: top;
+}
+
+.page_care .container_table.cares .therapeuticTD {
+  padding: 25px 54px;
 }
 
 .another-column {

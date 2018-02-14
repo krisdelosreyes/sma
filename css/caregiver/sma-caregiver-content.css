@@ -180,6 +180,11 @@ ul.type-list li {
     margin-right: auto;
 }
 
+.content .main .tab .nav-tabs>li>a {
+  vertical-align: top;
+  padding-top: 15px;
+}
+
 @media screen and (max-width: 767px){
   .content .whiteWrap, .content .grayWrap {
       padding: 30px 20px 30px;

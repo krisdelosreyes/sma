@@ -382,7 +382,7 @@ footer .back-to-top .icon-span {
     top: 25px;
     background: #192e41;
     width: 84%;
-    padding-right: 45px;
+    padding-right: 0;
     margin-left: 8%
 }
 
@@ -768,8 +768,13 @@ body .content .main table tbody tr td .table-headline {
 body .content .main table tbody tr td ul {
     margin: 0 !important;
     text-align: left;
-    padding: 0px 70px !important;
+    padding: 0px 70px;
 }
+
+body.template--generic-one-column.page_care.template_generic .content .main table tbody tr td ul {
+    padding: 0;
+}
+
 
 body .content .main table tbody tr td ul li {
     margin-top: 21px
