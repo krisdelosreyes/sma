@@ -1155,7 +1155,7 @@ h1.page-title.dosing {
 	}
 
 	.inner-banner-container h1 {
-		top: 15%;
+		top: 38%;
 	    left: 10%;
 	    width: 58%;
 	}
@@ -1173,8 +1173,8 @@ h1.page-title.dosing {
 
 	h1.page-title.efficacy, h1.page-title.dosing {
 		margin-top: 0;
-		font-size: 4vw;
-		width: 80%;
+		font-size: 1.8em;
+		width: 82%;
 	}
 
 	body.template--generic-one-column.page_safety.template_generic .inner-banner-container h1 {
@@ -1535,6 +1535,7 @@ h1.page-title.dosing {
 
 	h1.page-title.efficacy, h1.page-title.dosing{
     font-size: 5vw;
+    line-height: 1em;
 	   /*text-align: center;
 	    width: 83%;*/
 	}
